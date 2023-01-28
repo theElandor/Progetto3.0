@@ -1,3 +1,5 @@
+separator = "\n-----------------\n"
+
 # Parte 1: costruzione dell'indice da un campione casuale preso dal corpora.
 # Import necessari.
 import Database as dd
@@ -46,8 +48,8 @@ ix.fillIndex()
 # Parte 2: sottomissione delle query all'indice precedentemente costruito,
 # estrazione dei risultati e valutazione del sistema di IR tramite DCG.
 # Import necessari.
-from project.src.front_end.Results import Results
-from project.src.front_end.Searcher import Searcher
+from Results import Results
+from Searcher import Searcher
 import math
 from functools import reduce
 
@@ -67,6 +69,7 @@ def count_dcg(ordered, field):
 # Struttura dati per la stampa finale.
 final_data = []
 
+counter = 1
 for k, v in queries.items():
     res = s.submit_query(v)
     try:
@@ -77,13 +80,18 @@ for k, v in queries.items():
         final_data.append((queries[k], 0))
         print("Query:", queries[k], "; valore DCG: 0")
     finally:
+        with open("./sample_results/query"+str(counter)+".txt", "w") as f:
+            for element in r.ordered:
+                f.write(str(element)+"\n"+separator)
+        # name = "./sample_results/query"+str(counter)+".txt"
+        # r.printResults(s, name)
+        counter+=1
         print("\n")
     
 
 # Parte 3: plotting dei risultati.
 # Import necessari.
 import matplotlib.pyplot as plt
-
 
 # Asse x: query.
 qrs = ["q{}".format(i) for i in range(1, len(queries) + 1)]

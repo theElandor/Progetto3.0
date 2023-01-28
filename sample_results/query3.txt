@@ -1,0 +1,48 @@
+{'docnum': 44, 'handle': 'American', 'r1': '3', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '3', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@AmericanAir  CXL flight. rebooked 2 PAX no problems. Thank you and everyone at AA for helping us all out!', 'pert_score': 3.008149000473919, 'sent_score': 0.3899, 'final_score': 1.172877295284781}
+
+-----------------
+{'docnum': 33, 'handle': 'Delta', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '0', 'r4': '0', 'r5': '2', 'r6': '3', 'r7': '0', 'r8': '3', 'r9': '0', 'text': '@JetBlue - Yes. Best case scenario I get my gear Late Flight Friday, early Saturday. Camp starts at 6AM tomorrow #toolittletooLate Flight', 'pert_score': 1.251450854876067, 'sent_score': 0.7845, 'final_score': 0.9817631956502745}
+
+-----------------
+{'docnum': 36, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '3', 'r7': '3', 'r8': '0', 'r9': '1', 'text': "@united My flight was Cancelled Flighted and I'm needing some help reFlight Booking Problems.", 'pert_score': 3.497934481958561, 'sent_score': 0.2023, 'final_score': 0.7076321457002169}
+
+-----------------
+{'docnum': 2, 'handle': 'US Airways', 'r1': '2', 'r10': '2', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@USAirways I left my son\'s Duke hat on flight #1761 last night. It says "Mason" on the back. Any way of locating it? Thanks in advance!', 'pert_score': 0.8999755837400274, 'sent_score': 0.4926, 'final_score': 0.44332797255033746}
+
+-----------------
+{'docnum': 42, 'handle': 'Southwest', 'r1': '1', 'r10': '3', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir I did but it only shows one flight one way. When I try to go to the home page and book roundtrip there's nothing available :(", 'pert_score': 0.8999755837400274, 'sent_score': 0.4782, 'final_score': 0.4303683241444811}
+
+-----------------
+{'docnum': 13, 'handle': 'United', 'r1': '3', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '3', 'r8': '0', 'r9': '0', 'text': "@united They couldn't get me first class on any of their flights so I just rebooked myself.", 'pert_score': 1.0131958836234527, 'sent_score': 0.4215, 'final_score': 0.4270620649472853}
+
+-----------------
+{'docnum': 16, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '3', 'r4': '1', 'r5': '3', 'r6': '0', 'r7': '3', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir flight was Cancelled Flightled and it won't let me rebook online. Wait time on phone is too long. Please help", 'pert_score': 0.9258402543673752, 'sent_score': 0.4588, 'final_score': 0.4247755087037517}
+
+-----------------
+{'docnum': 39, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '3', 'r8': '0', 'r9': '1', 'text': "@united involuntarily bumped your passenger and can't guarantee them another flight for three days!", 'pert_score': 1.159002774455098, 'sent_score': 0.3296, 'final_score': 0.38200731446040026}
+
+-----------------
+{'docnum': 19, 'handle': 'Virgin America', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '3', 'r9': '1', 'text': '@VirginAmerica hi I just booked a flight but need to add baggage, how can I do this?', 'pert_score': 1.0812057505134518, 'sent_score': 0.0, 'final_score': 0.0}
+
+-----------------
+{'docnum': 24, 'handle': 'American', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '3', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '2', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 0.9532355801475777, 'sent_score': 0.0, 'final_score': 0.0}
+
+-----------------
+{'docnum': 7, 'handle': 'American', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '3', 'r4': '1', 'r5': '3', 'r6': '0', 'r7': '3', 'r8': '1', 'r9': '3', 'text': '@AmericanAir if my flight gets Cancelled Flightled i should be able to reschedule to any date i want, not the next day or 2 days after', 'pert_score': 0.9532355801475777, 'sent_score': -0.1779, 'final_score': -0.1695806097082541}
+
+-----------------
+{'docnum': 4, 'handle': 'American', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '3', 'r6': '0', 'r7': '3', 'r8': '0', 'r9': '3', 'text': '@AmericanAir is flight 2934 dfw to gsp going to be Cancelled Flightled tomorrow?', 'pert_score': 1.20225631969517, 'sent_score': -0.25, 'final_score': -0.3005640799237925}
+
+-----------------
+{'docnum': 14, 'handle': 'American', 'r1': '3', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '3', 'r5': '3', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@AmericanAir should reconsider #usairways acquisition. Flight 1843 AA gold flyers insulted by attendant for hanging jacket!', 'pert_score': 1.0131958836234527, 'sent_score': -0.5562, 'final_score': -0.5635395504713644}
+
+-----------------
+{'docnum': 41, 'handle': 'Southwest', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@SouthwestAir Customer service said it was a known problem that they were using same confirmation numbers for domestic and international', 'pert_score': 1.4714832055581049, 'sent_score': -0.4019, 'final_score': -0.5913891003138023}
+
+-----------------
+{'docnum': 22, 'handle': 'Virgin America', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '3', 'r4': '1', 'r5': '3', 'r6': '0', 'r7': '3', 'r8': '0', 'r9': '3', 'text': '@VirginAmerica why Cancelled Flight flights today? No precipitation to be scared of!  ❄️❄️❄️', 'pert_score': 1.5914816887566539, 'sent_score': -0.75, 'final_score': -1.1936112665674905}
+
+-----------------
+{'docnum': 45, 'handle': 'US Airways', 'r1': '0', 'r10': '2', 'r2': '0', 'r3': '0', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '0', 'text': '@USAirways so what is the  difference between Cancelled Flighting and reFlight Booking Problems - will that help me avoid a change fee?', 'pert_score': 2.771941007927905, 'sent_score': -0.4939, 'final_score': -1.3690616638155924}
+
+-----------------

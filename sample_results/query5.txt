@@ -1,0 +1,6 @@
+{'docnum': 24, 'handle': 'American', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '3', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '2', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 1.8797410960880414, 'sent_score': 0.0, 'final_score': 0.0}
+
+-----------------
+{'docnum': 7, 'handle': 'American', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '3', 'r4': '1', 'r5': '3', 'r6': '0', 'r7': '3', 'r8': '1', 'r9': '3', 'text': '@AmericanAir if my flight gets Cancelled Flightled i should be able to reschedule to any date i want, not the next day or 2 days after', 'pert_score': 1.8797410960880414, 'sent_score': -0.1779, 'final_score': -0.33440594099406257}
+
+-----------------
