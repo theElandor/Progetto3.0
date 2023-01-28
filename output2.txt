@@ -1,0 +1,172 @@
+ __| |_________________| |__
+(__| |_________________| |__)
+   | |  Query Results  | |
+ __| |_________________| |__
+(__|_|_________________|_|__)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Query:  service on board 
+Numero di risultati:  20 
+Sentiment:  compound
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+docnum --> 4933
+handle --> Southwest
+text --> @SouthwestAir Thanks. 436. Only a minor delay so not a big deal. :)Appreciate the concern though. Boarding now. You do have amazing service!
+pert_score --> 4.063985833921193
+sent_score --> 0.8122
+final_score --> 3.3007692943107934
+-----------------------------------------
+
+docnum --> 12968
+handle --> American
+text --> @AmericanAir boarding in 2mins YAY!!!!
+pert_score --> 3.323740257363052
+sent_score --> 0.7431
+final_score --> 2.469871385246484
+-----------------------------------------
+
+docnum --> 2171
+handle --> United
+text --> @united boarding a #plane would be much faster if you boarded back to front instead of front to back #MakesSense #efficiency #travel #flying
+pert_score --> 3.0611353944383284
+sent_score --> 0.6486
+final_score --> 1.9854524168326997
+-----------------------------------------
+
+docnum --> 1084
+handle --> United
+text --> @united Would be helpful if you could refresh boarding time info on boarding passes for delayed flights
+pert_score --> 3.3384076050486464
+sent_score --> 0.5719
+final_score --> 1.9092353093273207
+-----------------------------------------
+
+docnum --> 4696
+handle --> Southwest
+text --> @SouthwestAir easy fix, let the business select actually board 1st, then board the pre-boards...
+pert_score --> 3.739027853071702
+sent_score --> 0.4404
+final_score --> 1.6466678664927776
+-----------------------------------------
+
+docnum --> 1291
+handle --> United
+text --> @united WHy is my KTN not showing on my boarding?  Why is TSA pre-check not applying to my boarding pass?
+pert_score --> 3.0611353944383284
+sent_score --> 0.4871
+final_score --> 1.4910790506309097
+-----------------------------------------
+
+docnum --> 597
+handle --> United
+text --> @united Mobile boarding pass disappeared from phone while standing in line to board. Second time this week... Hmm.
+pert_score --> 3.1937648302998336
+sent_score --> 0.2263
+final_score --> 0.7227489810968524
+-----------------------------------------
+
+docnum --> 2508
+handle --> United
+text --> @united officially has the most inefficient boarding procedure. There is no reason it should take 45 mins to board a plane!
+pert_score --> 3.0611353944383284
+sent_score --> 0.2244
+final_score --> 0.6869187825119608
+-----------------------------------------
+
+docnum --> 9459
+handle --> US Airways
+text --> @USAirways booked flight 1mnth ago, seat CONFIRMED, small plane arrived and was not allowed to board bcs no seat, horrible service
+pert_score --> 3.9612498036606714
+sent_score --> 0.1655
+final_score --> 0.6555868425058411
+-----------------------------------------
+
+docnum --> 7654
+handle --> Delta
+text --> @JetBlue no. Not boarding order. Someone boarded with. Service Animal which a member of my party was allergic to and because the flight was
+pert_score --> 4.967405415233732
+sent_score --> 0.128
+final_score --> 0.6358278931499177
+-----------------------------------------
+
+docnum --> 9083
+handle --> US Airways
+text --> @USAirways see you on board tomorrow
+pert_score --> 3.323740257363052
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 4637
+handle --> Southwest
+text --> @SouthwestAir 10+ people pre boarded Only 1 needed a wheel chair off the plane... Was NOT the case boarding
+pert_score --> 3.1937648302998336
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8214
+handle --> Delta
+text --> @JetBlue Can I bring my dog on board?
+pert_score --> 3.180338373707081
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 10975
+handle --> US Airways
+text --> @USAirways Mobile boarding pass email.
+pert_score --> 3.180338373707081
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 4926
+handle --> Southwest
+text --> @SouthwestAir now I can't board thanks. You guys moved me to standby. I've been holding this boarding pass since 7pm yesterday
+pert_score --> 3.0611353944383284
+sent_score --> -0.3412
+final_score --> -1.0444593965823576
+-----------------------------------------
+
+docnum --> 1117
+handle --> United
+text --> @united How do I formally complain about your customer service handler who misconnected me. I was denied boarding &amp; I now lost my bag. Help!
+pert_score --> 3.6845093385735295
+sent_score --> -0.3595
+final_score --> -1.3245811072171838
+-----------------------------------------
+
+docnum --> 1805
+handle --> United
+text --> @united Boston is all self service. Swipe yr own boarding pass at gate. Most difficult: Tag your own bag. Not easy! #ImproveTheProcess
+pert_score --> 3.9612498036606714
+sent_score --> -0.4001
+final_score --> -1.5848960464446347
+-----------------------------------------
+
+docnum --> 8154
+handle --> Delta
+text --> @JetBlue the slowest boarding process I've ever experienced and rude customer service agents.
+pert_score --> 4.679796718809626
+sent_score --> -0.4588
+final_score --> -2.147090734589856
+-----------------------------------------
+
+docnum --> 2976
+handle --> United
+text --> @united I will be calling customer service. 2 delayed flights today now, luggage misplaced, a disaster across the board.
+pert_score --> 4.540833276211011
+sent_score --> -0.4939
+final_score --> -2.242717555120618
+-----------------------------------------
+
+docnum --> 12930
+handle --> American
+text --> @AmericanAir the worst first class boarding service I ever had.
+pert_score --> 5.341819410731353
+sent_score --> -0.6249
+final_score --> -3.3381029497660224
+-----------------------------------------
+

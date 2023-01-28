@@ -1,0 +1,172 @@
+ __| |_________________| |__
+(__| |_________________| |__)
+   | |  Query Results  | |
+ __| |_________________| |__
+(__|_|_________________|_|__)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Query:  american airline 
+Numero di risultati:  20 
+Sentiment:  compound
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+docnum --> 13553
+handle --> American
+text --> @AmericanAir I Love American Airlines :D
+pert_score --> 11.793697175835996
+sent_score --> 0.8494
+final_score --> 10.017566381155095
+-----------------------------------------
+
+docnum --> 12724
+handle --> American
+text --> “@AmericanAir: @TheCandaceSmith Thanks for the shout-out, Candace! Enjoy the ride.” Always! I adore American Airlines!
+pert_score --> 9.218389017273264
+sent_score --> 0.8904
+final_score --> 8.208053580980113
+-----------------------------------------
+
+docnum --> 12593
+handle --> American
+text --> @AmericanAir I love the service and cheap upgrades American Provides! One of the best airlines ever! good food, good seats, amazing thanks!
+pert_score --> 8.203639128866516
+sent_score --> 0.9712
+final_score --> 7.967374321955161
+-----------------------------------------
+
+docnum --> 12220
+handle --> American
+text --> @AmericanAir I still think American Airlines is great...I would just like to be treated better. Loyal customers first, right?
+pert_score --> 8.382836849300588
+sent_score --> 0.8176
+final_score --> 6.853807407988161
+-----------------------------------------
+
+docnum --> 8275
+handle --> Delta
+text --> @JetBlue you reimbursed everyone on the flight a portion of their ticket. I still love JetBlue! Best American airline!
+pert_score --> 7.0480871506157285
+sent_score --> 0.8745
+final_score --> 6.163552213213455
+-----------------------------------------
+
+docnum --> 14391
+handle --> American
+text --> @AmericanAir AA2416 on time and awesome flight. Great job American!
+pert_score --> 6.815822141814069
+sent_score --> 0.8588
+final_score --> 5.853428055389922
+-----------------------------------------
+
+docnum --> 13065
+handle --> American
+text --> @AmericanAir Let's all have a extraordinary week and make it a year to remember #GoingForGreat 2015 thanks so much American Airlines!!!
+pert_score --> 8.382836849300588
+sent_score --> 0.5826
+final_score --> 4.883840748402522
+-----------------------------------------
+
+docnum --> 14009
+handle --> American
+text --> @AmericanAir I didn't miss my flight.  American Airlines gave my ticket, as well as 6 other passengers tickets away. Not my fault.
+pert_score --> 8.203639128866516
+sent_score --> 0.5862
+final_score --> 4.8089732573415525
+-----------------------------------------
+
+docnum --> 9165
+handle --> US Airways
+text --> @USAirways  I'm glad this airline is going to be swallowed by American!!! American always picks up the phone and solves problems.
+pert_score --> 8.606407158290146
+sent_score --> 0.5067
+final_score --> 4.360866507105618
+-----------------------------------------
+
+docnum --> 14131
+handle --> American
+text --> @AmericanAir i have tried getting help from agents, the phone, twitter, and FB. Can no one at American Airlines help me?
+pert_score --> 8.77464620610908
+sent_score --> 0.4939
+final_score --> 4.333797761197275
+-----------------------------------------
+
+docnum --> 2805
+handle --> United
+text --> @united we can't all be american airlines I suppose... http://t.co/0EWj7oKlji
+pert_score --> 8.367973840775687
+sent_score --> 0.4215
+final_score --> 3.527100973886952
+-----------------------------------------
+
+docnum --> 14637
+handle --> American
+text --> @AmericanAir Please bring American Airlines to #BlackBerry10
+pert_score --> 10.990097032334072
+sent_score --> 0.3182
+final_score --> 3.4970488756887015
+-----------------------------------------
+
+docnum --> 12957
+handle --> American
+text --> @AmericanAir about when can I see a new American Airlines credit card to replace my USAIRWAYS dividend MasterCard?
+pert_score --> 8.989401285276434
+sent_score --> 0.3818
+final_score --> 3.4321534107185423
+-----------------------------------------
+
+docnum --> 4853
+handle --> Southwest
+text --> @SouthwestAir please start flying to Huntsville so I never have to fly American Airlines again
+pert_score --> 7.277074882612557
+sent_score --> 0.3182
+final_score --> 2.3155652276473155
+-----------------------------------------
+
+docnum --> 14017
+handle --> American
+text --> @AmericanAir American Airlines.
+pert_score --> 12.252415349757635
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 13122
+handle --> American
+text --> @AmericanAir @MattThomasNews When did American Airlines start flying to and from Siberia? Wait, this is the USA? Oy!
+pert_score --> 9.218389017273264
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 12193
+handle --> American
+text --> @americanair Can someone contact me about my awful experience with american airlines this weekend
+pert_score --> 9.218389017273264
+sent_score --> -0.4588
+final_score --> -4.229396881124973
+-----------------------------------------
+
+docnum --> 14425
+handle --> American
+text --> @AmericanAir really American Airlines , service is Las Vegas is shocking, absolute jokers take your reputation more seriously!
+pert_score --> 8.77464620610908
+sent_score --> -0.6105
+final_score --> -5.356921508829594
+-----------------------------------------
+
+docnum --> 13568
+handle --> American
+text --> @AmericanAir Have been trying to reach American Airlines since last evening to Cancelled Flight flights. WORST CUSTOMER SERVICE EVER! What now???
+pert_score --> 8.03434791008414
+sent_score --> -0.8208
+final_score --> -6.594592764597062
+-----------------------------------------
+
+docnum --> 7613
+handle --> Delta
+text --> @JetBlue 😭😭😭😭 yall are really better then American Airlines though.
+pert_score --> 8.367973840775687
+sent_score --> -0.8484
+final_score --> -7.099389006514093
+-----------------------------------------
+
