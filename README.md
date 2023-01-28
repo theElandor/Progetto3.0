@@ -6,5 +6,6 @@ I file da eseguire sono
 + ***indexing_script.py***; 
 + ***query_script.py***;
 + ***benchmark.py***;
+
 Ricordarsi sempre di modificare la code-base in un branch locale, poi fare un merge quando si ha
 una nuova versione ***funzionante***.
