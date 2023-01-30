@@ -74,6 +74,11 @@ for k, v in queries.items():
     res = s.submit_query(v)
     try:
         r = Results("Vader", "compound", res)
+        #r.ordered contiene i risultati ordinati per valore di pertinenza totale
+        #si possono ordinare i tweet all'interno di r.ordered secondo il
+        #parametro di "soddisfazione" assegnato a mano per quella particolare
+        #query. In questo modo calcolando poi la DCG si ottiene il valore
+        #ottimale, usato per la normalizzazione.
         print("Query:", queries[k], "; valore DCG:", count_dcg(r.ordered, k))
         final_data.append((queries[k], count_dcg(r.ordered, k)))
     except:

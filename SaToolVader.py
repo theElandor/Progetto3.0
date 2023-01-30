@@ -22,13 +22,22 @@ class SaToolVader(SaTool):
         :param text:        str, campo testuale da analizzare.
         :param sentiment:   str, tipo di sentiment da valutare.
         """
-        match sentiment:
-            case "positive":
-                return self._analyzer.polarity_scores(text)["pos"]
-            case "negative":
-                return self._analyzer.polarity_scores(text)["neg"]
-            case "neutral":
-                return self._analyzer.polarity_scores(text)["neu"]
-            case "compound":
-                return self._analyzer.polarity_scores(text)["compound"]
+        if sentiment == "positive":
+            return self._analyzer.polarity_scores(text)["pos"]
+        elif sentiment == "negative":
+            return self._analyzer.polarity_scores(text)["neg"]
+        elif sentiment == "neutral":
+            return self._analyzer.polarity_scores(text)["neu"]
+        elif sentiment == "compound":
+            return self._analyzer.polarity_scores(text)["compound"]
+        
+        # match sentiment:
+        #     case "positive":
+        #         return self._analyzer.polarity_scores(text)["pos"]
+        #     case "negative":
+        #         return self._analyzer.polarity_scores(text)["neg"]
+        #     case "neutral":
+        #         return self._analyzer.polarity_scores(text)["neu"]
+        #     case "compound":
+        #         return self._analyzer.polarity_scores(text)["compound"]
 
