@@ -95,10 +95,17 @@ class SaToolExpertAI(SaTool):
             params = {"language": self._language, "resource": "sentiment"}
             )
 
-        match sentiment:
-            case "positive":
-                return output.sentiment.positivity
-            case "negative":
-                return output.sentiment.negativity
-            case "overall":
-                return output.sentiment.overall
+        if sentiment == "positive":
+            return output.sentiment.positivity
+        elif sentiment == "negative":
+            return output.sentiment.negativity
+        elif sentiment == "overall":
+            return output.sentiment.overall
+        
+        # match sentiment:
+        #     case "positive":
+        #         return output.sentiment.positivity
+        #     case "negative":
+        #         return output.sentiment.negativity
+        #     case "overall":
+        #         return output.sentiment.overall
