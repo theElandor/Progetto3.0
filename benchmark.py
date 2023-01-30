@@ -62,7 +62,7 @@ def count_dcg(ordered, field):
     """Calcola la DCG del nostro sistema di IR."""
     li = [int(i[field]) for i in ordered]
     num_results = len(li)
-    l = [li[idx] / math.log(idx + 1) if idx != 0 else li[idx] for idx in range(num_results)]
+    l = [li[idx] / math.log(idx + 2,2) if idx != 0 else li[idx] for idx in range(num_results)]
     return reduce(lambda x, y : x + y, l)
 
 
@@ -73,6 +73,7 @@ counter = 1
 for k, v in queries.items():
     res = s.submit_query(v)
     try:
+        print(k)
         r = Results("Vader", "compound", res)
         #r.ordered contiene i risultati ordinati per valore di pertinenza totale
         #si possono ordinare i tweet all'interno di r.ordered secondo il
@@ -80,14 +81,22 @@ for k, v in queries.items():
         #query. In questo modo calcolando poi la DCG si ottiene il valore
         #ottimale, usato per la normalizzazione.
         print("Query:", queries[k], "; valore DCG:", count_dcg(r.ordered, k))
-        final_data.append((queries[k], count_dcg(r.ordered, k)))
+        
+        optimal_ranking = sorted(r.ordered, key=lambda d: d[k], reverse = True)
+        final_data.append((queries[k], count_dcg(r.ordered, k)/count_dcg(optimal_ranking, k)))
+        print(count_dcg(r.ordered, k))
+        print(count_dcg(optimal_ranking, k))
     except:
         final_data.append((queries[k], 0))
         print("Query:", queries[k], "; valore DCG: 0")
     finally:
+        print("----------DEBUG--------------")
+        for element in optimal_ranking:
+            print(element)
+        print("----------DEBUG--------------")
         with open("./sample_results/query"+str(counter)+".txt", "w") as f:
-            for element in r.ordered:
-                f.write(str(element)+"\n"+separator)
+            for element in r.ordered:                
+                f.write(str(element)+"\n"+separator)        
         # name = "./sample_results/query"+str(counter)+".txt"
         # r.printResults(s, name)
         counter+=1
@@ -110,5 +119,6 @@ plt.bar(qrs, vls, color ='blue', width = 0.4)
 plt.xlabel("Queries")
 plt.ylabel("DCG score")
 plt.title("Distance Cumulative Gain")
+plt.ylim(0, 1.50)
 # Salvataggio del plot su file.
 plt.savefig("bench.png")
