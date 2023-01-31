@@ -4,6 +4,7 @@ from whoosh.index import open_dir
 from whoosh import qparser as qp
 from whoosh.fields import *
 from Misc import *
+from whoosh.lang.wordnet import Thesaurus
 
 
 class Searcher:
@@ -13,13 +14,14 @@ class Searcher:
     suggerimenti.
     """
 
-    def __init__(self, *fields, index_dir = "./Index"):
+    def __init__(self, *fields, index_dir = "./Index", thes_dir = "./wn_s.pl"):
         """
         Costruttore di classe.
         :param *fields:     str, specificati dall'utente, campi di ricerca.
         :param index_dir:   str, ./Index di default, directory dell'indice.
         """
         self.__open_index(index_dir)    # Apertura dell'indice.
+        self.__open_thesaurus(thes_dir) # Apertura del thesaurus.
         self.__make_parser(*fields)     # Creazione del QueryParser.
         self.__make_searcher()          # Creazione dell'index searcher.
 
@@ -57,6 +59,17 @@ class Searcher:
 
         # Imposta l'indice aperto come attributo d'istanza.
         self._ix = ix
+
+
+    def __open_thesaurus(self, thes_dir):
+        """
+        Apre un thesaurus WordNet da file. Ne assegna il contenuto ad un ogget-
+        to Thesaurus di Whoosh, che è attributo di istanza.
+        :param thes_dir:    str, directory e nome del thesaurus file.
+        """
+        # L'apertura è interamente gestita da open.
+        with open(thes_dir) as f:
+            self._thesaurus = Thesaurus.from_file(f)
 
 
     @staticmethod
@@ -110,15 +123,24 @@ class Searcher:
         self._searcher = self._ix.searcher()
 
 
-    def submit_query(self, raw_query, results_threshold=20):
+    def submit_query(self, raw_query, results_threshold = 20, expand = True):
         """
         Sottopone una query all'indice Whoosh.
         :param raw_query:   str, una query a discrezione dell'utente.
         """
         # Imposta la query come attributo di istanza.
         self._raw_query = raw_query
-        # Effettua il parsing della query.
-        query = self._parser.parse(self._raw_query)
+        # Se opportuno, espande la query con sinonimi. Dopodiché esegue parsing.
+        if expand:
+            words = [i for i in raw_query.split()]
+            synonyms = [
+                j for i in words for j in self._thesaurus.synonyms(i)
+                ]
+            words.extend(synonyms)
+            expanded_query = " ".join(words)
+            query = self._parser.parse(expanded_query)
+        else:
+            query = self._parser.parse(self._raw_query)
         # Decoratore che stampa il tempo di esecuzione.
         clock = time_function(self._searcher.search)
         # Definisce il numero massimo di risultati considerati.
