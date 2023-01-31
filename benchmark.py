@@ -70,6 +70,7 @@ def count_dcg(ordered, field):
 final_data = []
 
 counter = 1
+tweets_returned = []
 for k, v in queries.items():
     res = s.submit_query(v)
     try:
@@ -86,6 +87,7 @@ for k, v in queries.items():
         final_data.append((queries[k], count_dcg(r.ordered, k)/count_dcg(optimal_ranking, k)))
         print(count_dcg(r.ordered, k))
         print(count_dcg(optimal_ranking, k))
+        tweets_returned.append(len(r.ordered))
     except:
         final_data.append((queries[k], 0))
         print("Query:", queries[k], "; valore DCG: 0")
@@ -106,19 +108,41 @@ for k, v in queries.items():
 # Parte 3: plotting dei risultati.
 # Import necessari.
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Asse x: query.
 qrs = ["q{}".format(i) for i in range(1, len(queries) + 1)]
 # Asse y: valore DCG (all'indice 1 nella tupla).
 vls = [element[1] for element in final_data]
 # Creazione del plot.
-fig = plt.figure(figsize = (10, 5))
-plt.bar(qrs, vls, color ='blue', width = 0.4)
+x = np.arange(len(qrs))
+width = 0.35
+fig,ax = plt.subplots()
+rec1 = ax.bar(x - width/2, vls, width, label='DCG')
+rec2 = ax.bar(x + width/2, tweets_returned, width, label='num. of retrieved tweets')
+ax.set_ylabel('Val')
+ax.set_title('DCG and number of retrieved tweets')
+ax.set_xticks(x,qrs)
+ax.legend()
+#plt.ylim(0, 14) uncomment to remove y limit
 
-# Creazione delle etichette di plot ed assi.
-plt.xlabel("Queries")
-plt.ylabel("DCG score")
-plt.title("Distance Cumulative Gain")
-plt.ylim(0, 1.50)
-# Salvataggio del plot su file.
+ax.bar_label(rec1, padding=5)
+ax.bar_label(rec2, padding=5)
+
+fig.tight_layout()
 plt.savefig("bench.png")
+plt.show()
+
+
+
+
+# fig = plt.figure(figsize = (10, 5))
+# plt.bar(qrs, vls, color ='blue', width = 0.4)
+
+# # Creazione delle etichette di plot ed assi.
+# plt.xlabel("Queries")
+# plt.ylabel("DCG score")
+# plt.title("Distance Cumulative Gain")
+# plt.ylim(0, 1.50)
+# # Salvataggio del plot su file.
+# plt.savefig("bench.png")
