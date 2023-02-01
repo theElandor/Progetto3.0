@@ -1,9 +1,27 @@
-{'docnum': 8, 'handle': 'US Airways', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '0', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@USAirways #usairways lost a passenger today for not upholding their promise of excellent customer service!!!', 'pert_score': 4.056202555649934, 'sent_score': 0.3213, 'final_score': 1.3032578811303237}
+{'docnum': 18, 'handle': 'US Airways', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '1', 'text': '@USAirways  Houston Gate 17 customer Service needs to treat people with respect. There are hardly people waiting! #chillpill #usairwaysfail', 'pert_score': 3.3195692099661116, 'sent_score': 0.7263, 'final_score': 2.4110031171983866}
 
 -----------------
-{'docnum': 38, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '1', 'r6': '2', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@united how does that help me with my customers that I couldn't meet with (and subsequently lost)?", 'pert_score': 1.7817972325352585, 'sent_score': 0.4939, 'final_score': 0.8800296531491641}
+{'docnum': 10, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@united customer service 👎', 'pert_score': 5.2500932333148125, 'sent_score': 0.4215, 'final_score': 2.212914297842193}
 
 -----------------
-{'docnum': 41, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@SouthwestAir Customer service said it was a known problem that they were using same confirmation numbers for domestic and international', 'pert_score': 3.617212247905991, 'sent_score': -0.4019, 'final_score': -1.4537576024334178}
+{'docnum': 33, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@AmericanAir I sure hope you all can fix @USAirways. Good luck, their service sucks. #nexttimeiwillflysouthwest', 'pert_score': 1.6910530442257394, 'sent_score': 0.8225, 'final_score': 1.3908911288756707}
+
+-----------------
+{'docnum': 9, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@united I believe just customer service. At last post he was at Narita in Tokyo. They sent him to a motel to rest. Said standby maybe 2days', 'pert_score': 2.998369439422856, 'sent_score': 0.4215, 'final_score': 1.2638127187167338}
+
+-----------------
+{'docnum': 58, 'handle': 'US Airways', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '0', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@USAirways #usairways lost a passenger today for not upholding their promise of excellent customer service!!!', 'pert_score': 3.729328310673701, 'sent_score': 0.3213, 'final_score': 1.1982331862194602}
+
+-----------------
+{'docnum': 88, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '1', 'r6': '2', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@united how does that help me with my customers that I couldn't meet with (and subsequently lost)?", 'pert_score': 1.6910530442257394, 'sent_score': 0.4939, 'final_score': 0.8352110985430927}
+
+-----------------
+{'docnum': 1, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@united Also, your phone customer service is almost useless. http://t.co/Mb3bJwGOAp', 'pert_score': 3.9797104345205665, 'sent_score': 0.0754, 'final_score': 0.3000701667628507}
+
+-----------------
+{'docnum': 34, 'handle': 'US Airways', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@USAirways how do I get a hold of customer service? I've called multiple times &amp; have been on hold for 30+ mins only to have to hang up", 'pert_score': 2.998369439422856, 'sent_score': 0.0, 'final_score': 0.0}
+
+-----------------
+{'docnum': 91, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@SouthwestAir Customer service said it was a known problem that they were using same confirmation numbers for domestic and international', 'pert_score': 3.3195692099661116, 'sent_score': -0.4019, 'final_score': -1.3341348654853802}
 
 -----------------
