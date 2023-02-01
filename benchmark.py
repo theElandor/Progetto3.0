@@ -24,7 +24,7 @@ queries = {
     }
 
 # Costruzione della struttura dati Database.
-db = dd.Database("sample_eros.csv")
+db = dd.Database("sample.csv")
 db.fillDb()
 fields = ["handle", "text"]
 fields.extend(list(queries.keys()))
