@@ -1,21 +1,24 @@
-{'docnum': 76, 'handle': 'US Airways', 'r1': '3', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '0', 'text': '@USAirways  thanks! Now I just need to locate where my luggage is!', 'pert_score': 2.4940624085364456, 'sent_score': 0.5399, 'final_score': 1.346544294368827}
+{'docnum': 76, 'handle': 'US Airways', 'r1': '3', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '0', 'text': '@USAirways  thanks! Now I just need to locate where my luggage is!', 'pert_score': 3.3254165447152606, 'sent_score': 0.5399, 'final_score': 1.7953923924917694}
 
 -----------------
-{'docnum': 78, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '1', 'text': "@united - after having to now TAG MY OWN bags at the airport I was hoping they would actually arrive WITH me - here's hoping they arrive", 'pert_score': 1.4832855876741478, 'sent_score': 0.8126, 'final_score': 1.2053178685440125}
+{'docnum': 78, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '1', 'text': "@united - after having to now TAG MY OWN bags at the airport I was hoping they would actually arrive WITH me - here's hoping they arrive", 'pert_score': 1.9777141168988637, 'sent_score': 0.8126, 'final_score': 1.6070904913920165}
 
 -----------------
-{'docnum': 73, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@united WHERE IS MY FUCKING BAG?!?! Where the fuck is my fucking bag??? TELL ME NOW OR GIVE ME A NUMBER TO CALL A HUMAN. SAN68059M', 'pert_score': 2.19160757829319, 'sent_score': 0.4361, 'final_score': 0.9557600648936602}
+{'docnum': 73, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@united WHERE IS MY FUCKING BAG?!?! Where the fuck is my fucking bag??? TELL ME NOW OR GIVE ME A NUMBER TO CALL A HUMAN. SAN68059M', 'pert_score': 2.9221434377242534, 'sent_score': 0.4361, 'final_score': 1.2743467531915469}
 
 -----------------
-{'docnum': 35, 'handle': 'Southwest', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@SouthwestAir thanks for losing my luggage', 'pert_score': 2.9472078950980287, 'sent_score': 0.0772, 'final_score': 0.22752444950156783}
+{'docnum': 35, 'handle': 'Southwest', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@SouthwestAir thanks for losing my luggage', 'pert_score': 3.9296105267973713, 'sent_score': 0.0772, 'final_score': 0.3033659326687571}
 
 -----------------
-{'docnum': 74, 'handle': 'American', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '1', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 1.662993069521995, 'sent_score': 0.0, 'final_score': 0.0}
+{'docnum': 69, 'handle': 'Virgin America', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '2', 'r9': '1', 'text': '@VirginAmerica hi I just booked a flight but need to add baggage, how can I do this?', 'pert_score': 3.2498529067084285, 'sent_score': 0.0, 'final_score': 0.0}
 
 -----------------
-{'docnum': 7, 'handle': 'Delta', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@JetBlue so you guys lost my bag that had all my ski gear in it. I flew here from NYC to ski. Should I buy new stuff tomorrow? ...', 'pert_score': 1.4832855876741478, 'sent_score': -0.3744, 'final_score': -0.5553421240252009}
+{'docnum': 74, 'handle': 'American', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '1', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 2.217324092695993, 'sent_score': 0.0, 'final_score': 0.0}
 
 -----------------
-{'docnum': 79, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': "@united Lost bag process is broken. Agent promised they'd call &amp; hold my bag when found. Now they're waking me at 3am w/ delivery. #fail", 'pert_score': 2.067798303878167, 'sent_score': -0.5574, 'final_score': -1.1525907745816901}
+{'docnum': 7, 'handle': 'Delta', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@JetBlue so you guys lost my bag that had all my ski gear in it. I flew here from NYC to ski. Should I buy new stuff tomorrow? ...', 'pert_score': 1.9777141168988637, 'sent_score': -0.3744, 'final_score': -0.7404561653669346}
+
+-----------------
+{'docnum': 79, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': "@united Lost bag process is broken. Agent promised they'd call &amp; hold my bag when found. Now they're waking me at 3am w/ delivery. #fail", 'pert_score': 2.757064405170889, 'sent_score': -0.5574, 'final_score': -1.5367876994422536}
 
 -----------------
