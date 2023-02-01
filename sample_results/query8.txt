@@ -1,15 +1,21 @@
-{'docnum': 26, 'handle': 'US Airways', 'r1': '3', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '0', 'text': '@USAirways  thanks! Now I just need to locate where my luggage is!', 'pert_score': 2.3707996839697243, 'sent_score': 0.5399, 'final_score': 1.2799947493752541}
+{'docnum': 76, 'handle': 'US Airways', 'r1': '3', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '0', 'text': '@USAirways  thanks! Now I just need to locate where my luggage is!', 'pert_score': 2.4940624085364456, 'sent_score': 0.5399, 'final_score': 1.346544294368827}
 
 -----------------
-{'docnum': 28, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '1', 'text': "@united - after having to now TAG MY OWN bags at the airport I was hoping they would actually arrive WITH me - here's hoping they arrive", 'pert_score': 1.3157523865314944, 'sent_score': 0.8126, 'final_score': 1.0691803892954923}
+{'docnum': 78, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '1', 'text': "@united - after having to now TAG MY OWN bags at the airport I was hoping they would actually arrive WITH me - here's hoping they arrive", 'pert_score': 1.4832855876741478, 'sent_score': 0.8126, 'final_score': 1.2053178685440125}
 
 -----------------
-{'docnum': 23, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@united WHERE IS MY FUCKING BAG?!?! Where the fuck is my fucking bag??? TELL ME NOW OR GIVE ME A NUMBER TO CALL A HUMAN. SAN68059M', 'pert_score': 1.9318298161367107, 'sent_score': 0.4361, 'final_score': 0.8424709828172195}
+{'docnum': 73, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@united WHERE IS MY FUCKING BAG?!?! Where the fuck is my fucking bag??? TELL ME NOW OR GIVE ME A NUMBER TO CALL A HUMAN. SAN68059M', 'pert_score': 2.19160757829319, 'sent_score': 0.4361, 'final_score': 0.9557600648936602}
 
 -----------------
-{'docnum': 24, 'handle': 'American', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '1', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 1.4714832055581049, 'sent_score': 0.0, 'final_score': 0.0}
+{'docnum': 35, 'handle': 'Southwest', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@SouthwestAir thanks for losing my luggage', 'pert_score': 2.9472078950980287, 'sent_score': 0.0772, 'final_score': 0.22752444950156783}
 
 -----------------
-{'docnum': 29, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': "@united Lost bag process is broken. Agent promised they'd call &amp; hold my bag when found. Now they're waking me at 3am w/ delivery. #fail", 'pert_score': 1.8254601998635827, 'sent_score': -0.5574, 'final_score': -1.017511515403961}
+{'docnum': 74, 'handle': 'American', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '1', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 1.662993069521995, 'sent_score': 0.0, 'final_score': 0.0}
+
+-----------------
+{'docnum': 7, 'handle': 'Delta', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@JetBlue so you guys lost my bag that had all my ski gear in it. I flew here from NYC to ski. Should I buy new stuff tomorrow? ...', 'pert_score': 1.4832855876741478, 'sent_score': -0.3744, 'final_score': -0.5553421240252009}
+
+-----------------
+{'docnum': 79, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': "@united Lost bag process is broken. Agent promised they'd call &amp; hold my bag when found. Now they're waking me at 3am w/ delivery. #fail", 'pert_score': 2.067798303878167, 'sent_score': -0.5574, 'final_score': -1.1525907745816901}
 
 -----------------
