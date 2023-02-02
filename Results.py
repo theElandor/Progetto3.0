@@ -16,15 +16,18 @@ class Results:
     """
 
 
-    def __init__(self, tool_name, sentiment, results, textual_field = "text"):
+    def __init__(self, tool_name, sentiment, results, textual_field = "text",
+                 ranking_fun = "naive"):
         """
         Costruttore di classe.
-        :param tool_name:   str, nome del tool di sentiment analysis.
-        :param sentiment:   str, tipo di sentiment da considerare.
-        :param results:     Results, oggetto generato da una query su un
-                            indice Whoosh.
-        :param textual_field:   str, default "text", campo testuale su cui
-                                fare sentimente analysis.
+        :param tool_name:       str, nome del tool di sentiment analysis.
+        :param sentiment:       str, tipo di sentiment da considerare.
+        :param results:         Results, oggetto generato da una query su un
+                                indice Whoosh.
+        :param textual_field:   str, "text" di default, nome campo testuale su
+                                cui fare sentiment analysis.
+        :param ranking_fun:     str, "naive" di default, nome associato alla
+                                funzione di ranking da usare.
         """
         # Selezione del tool per sentiment analysis.
         self.__select_tool(tool_name)
@@ -33,7 +36,7 @@ class Results:
         # Elaborazione risultati.
         self.__elaborate_results(results, textual_field)
         # Ordinamento risultati.
-        self.__order_results()
+        self.__order_results(ranking_fun)
 
 
     # Rende disponibile il tool di sentiment analysis anche al di fuori
@@ -120,16 +123,30 @@ class Results:
             self._ordered.append(result)
 
 
-    def __order_results(self):
+    def __order_results(self, ranking_fun):
         """
         Ordina la struttura dati dei risultati in base ad una formula di
         ordinamento predefinita, che combina il punteggio di pertinenza con
         quello relativo al sentiment.
         """
+        # Determina la funzione di ranking in base al parametro.
+        match ranking_fun:
+            case "naive":
+                def ranking_calc(a, b):
+                    return a * b
+            case "weighted_avg":
+                def ranking_calc(a, b, wa = 0.6, wb = 0.4):
+                    return a * wa + b * wb
+            case _:
+                raise ValueError("Funzione di ranking inserita non supportata.")
+
+        # Applica la funzione di ranking selezionata per il calcolo del ranking
+        # complessivo.
         for i in self._ordered:
             # Formula di calcolo predefinita (work-in-progress).
-            final_score = i["pert_score"] * i["sent_score"]
+            final_score = ranking_calc(i["pert_score"], i["sent_score"])
             i.update({"final_score" : final_score})
+
         # Riordino finale, per score complessivo decrescente.
         self._ordered = sorted(
             self._ordered,
