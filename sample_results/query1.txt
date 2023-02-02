@@ -1,60 +1,60 @@
-{'docnum': 18, 'handle': 'US Airways', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '1', 'text': '@USAirways  Houston Gate 17 customer Service needs to treat people with respect. There are hardly people waiting! #chillpill #usairwaysfail', 'pert_score': 4.801106654313126, 'sent_score': 0.7263, 'final_score': 3.487043763027623}
+{'docnum': 10, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@united customer service 👎', 'pert_score': 2.3509627960418764, 'sent_score': 0.4215, 'final_score': 0.9909308185316509}
 
 -----------------
-{'docnum': 10, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@united customer service 👎', 'pert_score': 7.889945091671047, 'sent_score': 0.4215, 'final_score': 3.325611856139346}
+{'docnum': 18, 'handle': 'US Airways', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '1', 'text': '@USAirways  Houston Gate 17 customer Service needs to treat people with respect. There are hardly people waiting! #chillpill #usairwaysfail', 'pert_score': 1.083090741033459, 'sent_score': 0.7263, 'final_score': 0.7866488052126012}
 
 -----------------
-{'docnum': 88, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '1', 'r6': '2', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@united how does that help me with my customers that I couldn't meet with (and subsequently lost)?", 'pert_score': 5.105935043795929, 'sent_score': 0.4939, 'final_score': 2.5218213181308093}
+{'docnum': 88, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '1', 'r6': '2', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@united how does that help me with my customers that I couldn't meet with (and subsequently lost)?", 'pert_score': 1.1638991402601548, 'sent_score': 0.4939, 'final_score': 0.5748497853744905}
 
 -----------------
-{'docnum': 33, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@AmericanAir I sure hope you all can fix @USAirways. Good luck, their service sucks. #nexttimeiwillflysouthwest', 'pert_score': 2.7056848707611834, 'sent_score': 0.8225, 'final_score': 2.2254258062010734}
+{'docnum': 44, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '1', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@AmericanAir @cnnbrk she tried they are not doing anything said they would talk to stewardess about serving drunks drinks how does that help', 'pert_score': 1.2911606050522966, 'sent_score': 0.4019, 'final_score': 0.518917447170518}
 
 -----------------
-{'docnum': 44, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '1', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@AmericanAir @cnnbrk she tried they are not doing anything said they would talk to stewardess about serving drunks drinks how does that help', 'pert_score': 4.948269622315392, 'sent_score': 0.4019, 'final_score': 1.988709561208556}
+{'docnum': 33, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@AmericanAir I sure hope you all can fix @USAirways. Good luck, their service sucks. #nexttimeiwillflysouthwest', 'pert_score': 0.6296281794632481, 'sent_score': 0.8225, 'final_score': 0.5178691776085216}
 
 -----------------
-{'docnum': 9, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@united I believe just customer service. At last post he was at Narita in Tokyo. They sent him to a motel to rest. Said standby maybe 2days', 'pert_score': 4.287187021443917, 'sent_score': 0.4215, 'final_score': 1.807049329538611}
+{'docnum': 92, 'handle': 'Southwest', 'r1': '1', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir I did but it only shows one flight one way. When I try to go to the home page and book roundtrip there's nothing available :(", 'pert_score': 0.9774450349301367, 'sent_score': 0.4782, 'final_score': 0.4674142157035914}
 
 -----------------
-{'docnum': 82, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '1', 'text': '@SouthwestAir PLEASE HELP! I would die to see the Vegas show! It would be amazing to hear their songs for real!', 'pert_score': 2.2030459492945, 'sent_score': 0.8043, 'final_score': 1.7719098570175662}
+{'docnum': 58, 'handle': 'US Airways', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '0', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@USAirways #usairways lost a passenger today for not upholding their promise of excellent customer service!!!', 'pert_score': 1.3046078328493986, 'sent_score': 0.3213, 'final_score': 0.41917049669451173}
 
 -----------------
-{'docnum': 58, 'handle': 'US Airways', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '0', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@USAirways #usairways lost a passenger today for not upholding their promise of excellent customer service!!!', 'pert_score': 5.45672121544527, 'sent_score': 0.3213, 'final_score': 1.753244526522565}
+{'docnum': 9, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@united I believe just customer service. At last post he was at Narita in Tokyo. They sent him to a motel to rest. Said standby maybe 2days', 'pert_score': 0.9142023758804987, 'sent_score': 0.4215, 'final_score': 0.3853363014336302}
 
 -----------------
-{'docnum': 92, 'handle': 'Southwest', 'r1': '1', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir I did but it only shows one flight one way. When I try to go to the home page and book roundtrip there's nothing available :(", 'pert_score': 3.231579316079859, 'sent_score': 0.4782, 'final_score': 1.5453412289493886}
+{'docnum': 55, 'handle': 'American', 'r1': '1', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@AmericanAir i have tried getting help from agents, the phone, twitter, and FB. Can no one at American Airlines help me?', 'pert_score': 0.7577632360470865, 'sent_score': 0.4939, 'final_score': 0.374259262283656}
 
 -----------------
-{'docnum': 55, 'handle': 'American', 'r1': '1', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@AmericanAir i have tried getting help from agents, the phone, twitter, and FB. Can no one at American Airlines help me?', 'pert_score': 3.0984947160077936, 'sent_score': 0.4939, 'final_score': 1.5303465402362493}
+{'docnum': 82, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '1', 'text': '@SouthwestAir PLEASE HELP! I would die to see the Vegas show! It would be amazing to hear their songs for real!', 'pert_score': 0.443345630860673, 'sent_score': 0.8043, 'final_score': 0.35658289090123935}
 
 -----------------
-{'docnum': 66, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir flight was Cancelled Flightled and it won't let me rebook online. Wait time on phone is too long. Please help", 'pert_score': 2.0087484362908046, 'sent_score': 0.4588, 'final_score': 0.9216137825702211}
+{'docnum': 66, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir flight was Cancelled Flightled and it won't let me rebook online. Wait time on phone is too long. Please help", 'pert_score': 0.38673960535759855, 'sent_score': 0.4588, 'final_score': 0.1774361309380662}
 
 -----------------
-{'docnum': 29, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '2', 'text': '@AmericanAir My flt AA375 for 02/23 got cncled and i cant get hold of a CSR so i can get alternate arrangement. Plz help', 'pert_score': 1.951381120410188, 'sent_score': 0.4588, 'final_score': 0.8952936580441943}
+{'docnum': 29, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '2', 'text': '@AmericanAir My flt AA375 for 02/23 got cncled and i cant get hold of a CSR so i can get alternate arrangement. Plz help', 'pert_score': 0.3702486454952931, 'sent_score': 0.4588, 'final_score': 0.1698700785532405}
 
 -----------------
-{'docnum': 86, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '1', 'r6': '1', 'r7': '2', 'r8': '0', 'r9': '1', 'text': "@united My flight was Cancelled Flighted and I'm needing some help reFlight Booking Problems.", 'pert_score': 2.3548986991118435, 'sent_score': 0.2023, 'final_score': 0.47639600683032596}
+{'docnum': 1, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@united Also, your phone customer service is almost useless. http://t.co/Mb3bJwGOAp', 'pert_score': 1.4462877524137672, 'sent_score': 0.0754, 'final_score': 0.10905009653199804}
 
 -----------------
-{'docnum': 1, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': '@united Also, your phone customer service is almost useless. http://t.co/Mb3bJwGOAp', 'pert_score': 5.857332613600254, 'sent_score': 0.0754, 'final_score': 0.4416428790654591}
+{'docnum': 86, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '1', 'r6': '1', 'r7': '2', 'r8': '0', 'r9': '1', 'text': "@united My flight was Cancelled Flighted and I'm needing some help reFlight Booking Problems.", 'pert_score': 0.4889194868740043, 'sent_score': 0.2023, 'final_score': 0.09890841219461108}
 
 -----------------
-{'docnum': 84, 'handle': 'US Airways', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '1', 'r6': '2', 'r7': '1', 'r8': '0', 'r9': '2', 'text': '@USAirways @PHLAirport can you pm me w answer if flt to 4278 is still on time. Been on ground over an hr w no gate. Need help. Pls', 'pert_score': 1.951381120410188, 'sent_score': 0.2023, 'final_score': 0.39476440065898105}
+{'docnum': 84, 'handle': 'US Airways', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '1', 'r6': '2', 'r7': '1', 'r8': '0', 'r9': '2', 'text': '@USAirways @PHLAirport can you pm me w answer if flt to 4278 is still on time. Been on ground over an hr w no gate. Need help. Pls', 'pert_score': 0.3702486454952931, 'sent_score': 0.2023, 'final_score': 0.07490130098369781}
 
 -----------------
-{'docnum': 13, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '2', 'r7': '0', 'r8': '0', 'r9': '1', 'text': "@united doesn't help the 100 or more passengers that just arrived an hour Late Flight.", 'pert_score': 2.3548986991118435, 'sent_score': 0.1386, 'final_score': 0.3263889596969015}
+{'docnum': 13, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '2', 'r7': '0', 'r8': '0', 'r9': '1', 'text': "@united doesn't help the 100 or more passengers that just arrived an hour Late Flight.", 'pert_score': 0.4889194868740043, 'sent_score': 0.1386, 'final_score': 0.067764240880737}
 
 -----------------
-{'docnum': 34, 'handle': 'US Airways', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@USAirways how do I get a hold of customer service? I've called multiple times &amp; have been on hold for 30+ mins only to have to hang up", 'pert_score': 4.287187021443917, 'sent_score': 0.0, 'final_score': 0.0}
+{'docnum': 34, 'handle': 'US Airways', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@USAirways how do I get a hold of customer service? I've called multiple times &amp; have been on hold for 30+ mins only to have to hang up", 'pert_score': 0.9142023758804987, 'sent_score': 0.0, 'final_score': 0.0}
 
 -----------------
-{'docnum': 28, 'handle': 'Delta', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@JetBlue you wanna help out? How about you reimburse the money you cause my band to lose.', 'pert_score': 2.3548986991118435, 'sent_score': 0.0, 'final_score': 0.0}
+{'docnum': 28, 'handle': 'Delta', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@JetBlue you wanna help out? How about you reimburse the money you cause my band to lose.', 'pert_score': 0.4889194868740043, 'sent_score': 0.0, 'final_score': 0.0}
 
 -----------------
-{'docnum': 5, 'handle': 'US Airways', 'r1': '1', 'r10': '2', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@USAirways That's not the question. Question is: how do I get past the computer fastest if we both know that the computer can't help me?", 'pert_score': 2.2030459492945, 'sent_score': -0.3089, 'final_score': -0.680520893737071}
+{'docnum': 5, 'handle': 'US Airways', 'r1': '1', 'r10': '2', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '0', 'r9': '0', 'text': "@USAirways That's not the question. Question is: how do I get past the computer fastest if we both know that the computer can't help me?", 'pert_score': 0.443345630860673, 'sent_score': -0.3089, 'final_score': -0.1369494653728619}
 
 -----------------
-{'docnum': 91, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@SouthwestAir Customer service said it was a known problem that they were using same confirmation numbers for domestic and international', 'pert_score': 4.801106654313126, 'sent_score': -0.4019, 'final_score': -1.9295647643684453}
+{'docnum': 91, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@SouthwestAir Customer service said it was a known problem that they were using same confirmation numbers for domestic and international', 'pert_score': 1.083090741033459, 'sent_score': -0.4019, 'final_score': -0.43529416882134714}
 
 -----------------

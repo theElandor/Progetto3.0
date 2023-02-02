@@ -36,6 +36,10 @@ schema_fields = {
     "text"    : TEXT(stored = True, analyzer = StemmingAnalyzer())
         }
 
+# Per abilitare stopwords, inserire:
+# stoplist = None, minsize = 0
+# come parametri nel costruttore di StemmingAnalyzer.
+
 for i in queries.keys():
     schema_fields[i] = eval("NUMERIC(stored = True, numtype = int)")
 
@@ -56,7 +60,9 @@ from functools import reduce
 
 
 # Creazione del Searcher.
-s = Searcher("handle", "text")
+# Per variare funzione di scoring aggiungere scoring = "template" come
+# parametro, al costruttore di Searcher.
+s = Searcher("handle", "text", scoring_fun = "PL2")
 
 
 def count_dcg(ordered, field):
@@ -78,6 +84,8 @@ for k, v in queries.items():
     res = s.submit_query(v)
     try:
         print(k)
+        # Per variare funzione di ranking aggiungere ranking_fun = "template"
+        # come parametro, al costruttore di Results.
         r = Results("Vader", "compound", res)
         # Calcolo del ranking ottimale per la NDCG.
         optimal_ranking = sorted(r.ordered, key = lambda d: d[k], reverse = True)
@@ -140,7 +148,7 @@ def custom_plot(data, parameter, file_name):
     ax.bar_label(rec2, padding = 5)
     fig.tight_layout()
     plt.savefig(file_name)
-    # plt.show()
+    # plt.show()    # Abilita stampa grafico a run-time, su apposita finestra.
 
 
 # Stampa dei grafici.

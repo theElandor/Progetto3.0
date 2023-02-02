@@ -5,6 +5,7 @@ from whoosh import qparser as qp
 from whoosh.fields import *
 from Misc import *
 from whoosh.lang.wordnet import Thesaurus
+from whoosh import scoring
 
 
 class Searcher:
@@ -14,16 +15,20 @@ class Searcher:
     suggerimenti.
     """
 
-    def __init__(self, *fields, index_dir = "./Index", thes_dir = "./wn_s.pl"):
+    def __init__(self, *fields, idx_dir = "./Index", thes_dir = "./wn_s.pl",
+        scoring_fun = "BM25F"):
         """
         Costruttore di classe.
         :param *fields:     str, specificati dall'utente, campi di ricerca.
-        :param index_dir:   str, ./Index di default, directory dell'indice.
+        :param idx_dir:     str, "./Index" di default, directory dell'indice.
+        :param thes_dir:    str, "./wn_s.pl" di default, directory del thesaurus.
+        :param scoring_fun: str, "BM25F" di default, nome del sistema di scoring
+                            da applicare.
         """
-        self.__open_index(index_dir)    # Apertura dell'indice.
+        self.__open_index(idx_dir)      # Apertura dell'indice.
         self.__open_thesaurus(thes_dir) # Apertura del thesaurus.
         self.__make_parser(*fields)     # Creazione del QueryParser.
-        self.__make_searcher()          # Creazione dell'index searcher.
+        self.__make_searcher(scoring_fun)   # Creazione dell'index searcher.
 
 
     # I campi di ricerca possono essere letti e cambiati tramite i metodi
@@ -43,15 +48,15 @@ class Searcher:
         return self._raw_query
 
 
-    def __open_index(self, index_dir):
+    def __open_index(self, idx_dir):
         """
         Apre un indice Whoosh, assegnando l'oggetto ad un attributo di istanza.
-        :param index_dir:   str, directory dell'indice.
+        :param idx_dir:   str, directory dell'indice.
         """
         # Tenta l'apertura, lanciando OSError in caso di directory non
         # esistente.
         try:
-            ix = open_dir(index_dir)
+            ix = open_dir(idx_dir)
         except:
             raise OSError(
                 "Directory 'Index' non trovata. Specificarne una valida."
@@ -115,12 +120,14 @@ class Searcher:
             )
 
 
-    def __make_searcher(self):
+    def __make_searcher(self, scoring_fun):
         """
         Crea un oggetto Whoosh searcher dall'indice e lo assegna come
         attributo di istanza.
+        :param scoring_fun  str, nome del sistema di scoring da adottare.
         """
-        self._searcher = self._ix.searcher()
+        scoring_system = eval("scoring.{}()".format(scoring_fun))
+        self._searcher = self._ix.searcher(weighting = scoring_system)
 
 
     def submit_query(self, raw_query, results_threshold = 20, expand = True):
