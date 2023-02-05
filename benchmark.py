@@ -60,8 +60,8 @@ from functools import reduce
 
 
 # Creazione del Searcher.
-# Per variare funzione di scoring aggiungere scoring = "template" come
-# parametro, al costruttore di Searcher.
+# Per variare funzione di scoring aggiungere scoring_fun = "template" come
+# parametro, al costruttore di Searcher. Supportate: BM25F (default), PL2.
 s = Searcher("handle", "text", scoring_fun = "PL2")
 
 
@@ -85,7 +85,8 @@ for k, v in queries.items():
     try:
         print(k)
         # Per variare funzione di ranking aggiungere ranking_fun = "template"
-        # come parametro, al costruttore di Results.
+        # come parametro, al costruttore di Results. Supportate: naive
+        # (default), "weighted_avg".
         r = Results("Vader", "compound", res)
         # Calcolo del ranking ottimale per la NDCG.
         optimal_ranking = sorted(r.ordered, key = lambda d: d[k], reverse = True)
@@ -131,7 +132,7 @@ def custom_plot(data, parameter, file_name):
     # Asse x: query.
     qrs = ["q{}".format(i) for i in range(1, len(queries) + 1)]
     # Asse y: valore DCG/NDCG (all'indice 1 nella tupla).
-    vls = [round(element[1],1) for element in data]
+    vls = [round(element[1], 1) for element in data]
     # Creazione del plot.
     x = np.arange(len(qrs))
     width = 0.35
@@ -142,7 +143,7 @@ def custom_plot(data, parameter, file_name):
         )
     ax.set_ylabel('Val')
     ax.set_title(parameter + ' and number of retrieved tweets')
-    ax.set_xticks(x,qrs)
+    ax.set_xticks(x, qrs)
     ax.legend()
     ax.bar_label(rec1, padding = 5)
     ax.bar_label(rec2, padding = 5)
