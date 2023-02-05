@@ -131,7 +131,7 @@ def custom_plot(data, parameter, file_name):
     # Asse x: query.
     qrs = ["q{}".format(i) for i in range(1, len(queries) + 1)]
     # Asse y: valore DCG/NDCG (all'indice 1 nella tupla).
-    vls = [element[1] for element in data]
+    vls = [round(element[1],1) for element in data]
     # Creazione del plot.
     x = np.arange(len(qrs))
     width = 0.35

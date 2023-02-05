@@ -8,6 +8,7 @@ Sequenza di test:
     - 1. Testato su mod. default (bm25+naive) del search engine il filtering delle stopwords
     - 2. Testate le 4 combinazioni di (mod. scoring, form. ranking) viste sopra
 
-Tutte le istruzioni stanno commentate sullo script di benchmarking. I risultati più interessanti
-si vedono nel test 1.
+Tutte le istruzioni sono commentate sullo script di benchmarking. I risultati più interessanti si vedono nel test 1.
 Dove non c'è scritto, le stop-words si considerano non ammesse.
+
+

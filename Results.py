@@ -130,15 +130,14 @@ class Results:
         quello relativo al sentiment.
         """
         # Determina la funzione di ranking in base al parametro.
-        match ranking_fun:
-            case "naive":
-                def ranking_calc(a, b):
-                    return a * b
-            case "weighted_avg":
-                def ranking_calc(a, b, wa = 0.6, wb = 0.4):
-                    return a * wa + b * wb
-            case _:
-                raise ValueError("Funzione di ranking inserita non supportata.")
+        if ranking_fun == "naive":
+            def ranking_calc(a, b):
+                return a * b
+        elif ranking_fun == "weighted_avg":
+            def ranking_calc(a, b, wa = 0.6, wb = 0.4):
+                return a * wa + b * wb
+        else:
+            raise ValueError("Funzione di ranking inserita non supportata.")
 
         # Applica la funzione di ranking selezionata per il calcolo del ranking
         # complessivo.
