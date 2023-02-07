@@ -47,20 +47,4 @@ class SaToolRoberta(SaTool):
             sent_score = scores[5]["score"]
         if sentiment == "surprise":
             sent_score = scores[6]["score"]
-        return sent_score    
-        # match sentiment:
-        #     case "anger":
-        #         sent_score = scores[0]["score"]
-        #     case "disgust":
-        #         sent_score = scores[1]["score"]
-        #     case "fear":
-        #         sent_score = scores[2]["score"]
-        #     case "joy":
-        #         sent_score = scores[3]["score"]
-        #     case "neutral":
-        #         sent_score = scores[4]["score"]
-        #     case "sadness":
-        #         sent_score = scores[5]["score"]
-        #     case "surprise":
-        #         sent_score = scores[6]["score"]
-        # return sent_score
+        return sent_score
