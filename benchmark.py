@@ -47,7 +47,7 @@ schema = Schema(**schema_fields)
 
 # Costruzione dell'indice.
 ix = ig.IndexGenerator(schema, db)
-ix.fillIndex()
+ix.fillIndex() 
 
 
 # Parte 2: sottomissione delle query all'indice precedentemente costruito,

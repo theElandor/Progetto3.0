@@ -1,0 +1,612 @@
+ __| |_________________| |__
+(__| |_________________| |__)
+   | |  Query Results  | |
+ __| |_________________| |__
+(__|_|_________________|_|__)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Query:  food 
+Numero di risultati:  75 
+Sentiment:  compound
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+docnum --> 12593
+handle --> American
+text --> @AmericanAir I love the service and cheap upgrades American Provides! One of the best airlines ever! good food, good seats, amazing thanks!
+pert_score --> 0.0
+sent_score --> 0.9712
+final_score --> 0.38848
+-----------------------------------------
+
+docnum --> 10942
+handle --> US Airways
+text --> @USAirways Thks US #1786 2/19 PHL to FLL. Overall 1st class has improved with more food now on PHL to FLL and most crews are super.
+pert_score --> 0.0
+sent_score --> 0.8646
+final_score --> 0.34584000000000004
+-----------------------------------------
+
+docnum --> 3985
+handle --> United
+text --> @united when will you offer real food in american clubs like the amazing food you offer in Heathrow?
+pert_score --> 0.0
+sent_score --> 0.8442
+final_score --> 0.33768
+-----------------------------------------
+
+docnum --> 2565
+handle --> United
+text --> @united yes to more food! Add some gluten free options while you're at it
+pert_score --> 0.0
+sent_score --> 0.8439
+final_score --> 0.33756
+-----------------------------------------
+
+docnum --> 12841
+handle --> American
+text --> @AmericanAir a free check bag a food comp a flying credit something to help out now that I'm an additional 200 dollars in the hole
+pert_score --> 0.0
+sent_score --> 0.8225
+final_score --> 0.329
+-----------------------------------------
+
+docnum --> 10132
+handle --> US Airways
+text --> @USAirways @AmericanAir my friends are stranded at KPHL and the representatives there won't even give them food vouchers…any help please?
+pert_score --> 0.0
+sent_score --> 0.7964
+final_score --> 0.31856
+-----------------------------------------
+
+docnum --> 12004
+handle --> American
+text --> @AmericanAir we are off to Kax premium.  Hoping this flight is better food, TV now I know how to work it and service. Tnx
+pert_score --> 0.0
+sent_score --> 0.7783
+final_score --> 0.31132000000000004
+-----------------------------------------
+
+docnum --> 12165
+handle --> American
+text --> @AmericanAir we are off to Kax premium.  Hoping this flight is better food, TV now I know how to work it and service. Tnx
+pert_score --> 0.0
+sent_score --> 0.7783
+final_score --> 0.31132000000000004
+-----------------------------------------
+
+docnum --> 6945
+handle --> Delta
+text --> @JetBlue Well, thankfully they've got a nice food court here...When will an update be posted?
+pert_score --> 0.0
+sent_score --> 0.7717
+final_score --> 0.30868000000000007
+-----------------------------------------
+
+docnum --> 7453
+handle --> Delta
+text --> @JetBlue what a great experience on flight from SFO to JFK; seats, service, food, everything is top quality. I will be back. Very soon!
+pert_score --> 0.0
+sent_score --> 0.7345
+final_score --> 0.2938
+-----------------------------------------
+
+docnum --> 3318
+handle --> United
+text --> @united - I really down think downgrading the booze/food selections at the club is a good way to go.  How about you look @aircanada?
+pert_score --> 0.0
+sent_score --> 0.6908
+final_score --> 0.27632
+-----------------------------------------
+
+docnum --> 4281
+handle --> United
+text --> @united Step 1: Cancelled Flight flight. Step 2: Don't notify customer. Step 3: Charge them for food while they try to survive their wait. Brilliant.
+pert_score --> 0.0
+sent_score --> 0.6808
+final_score --> 0.27232
+-----------------------------------------
+
+docnum --> 11911
+handle --> American
+text --> @AmericanAir What happens when you combine Top Chef &amp; the beauty of San Miguel de Allende. My Late Flightst food blog.  http://t.co/7t1rDRCRe6
+pert_score --> 0.0
+sent_score --> 0.6808
+final_score --> 0.27232
+-----------------------------------------
+
+docnum --> 12072
+handle --> American
+text --> @AmericanAir What happens when you combine Top Chef &amp; the beauty of San Miguel de Allende. My Late Flightst food blog.  http://t.co/7t1rDRCRe6
+pert_score --> 0.0
+sent_score --> 0.6808
+final_score --> 0.27232
+-----------------------------------------
+
+docnum --> 3530
+handle --> United
+text --> @united KOA-LAX should have fresh food service, right?
+pert_score --> 0.0
+sent_score --> 0.6249
+final_score --> 0.24996000000000002
+-----------------------------------------
+
+docnum --> 1388
+handle --> United
+text --> @united after 2 days - 1 flight Cancelled Flightled, another delay for 8 hours- united gave me a $7 food voucher. That's how much they value my time??
+pert_score --> 0.0
+sent_score --> 0.6199
+final_score --> 0.24796
+-----------------------------------------
+
+docnum --> 3540
+handle --> United
+text --> @united they had snacks available, just no fresh food...not sure what happened, but I'm sure we will grab a bite before our SFO connection
+pert_score --> 0.0
+sent_score --> 0.6148
+final_score --> 0.24592000000000003
+-----------------------------------------
+
+docnum --> 7864
+handle --> Delta
+text --> @JetBlue Port-Au-Prince, Haiti for continued food distribution, medical supplies, &amp; orphan care!  #flyingitforward http://t.co/fn2QXybT9K
+pert_score --> 0.0
+sent_score --> 0.5411
+final_score --> 0.21644000000000002
+-----------------------------------------
+
+docnum --> 4840
+handle --> Southwest
+text --> @SouthwestAir For example, can't pay 4 hotel &amp; food? Or transport to alternate city we are flying from? Or give clear record of alt flight?
+pert_score --> 0.0
+sent_score --> 0.5324
+final_score --> 0.21296
+-----------------------------------------
+
+docnum --> 2141
+handle --> United
+text --> @united the drunk guy you threw out of flight UA936 4hrs ago is better off than the rest of us held up for 5hrs in the plane without food.
+pert_score --> 0.0
+sent_score --> 0.5106
+final_score --> 0.20424000000000003
+-----------------------------------------
+
+docnum --> 711
+handle --> United
+text --> @united terminal at MIA should have food open before 5am esp when there are flights at 6am. Two hours early like recommended. Can't eat.
+pert_score --> 0.0
+sent_score --> 0.4883
+final_score --> 0.19532000000000002
+-----------------------------------------
+
+docnum --> 749
+handle --> United
+text --> @united plus what about food? And taxis?
+pert_score --> 0.0
+sent_score --> 0.4871
+final_score --> 0.19484
+-----------------------------------------
+
+docnum --> 2373
+handle --> United
+text --> @united You really should clean the food and coffee stains off of the area around the seats when new passengers come aboard. Gross!
+pert_score --> 0.0
+sent_score --> 0.4714
+final_score --> 0.18856
+-----------------------------------------
+
+docnum --> 2945
+handle --> United
+text --> @united will flight 5559 to YYC be providing free food when we are allowed back on board  after the "broken lightbulb"
+pert_score --> 0.0
+sent_score --> 0.4588
+final_score --> 0.18352000000000002
+-----------------------------------------
+
+docnum --> 2020
+handle --> United
+text --> @united 2100$ ticket,12h biz trvl,no wifi.Missed con flt,next one#24h,missed meeting,7$ food voucher,hotel chkout#12,flt#5,no wifi#hotel
+pert_score --> 0.0
+sent_score --> 0.4215
+final_score --> 0.1686
+-----------------------------------------
+
+docnum --> 2886
+handle --> United
+text --> @united Are the current on board food menus available anywhere online?
+pert_score --> 0.0
+sent_score --> 0.4215
+final_score --> 0.1686
+-----------------------------------------
+
+docnum --> 7972
+handle --> Delta
+text --> @JetBlue I tried a burger which was good but expensive! Were lead to believe that food in the USA is cheap butnot here!
+pert_score --> 0.0
+sent_score --> 0.3682
+final_score --> 0.14728000000000002
+-----------------------------------------
+
+docnum --> 14340
+handle --> American
+text --> @AmericanAir served me rubber pasta covered In sauce that tastes like plastic. Do you have any food for human consumption anymore ?
+pert_score --> 0.0
+sent_score --> 0.3612
+final_score --> 0.14448000000000003
+-----------------------------------------
+
+docnum --> 14282
+handle --> American
+text --> @AmericanAir Stuck on a plane at JFK: food was not on the plane now we need to wait crew to push back the plane. Good job, AA!
+pert_score --> 0.0
+sent_score --> 0.2942
+final_score --> 0.11768
+-----------------------------------------
+
+docnum --> 3350
+handle --> United
+text --> @united question - was given food vouchers but can't use on plane..how   come
+pert_score --> 0.0
+sent_score --> 0.2263
+final_score --> 0.09052
+-----------------------------------------
+
+docnum --> 14234
+handle --> American
+text --> @AmericanAir I've got a BA flight as your airport couldn't accommodate us. We were left without any info. No vouchers for food,nothing.
+pert_score --> 0.0
+sent_score --> 0.2235
+final_score --> 0.08940000000000001
+-----------------------------------------
+
+docnum --> 14036
+handle --> American
+text --> @AmericanAir makes some small improvements and retains their program they win all. They keep the crappy food and change advantage they lose
+pert_score --> 0.0
+sent_score --> 0.2023
+final_score --> 0.08092
+-----------------------------------------
+
+docnum --> 2493
+handle --> United
+text --> @united bad idea to let 200 people back on the terminal with food vouchers but allow only 15 minutes to get anything.  Long lines!! #ua1523
+pert_score --> 0.0
+sent_score --> 0.1739
+final_score --> 0.06956
+-----------------------------------------
+
+docnum --> 9440
+handle --> US Airways
+text --> @USAirways I would happily wait in the terminal near food, restrooms and non irritated passengers.
+pert_score --> 0.0
+sent_score --> 0.1531
+final_score --> 0.06124000000000001
+-----------------------------------------
+
+docnum --> 3867
+handle --> United
+text --> @united Disappointed,UNITED did NOT feed small CHILDREN on a 5 &amp; half hour flight (Honolulu to Los Angeles), Appalling, ESP food waspaid for
+pert_score --> 0.0
+sent_score --> 0.0772
+final_score --> 0.030880000000000005
+-----------------------------------------
+
+docnum --> 7865
+handle --> Delta
+text --> @JetBlue while in Haiti Id do food distribution for hundreds of hungry kids in nearby villages. #flyingitforward http://t.co/lTf2quD3Xc
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8113
+handle --> Delta
+text --> @JetBlue are there any food places open at the JFK T5 24//?
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8920
+handle --> Delta
+text --> @JetBlue as much i have paid in fees. Plus hotel and food because of your changes i could had flown with a more reliable airline #no2jetblue
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 10339
+handle --> US Airways
+text --> @USAirways You won't give us a hotel or food. Can you at least suggestion options for making it to the metro city I have a ticket to?
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 11440
+handle --> US Airways
+text --> @USAirways I don't mind waiting, I mind waiting on a plane, when I shouldn't have had to.  The airport has more room and you know.. food!
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 14109
+handle --> American
+text --> @AmericanAir Yeah, try harder. No catering truck in sight.  Can we just leave now w/o the food won't eat anyway?
+pert_score --> 0.0
+sent_score --> -0.0516
+final_score --> -0.020640000000000002
+-----------------------------------------
+
+docnum --> 754
+handle --> United
+text --> @united I take back the comment about your team here working hard to help us A so far no solution for a hotel or food or anything #fail
+pert_score --> 0.0
+sent_score --> -0.0893
+final_score --> -0.03572
+-----------------------------------------
+
+docnum --> 11897
+handle --> American
+text --> @americanair thanks for no fresh food on my cross country flight and for making my connection so close No time to eat. TPA-DFW-LAX
+pert_score --> 0.0
+sent_score --> -0.1382
+final_score --> -0.055279999999999996
+-----------------------------------------
+
+docnum --> 12058
+handle --> American
+text --> @americanair thanks for no fresh food on my cross country flight and for making my connection so close No time to eat. TPA-DFW-LAX
+pert_score --> 0.0
+sent_score --> -0.1382
+final_score --> -0.055279999999999996
+-----------------------------------------
+
+docnum --> 10195
+handle --> US Airways
+text --> @USAirways #Overbooked SXM-CLT delayed deplaning extra passengers. #missedconnection #forcedovernight #CLT, no lodging/food. Disappointed.
+pert_score --> 0.0
+sent_score --> -0.1396
+final_score --> -0.05584
+-----------------------------------------
+
+docnum --> 8927
+handle --> Delta
+text --> @JetBlue and they are telling me I got to get another hotel and food...so spend more money because you guys made me miss my connection
+pert_score --> 0.0
+sent_score --> -0.1531
+final_score --> -0.06124000000000001
+-----------------------------------------
+
+docnum --> 12686
+handle --> American
+text --> @AmericanAir on flight 1074 that has been delayed for hours over human errors like a food truck hitting the plane, now the lines are frozen.
+pert_score --> 0.0
+sent_score --> -0.2023
+final_score --> -0.08092
+-----------------------------------------
+
+docnum --> 11630
+handle --> US Airways
+text --> @USAirways car services to and from the hotel, food, hotel cost bc of Cancelled Flightlations fall on the customer with last minute notifications
+pert_score --> 0.0
+sent_score --> -0.25
+final_score --> -0.1
+-----------------------------------------
+
+docnum --> 11132
+handle --> US Airways
+text --> @USAirways 5 hour cross country morning flight and you have no food? #BadService
+pert_score --> 0.0
+sent_score --> -0.296
+final_score --> -0.1184
+-----------------------------------------
+
+docnum --> 5060
+handle --> Southwest
+text --> @SouthwestAir I'm running out of money to keep paying for hotel rooms &amp; food in NYC. You don't help people with $ spent
+pert_score --> 0.0
+sent_score --> -0.3089
+final_score --> -0.12356
+-----------------------------------------
+
+docnum --> 7784
+handle --> Delta
+text --> @JetBlue we want room and food allowances. Agents are refusing to give us vouchers to use at rooms we book ourselves.
+pert_score --> 0.0
+sent_score --> -0.34
+final_score --> -0.136
+-----------------------------------------
+
+docnum --> 13906
+handle --> American
+text --> @AmericanAir finally made it to chicago - 13 hours Late Flight.  Did get a $12 food voucher for my wait.about $1per/hr. Never again. Good bye.
+pert_score --> 0.0
+sent_score --> -0.3412
+final_score --> -0.13648000000000002
+-----------------------------------------
+
+docnum --> 11453
+handle --> US Airways
+text --> @USAirways they said because there was no meal on my flight they would not - what airline serves food anymore? Update in policy?
+pert_score --> 0.0
+sent_score --> -0.3736
+final_score --> -0.14944
+-----------------------------------------
+
+docnum --> 9844
+handle --> US Airways
+text --> @USAirways really? 8 hr delay in Virgin Island and not even a food voucher.
+pert_score --> 0.0
+sent_score --> -0.3744
+final_score --> -0.14976
+-----------------------------------------
+
+docnum --> 11957
+handle --> American
+text --> @AmericanAir cost me over 200 dollars because flight was Cancelled Flightled and couldn't even give me a food comp!! Fly @JetBlue @Delta they take
+pert_score --> 0.0
+sent_score --> -0.3786
+final_score --> -0.15144000000000002
+-----------------------------------------
+
+docnum --> 12118
+handle --> American
+text --> @AmericanAir cost me over 200 dollars because flight was Cancelled Flightled and couldn't even give me a food comp!! Fly @JetBlue @Delta they take
+pert_score --> 0.0
+sent_score --> -0.3786
+final_score --> -0.15144000000000002
+-----------------------------------------
+
+docnum --> 11035
+handle --> US Airways
+text --> @USAirways No hot food on a 5 hour flight? Crazy. Couldn't eat in PHL b/c our original connection was 40 min Late Flight. What gives? #PHLtoLAS
+pert_score --> 0.0
+sent_score --> -0.3939
+final_score --> -0.15756
+-----------------------------------------
+
+docnum --> 9764
+handle --> US Airways
+text --> @USAirways your rude staff said" I don't care that we are out of market place food you're going on vacation and I have to work" nice huh
+pert_score --> 0.0
+sent_score --> -0.4268
+final_score --> -0.17072
+-----------------------------------------
+
+docnum --> 7492
+handle --> Delta
+text --> @JetBlue also not have food available even for purchase is quite shocking since this is a 5 hour international flight.
+pert_score --> 0.0
+sent_score --> -0.4576
+final_score --> -0.18304
+-----------------------------------------
+
+docnum --> 13141
+handle --> American
+text --> @AmericanAir served the nastiest food Ive ever seen yesterday.Rubber chicken in slime. The ENTIRE cabin sent their food back.FAs can confirm
+pert_score --> 0.0
+sent_score --> -0.5267
+final_score --> -0.21067999999999998
+-----------------------------------------
+
+docnum --> 11642
+handle --> US Airways
+text --> @USAirways I'm on the flight, finally in the air. Not enough food to feed customers. No movie or entertainment on a 5 hr flight.
+pert_score --> 0.0
+sent_score --> -0.5472
+final_score --> -0.21888000000000002
+-----------------------------------------
+
+docnum --> 14354
+handle --> American
+text --> @AmericanAir first my sister had ZERO food in her cross country flight with no type of warning or voucher
+pert_score --> 0.0
+sent_score --> -0.5574
+final_score --> -0.22296000000000002
+-----------------------------------------
+
+docnum --> 3423
+handle --> United
+text --> @united Flight delayed 40 minutes in ORD because plane didn’t have all the food. That should be fixed in the future. It’s a dumb delay.
+pert_score --> 0.0
+sent_score --> -0.5719
+final_score --> -0.22876
+-----------------------------------------
+
+docnum --> 26
+handle --> Virgin America
+text --> @VirginAmerica What happened 2 ur vegan food options?! At least say on ur site so i know I won't be able 2 eat anything for next 6 hrs #fail
+pert_score --> 0.0
+sent_score --> -0.5848
+final_score --> -0.23392000000000002
+-----------------------------------------
+
+docnum --> 11495
+handle --> US Airways
+text --> @USAirways thanks for crappy hotel with no food and a taxi bill followed by being on standby for your Cancelled Flightlation. #USAirways
+pert_score --> 0.0
+sent_score --> -0.5994
+final_score --> -0.23976000000000003
+-----------------------------------------
+
+docnum --> 12363
+handle --> American
+text --> @AmericanAir @USAirways #Boo! Wack ass terminal 6 @flyLAXairport. No food. No lounge. No Bueno!! Never again!!!
+pert_score --> 0.0
+sent_score --> -0.6239
+final_score --> -0.24956
+-----------------------------------------
+
+docnum --> 2310
+handle --> United
+text --> @united A broken luggage and a mild case of food poisoning from UA5 LHR-IAH. Who can I email about this?
+pert_score --> 0.0
+sent_score --> -0.6249
+final_score --> -0.24996000000000002
+-----------------------------------------
+
+docnum --> 12377
+handle --> American
+text --> @AmericanAir   What is that!? Why even bother catering dog food that no one will eat ? http://t.co/iFESPcBzTm
+pert_score --> 0.0
+sent_score --> -0.643
+final_score --> -0.25720000000000004
+-----------------------------------------
+
+docnum --> 9749
+handle --> US Airways
+text --> @USAirways  flight missed due to mech issue. No food voucher, transported to different airport, no rental reimbursement 😡
+pert_score --> 0.0
+sent_score --> -0.6808
+final_score --> -0.27232
+-----------------------------------------
+
+docnum --> 14026
+handle --> American
+text --> @AmericanAir flight attendants on AA2402 were spectacular.Fed the ENTIRE cabin then food from coach. Why do you keep serving this vile food
+pert_score --> 0.0
+sent_score --> -0.7073
+final_score --> -0.28292
+-----------------------------------------
+
+docnum --> 13091
+handle --> American
+text --> @AmericanAir don't they already know ?  Isn't everyone sharing how nasty the food is? It's not even close to decent.
+pert_score --> 0.0
+sent_score --> -0.7424
+final_score --> -0.29696
+-----------------------------------------
+
+docnum --> 1183
+handle --> United
+text --> @united received hotel but no food.  Also email for 3750 miles.  Last trip had 3 hr delay and 5000 miles - so less for Cancelled Flightlation?
+pert_score --> 0.0
+sent_score --> -0.7452
+final_score --> -0.29808
+-----------------------------------------
+
+docnum --> 14041
+handle --> American
+text --> @AmericanAir the food served on AA2402 was vile and gross.The entire cabin did not eat their meal. Survey the flight crew. Another gross out
+pert_score --> 0.0
+sent_score --> -0.802
+final_score --> -0.32080000000000003
+-----------------------------------------
+
+docnum --> 13888
+handle --> American
+text --> @AmericanAir @USAirways how can you have no food on a 4 hour flight 528 from Columbus to Phoenix? Starving and Pissed off. Can't eat Go Go!
+pert_score --> 0.0
+sent_score --> -0.8588
+final_score --> -0.34352000000000005
+-----------------------------------------
+
+docnum --> 14359
+handle --> American
+text --> @AmericanAir 3231DTW to LAG at 4:45. Flight Cancelled Flightled with no notice. Given a voucher to a dirty hotel, with no food vouchers or apology.
+pert_score --> 0.0
+sent_score --> -0.8816
+final_score --> -0.35264000000000006
+-----------------------------------------
+

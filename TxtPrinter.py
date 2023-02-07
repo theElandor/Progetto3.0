@@ -38,12 +38,7 @@ class TxtPrinter(AbstractPrinter):
         with open(f.absolute(), "r") as frame, open(s.absolute(), "r") as separator, open(t.absolute(), "r") as title:
             self.frame = frame.read()
             self.separator = separator.read()
-            self.title = title.read()
-        
-        # with open('./frame.txt', 'r') as frame, open('./separator.txt', 'r') as sep, open('./title.txt', 'r') as title:
-        #     self.frame = frame.read()
-        #     self.separator = sep.read()
-        #     self.title = title.read()
+            self.title = title.read()        
         
     def formatOutput(self,nomefile=sys.stdout):
         """
