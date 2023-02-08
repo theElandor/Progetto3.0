@@ -33,7 +33,7 @@ ix.fillIndex()
 s = Searcher("handle", "text", scoring_fun = "BM25F")
 res = s.submit_query(query)
 r = Results("Vader", "compound", res, ranking_fun = "weighted_avg")
-r.printResults(s, "./piechart/output1.txt")
+r.printResults(s, "./piechart/output.txt")
 r.printResults(s, "./piechart/output.ods")
 
 positive = []
