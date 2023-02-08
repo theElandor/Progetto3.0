@@ -9,17 +9,13 @@ La procedura è ripetuta per una seconda query, differente dalla prima.
 from Results import Results
 from Searcher import Searcher
 
-# Creazione del Searcher.
-s = Searcher("handle", "text")
 
-# Estrazione dei risultati con inserimento di una query.
+s = Searcher("handle", "text")
 res = s.submit_query("american airline")
-# Elaborazione dei risultati in un oggetto Results, tramite lo strumento
-# di sentiment analysis Vader, impostato per il sentiment complessivo.
 r = Results("Vader", "compound", res)
 r.printResults(s, "output.txt") 
 
-# Si ripete la procedura appena vista.
+
 res2 = s.submit_query("service on board")
 r2 = Results("Vader", "compound", res2)
-r2.printResults(s, "output2.txt")
+r2.printResults(s, "output2.ods")
