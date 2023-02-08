@@ -50,7 +50,7 @@ class Database:
         per poi essere memorizzati in oggetti di classe Tweet.
 
         :param *args: list, lista di stringhe
-        """
+<        """
         for selected_field in args:
             if selected_field not in self._fields:
                 raise Exception(selected_field + " non è presente tra i campi del file.")

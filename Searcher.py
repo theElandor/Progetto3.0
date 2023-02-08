@@ -75,6 +75,7 @@ class Searcher:
         # L'apertura è interamente gestita da open.
         with open(thes_dir) as f:
             self._thesaurus = Thesaurus.from_file(f)
+        print(self._thesaurus.synonyms("service"))
 
 
     @staticmethod
@@ -140,9 +141,7 @@ class Searcher:
         # Se opportuno, espande la query con sinonimi. Dopodiché esegue parsing.
         if expand:
             words = [i for i in raw_query.split()]
-            synonyms = [
-                j for i in words for j in self._thesaurus.synonyms(i)
-                ]
+            synonyms = [j for i in words for j in self._thesaurus.synonyms(i)]            
             words.extend(synonyms)
             expanded_query = " ".join(words)
             query = self._parser.parse(expanded_query)

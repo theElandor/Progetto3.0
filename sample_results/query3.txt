@@ -19,10 +19,25 @@
 {'docnum': 40, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '0', 'r4': '1', 'r5': '1', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '2', 'text': '@united It appears there are six flights to Calgary tomorrow is this correct?', 'pert_score': 0.2535564281795186, 'sent_score': 0.4215, 'final_score': 0.1068740344776671}
 
 -----------------
+{'docnum': 52, 'handle': 'US Airways', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '0', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '1', 'r9': '0', 'text': '@USAirways I left my son\'s Duke hat on flight #1761 last night. It says "Mason" on the back. Any way of locating it? Thanks in advance!', 'pert_score': 0.17935270679034016, 'sent_score': 0.4926, 'final_score': 0.08834914336492156}
+
+-----------------
+{'docnum': 92, 'handle': 'Southwest', 'r1': '1', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir I did but it only shows one flight one way. When I try to go to the home page and book roundtrip there's nothing available :(", 'pert_score': 0.17935270679034016, 'sent_score': 0.4782, 'final_score': 0.08576646438714067}
+
+-----------------
 {'docnum': 63, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': "@united They couldn't get me first class on any of their flights so I just rebooked myself.", 'pert_score': 0.20101828785530745, 'sent_score': 0.4215, 'final_score': 0.08472920833101209}
 
 -----------------
+{'docnum': 66, 'handle': 'Southwest', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir flight was Cancelled Flightled and it won't let me rebook online. Wait time on phone is too long. Please help", 'pert_score': 0.18421538791118675, 'sent_score': 0.4588, 'final_score': 0.08451801997365248}
+
+-----------------
+{'docnum': 42, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '1', 'text': "@united I was not looking for the fare to be returned on the companion flight.  don't understand why an additional $200 fee was necessary.", 'pert_score': 0.1894083556294957, 'sent_score': 0.4215, 'final_score': 0.07983562189783244}
+
+-----------------
 {'docnum': 89, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '1', 'text': "@united involuntarily bumped your passenger and can't guarantee them another flight for three days!", 'pert_score': 0.23175019942490357, 'sent_score': 0.3296, 'final_score': 0.07638486573044823}
+
+-----------------
+{'docnum': 39, 'handle': 'US Airways', 'r1': '0', 'r10': '1', 'r2': '0', 'r3': '0', 'r4': '1', 'r5': '1', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '2', 'text': '@USAirways  I have a party of 4 booked for a flight in Aug. At 10:05am, how can I find out how much it would cost to change to an earlier fl', 'pert_score': 0.18421538791118675, 'sent_score': 0.4019, 'final_score': 0.07403616440150596}
 
 -----------------
 {'docnum': 13, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '2', 'r7': '0', 'r8': '0', 'r9': '1', 'text': "@united doesn't help the 100 or more passengers that just arrived an hour Late Flight.", 'pert_score': 0.2148017593877357, 'sent_score': 0.1386, 'final_score': 0.02977152385114017}
@@ -34,7 +49,13 @@
 {'docnum': 69, 'handle': 'Virgin America', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '2', 'r9': '1', 'text': '@VirginAmerica hi I just booked a flight but need to add baggage, how can I do this?', 'pert_score': 0.2148017593877357, 'sent_score': 0.0, 'final_score': 0.0}
 
 -----------------
+{'docnum': 74, 'handle': 'American', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '1', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 0.1894083556294957, 'sent_score': 0.0, 'final_score': 0.0}
+
+-----------------
 {'docnum': 17, 'handle': 'US Airways', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '1', 'r6': '2', 'r7': '1', 'r8': '0', 'r9': '1', 'text': '@USAirways right, can you use a shuttle ticket from LGA to BOS for any shuttle flight? Probably gonna miss the 4pm.', 'pert_score': 0.20101828785530745, 'sent_score': -0.1531, 'final_score': -0.030775899870647574}
+
+-----------------
+{'docnum': 57, 'handle': 'American', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '1', 'text': '@AmericanAir if my flight gets Cancelled Flightled i should be able to reschedule to any date i want, not the next day or 2 days after', 'pert_score': 0.1894083556294957, 'sent_score': -0.1779, 'final_score': -0.033695746466487285}
 
 -----------------
 {'docnum': 54, 'handle': 'American', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '2', 'text': '@AmericanAir is flight 2934 dfw to gsp going to be Cancelled Flightled tomorrow?', 'pert_score': 0.24189710383936694, 'sent_score': -0.25, 'final_score': -0.060474275959841735}
