@@ -1,0 +1,28 @@
+ __| |_________________| |__
+(__| |_________________| |__)
+   | |  Query Results  | |
+ __| |_________________| |__
+(__|_|_________________|_|__)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Query:  "red wine" 
+Numero di risultati:  2 
+Sentiment:  compound
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+docnum --> 12782
+handle --> American
+text --> @AmericanAir upgraded to 1st class. Inquired about red wine.  "Sauvignon blanc &amp; I can't pronounce the other one."  Couldn't describe...
+pert_score --> 8.482407566869497
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 162
+handle --> Virgin America
+text --> @virginamerica why don't any of the pairings include red wine?! Only white is offered :( #redwineisbetter
+pert_score --> 8.482407566869497
+sent_score --> -0.4926
+final_score --> -4.178433967439914
+-----------------------------------------
+

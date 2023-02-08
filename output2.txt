@@ -6,43 +6,807 @@
 
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 Query:  service on board 
-Numero di risultati:  2 
+Numero di risultati:  100 
 Sentiment:  compound
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-docnum --> 8
+docnum --> 893
+handle --> United
+text --> @United THANK U! Secured room for the night Thx to VERY helpful customer service rep N. Dorns.. I thanked her.. Can u 2? #goodenoughmother
+pert_score --> 11.301709017040906
+sent_score --> 0.9535
+final_score --> 10.776179547748503
+-----------------------------------------
+
+docnum --> 7012
+handle --> Delta
+text --> @JetBlue loved the service from the staff at Newark today. Good service goes along way. I appreciate your preciation Nj ✈️Tampa 🔵🔵🔵
+pert_score --> 10.468547331828873
+sent_score --> 0.8591
+final_score --> 8.993529012774184
+-----------------------------------------
+
+docnum --> 1843
+handle --> United
+text --> @united doesn't purchasing ticket with a united card give me priority boarding ?
+pert_score --> 10.761024747932211
+sent_score --> 0.6808
+final_score --> 7.326105648392249
+-----------------------------------------
+
+docnum --> 5627
+handle --> Southwest
+text --> Thank you for your help, Shannon! Great customer service, @SouthwestAir.
+pert_score --> 8.12249246458784
+sent_score --> 0.8622
+final_score --> 7.003213002967635
+-----------------------------------------
+
+docnum --> 3607
+handle --> United
+text --> @United should find a way to distinguish boarding of premier members and credit card holders. Group 2 is too big!
+pert_score --> 9.424651062342004
+sent_score --> 0.69
+final_score --> 6.503009233015982
+-----------------------------------------
+
+docnum --> 9901
 handle --> US Airways
-r1 --> 1
-r10 --> 0
-r2 --> 0
-r3 --> 0
-r4 --> 1
-r5 --> 0
-r6 --> 0
-r7 --> 0
-r8 --> 0
-r9 --> 0
-text --> @USAirways #usairways lost a passenger today for not upholding their promise of excellent customer service!!!
-pert_score --> 0.0
-sent_score --> 0.3213
+text --> @USAirways please help! No bags, no way to get through to customer service since 8AM this morning! Help!!
+pert_score --> 7.23263973844491
+sent_score --> 0.8204
+final_score --> 5.933657641420204
+-----------------------------------------
+
+docnum --> 11461
+handle --> US Airways
+text --> @USAirways yes and our flight attendant (who is wonderful btw) secured the tray table so it's not flailing about. http://t.co/JhXWMuTx4G
+pert_score --> 6.699304833904382
+sent_score --> 0.8442
+final_score --> 5.655553140782079
+-----------------------------------------
+
+docnum --> 4933
+handle --> Southwest
+text --> @SouthwestAir Thanks. 436. Only a minor delay so not a big deal. :)Appreciate the concern though. Boarding now. You do have amazing service!
+pert_score --> 6.700807771379509
+sent_score --> 0.8122
+final_score --> 5.4423960719144375
+-----------------------------------------
+
+docnum --> 1084
+handle --> United
+text --> @united Would be helpful if you could refresh boarding time info on boarding passes for delayed flights
+pert_score --> 9.385717893156077
+sent_score --> 0.5719
+final_score --> 5.36769206309596
+-----------------------------------------
+
+docnum --> 583
+handle --> United
+text --> @united @getmeontop 7 WEEKS Late FlightR AND I STILL HAVE NOT RECEIVED MY MILES FROM THE MileagePlus Gift Card $150 STARBUCKS CARD I HANDED OVER!!!
+pert_score --> 6.92579464078578
+sent_score --> 0.7633
+final_score --> 5.286459049311786
+-----------------------------------------
+
+docnum --> 11266
+handle --> US Airways
+text --> @USAirways any plans to support #ApplePay on board? I have the USAirways MC and it would be nice to still use it if I forget the card.
+pert_score --> 9.424651062342004
+sent_score --> 0.5574
+final_score --> 5.2533005021494334
+-----------------------------------------
+
+docnum --> 2954
+handle --> United
+text --> @united yes to three different checkers along the walk to the plane. Overkill
+pert_score --> 7.7901199825779175
+sent_score --> 0.6705
+final_score --> 5.2232754483184936
+-----------------------------------------
+
+docnum --> 9477
+handle --> US Airways
+text --> .@USAirways Can't book a flight online or over the phone. Your customer service is usually great -- anything you can do to help?
+pert_score --> 6.561408798885075
+sent_score --> 0.7783
+final_score --> 5.106744468172254
+-----------------------------------------
+
+docnum --> 614
+handle --> United
+text --> @united on 768 to Logan - boarding gong show due to lax carry on enforcement. Bins full of coats = no room for bags. U need a better system!
+pert_score --> 8.234935953518065
+sent_score --> 0.5848
+final_score --> 4.815790545617364
+-----------------------------------------
+
+docnum --> 1527
+handle --> United
+text --> @united we still need help. Hung up on twice. Customer service rep said there is no way to help between the gate rep and phone rep.
+pert_score --> 6.594446445333516
+sent_score --> 0.7184
+final_score --> 4.737450326327599
+-----------------------------------------
+
+docnum --> 2886
+handle --> United
+text --> @united Are the current on board food menus available anywhere online?
+pert_score --> 11.141162901726466
+sent_score --> 0.4215
+final_score --> 4.696000163077705
+-----------------------------------------
+
+docnum --> 5622
+handle --> Southwest
+text --> @southwestair How can I refer a friend for the Southwest Credit card for points?
+pert_score --> 6.5031643608674585
+sent_score --> 0.7003
+final_score --> 4.5541660019154815
+-----------------------------------------
+
+docnum --> 2474
+handle --> United
+text --> @united I was just calling the Global Services help desk so via phone.
+pert_score --> 6.778481461900429
+sent_score --> 0.6705
+final_score --> 4.544971820204237
+-----------------------------------------
+
+docnum --> 1030
+handle --> United
+text --> .@united For those playing along at home: http://t.co/2b4bDTldX2
+pert_score --> 8.087704952283667
+sent_score --> 0.5574
+final_score --> 4.508086740402916
+-----------------------------------------
+
+docnum --> 1580
+handle --> United
+text --> @united If an award is no longer showing available could it possible become available again?
+pert_score --> 7.186881139782346
+sent_score --> 0.6249
+final_score --> 4.491082024249988
+-----------------------------------------
+
+docnum --> 3364
+handle --> United
+text --> @united how's my refund coming along??
+pert_score --> 8.756724033382161
+sent_score --> 0.4871
+final_score --> 4.265400276660451
+-----------------------------------------
+
+docnum --> 789
+handle --> United
+text --> @united why would they make me share a room?
+pert_score --> 6.925789653650078
+sent_score --> 0.6124
+final_score --> 4.241353583895308
+-----------------------------------------
+
+docnum --> 6181
+handle --> Southwest
+text --> @SouthwestAir TSA Pre isn't showing up on my boarding passes and I've followed all of the steps. Please help.
+pert_score --> 6.864814624156131
+sent_score --> 0.6124
+final_score --> 4.204012475833215
+-----------------------------------------
+
+docnum --> 9279
+handle --> US Airways
+text --> @USAirways  I need to email customer service for help and a question, can you please provide the email address?
+pert_score --> 6.778481461900429
+sent_score --> 0.6124
+final_score --> 4.1511420472678235
+-----------------------------------------
+
+docnum --> 10946
+handle --> US Airways
+text --> @USAirways hi is there somebody avail who can help .....with an refund ? its unbelievable on the phone w US for more than 7 hrs in 4 days
+pert_score --> 7.625691265305692
+sent_score --> 0.5423
+final_score --> 4.135412373175277
+-----------------------------------------
+
+docnum --> 11486
+handle --> US Airways
+text --> @USAirways Is there a way to have someone contact me when you have an agent available? Need help Flight Booking Problems an award flight.
+pert_score --> 7.625691265305692
+sent_score --> 0.5423
+final_score --> 4.135412373175277
+-----------------------------------------
+
+docnum --> 3653
+handle --> United
+text --> @united hello. I'm overseas &amp; my bag is lost. I can't call customer service but can you help me?
+pert_score --> 6.561408798885075
+sent_score --> 0.5859
+final_score --> 3.844329415266765
+-----------------------------------------
+
+docnum --> 3551
+handle --> United
+text --> @united I want a hotel room and a whiskey.
+pert_score --> 7.822223675476809
+sent_score --> 0.4767
+final_score --> 3.728854026099795
+-----------------------------------------
+
+docnum --> 10074
+handle --> US Airways
+text --> @USAirways My hubby has a 5hr layover in DFW fm the cxl'd flt. Pls help get him home sooner if you can! Any room on S/by 2 BWI or PHL today?
+pert_score --> 7.23102165767569
+sent_score --> 0.5093
+final_score --> 3.6827593302542287
+-----------------------------------------
+
+docnum --> 2240
+handle --> United
+text --> @united 6 minutes to boarding at b12 in Ord. No sign of gate agent. A little help?
+pert_score --> 7.773321040093922
+sent_score --> 0.4601
+final_score --> 3.576505010547214
+-----------------------------------------
+
+docnum --> 12401
+handle --> American
+text --> @AmericanAir was hoping for 8A if possible, for some frozen views along the way!
+pert_score --> 7.420895760372385
+sent_score --> 0.4753
+final_score --> 3.527151754904995
+-----------------------------------------
+
+docnum --> 9784
+handle --> US Airways
+text --> @USAirways ur specialist said they would talk to the stewardess about not serving drunks drinks, REALLY how does that help
+pert_score --> 8.705871953964433
+sent_score --> 0.4019
+final_score --> 3.4988899382983054
+-----------------------------------------
+
+docnum --> 6699
+handle --> Southwest
+text --> @SouthwestAir I've been on hold with customer service for over an hour. Can you help?!
+pert_score --> 7.525545027255452
+sent_score --> 0.4574
+final_score --> 3.4421842954666437
+-----------------------------------------
+
+docnum --> 13400
+handle --> American
+text --> @AmericanAir You moved us onto 6.55pm but there is availability on 1.50 and 3.30.   No answer on your phone. Have young children.  HELP!
+pert_score --> 7.081798165419417
+sent_score --> 0.4839
+final_score --> 3.426882132246456
+-----------------------------------------
+
+docnum --> 5017
+handle --> Southwest
+text --> @SouthwestAir will the Daytona 500 be available on free TV?
+pert_score --> 6.563414942132517
+sent_score --> 0.5106
+final_score --> 3.3512796694528633
+-----------------------------------------
+
+docnum --> 13378
+handle --> American
+text --> @AmericanAir they sent her a letter and said they would talk to the stewardess about serving drunks drinks how does that help
+pert_score --> 7.85309536403477
+sent_score --> 0.4019
+final_score --> 3.156159026805574
+-----------------------------------------
+
+docnum --> 2845
+handle --> United
+text --> @united Another terrible experience with United. Discrimination. Delays. And no help from customer service #united #notimpressed
+pert_score --> 6.561408798885075
+sent_score --> 0.4664
+final_score --> 3.0602410637999986
+-----------------------------------------
+
+docnum --> 2234
+handle --> United
+text --> @united do u serve peanuts/nuts on yr flights yr policies r confusing contradictory advice Pls help #Anaphylaxis,will u ask those 2 refrain?
+pert_score --> 8.225177243268606
+sent_score --> 0.3612
+final_score --> 2.9709340202686207
+-----------------------------------------
+
+docnum --> 4696
+handle --> Southwest
+text --> @SouthwestAir easy fix, let the business select actually board 1st, then board the pre-boards...
+pert_score --> 6.730250135529063
+sent_score --> 0.4404
+final_score --> 2.9640021596869994
+-----------------------------------------
+
+docnum --> 5377
+handle --> Southwest
+text --> @SouthwestAir been on hold now for 1 hour 20 minutes with cust service. Can you help?
+pert_score --> 7.258848847596341
+sent_score --> 0.4019
+final_score --> 2.9173313518489694
+-----------------------------------------
+
+docnum --> 13296
+handle --> American
+text --> @AmericanAir @cnnbrk she tried they are not doing anything said they would talk to stewardess about serving drunks drinks how does that help
+pert_score --> 7.238423221194791
+sent_score --> 0.4019
+final_score --> 2.9091222925981866
+-----------------------------------------
+
+docnum --> 4015
+handle --> United
+text --> @united is there a referral program for the Milageplus explorer card?
+pert_score --> 6.7614539739283925
+sent_score --> 0.4215
+final_score --> 2.8499528500108173
+-----------------------------------------
+
+docnum --> 2121
+handle --> United
+text --> @united I'm extremely disappointed w my service for this trip as a #United #MileagePlus Explorer Card holder.
+pert_score --> 9.053714990802757
+sent_score --> 0.2975
+final_score --> 2.6934802097638197
+-----------------------------------------
+
+docnum --> 14005
+handle --> American
+text --> @AmericanAir usually raving about the service to LAX. Your nbr1 and helper can't figure out how to hang a coat and serve a drink. 6F
+pert_score --> 7.802665277049956
+sent_score --> 0.34
+final_score --> 2.652906194196985
+-----------------------------------------
+
+docnum --> 10611
+handle --> US Airways
+text --> @USAirways I don't want a reservation change, just adding a service. Am going public with this to get help.
+pert_score --> 6.561408798885075
+sent_score --> 0.3565
+final_score --> 2.339142236802529
+-----------------------------------------
+
+docnum --> 2585
+handle --> United
+text --> @united so much for being here to help. Very disappointed in your customer service.
+pert_score --> 7.258848847596341
+sent_score --> 0.2748
+final_score --> 1.9947316633194745
+-----------------------------------------
+
+docnum --> 9929
+handle --> US Airways
+text --> @USAirways thanks for the worst customer service on the face of the earth. I loved the 5+ hrs on hold along w 2 Cancelled Flightled flights
+pert_score --> 9.780726275651555
+sent_score --> 0.1779
+final_score --> 1.7399912044384116
+-----------------------------------------
+
+docnum --> 6176
+handle --> Southwest
+text --> @SouthwestAir How do I stop getting credit card apps? I already have a card!
+pert_score --> 8.075693357781997
+sent_score --> 0.1759
+final_score --> 1.4205144616338532
+-----------------------------------------
+
+docnum --> 4942
+handle --> Southwest
+text --> @SouthwestAir promised 4 rooms until Wednesday, (wentook3) and the hotel charged us $79 per room because we had a pink paper needed white?
+pert_score --> 7.375885677301418
+sent_score --> 0.1779
+final_score --> 1.3121700619919223
+-----------------------------------------
+
+docnum --> 9179
+handle --> US Airways
+text --> @USAirways charged my card 11 times for one airline ticket, now card is on security hold
+pert_score --> 7.539229857996341
+sent_score --> 0.1531
+final_score --> 1.15425609125924
+-----------------------------------------
+
+docnum --> 9459
+handle --> US Airways
+text --> @USAirways booked flight 1mnth ago, seat CONFIRMED, small plane arrived and was not allowed to board bcs no seat, horrible service
+pert_score --> 6.515882916910569
+sent_score --> 0.1655
+final_score --> 1.0783786227486993
+-----------------------------------------
+
+docnum --> 7654
+handle --> Delta
+text --> @JetBlue no. Not boarding order. Someone boarded with. Service Animal which a member of my party was allergic to and because the flight was
+pert_score --> 8.326963017742079
+sent_score --> 0.128
+final_score --> 1.065851266270986
+-----------------------------------------
+
+docnum --> 9748
+handle --> US Airways
+text --> @USAirways 1st flight with U.S. Air Plane had mechanical issues. Wait 90 minutes for help from customer service. No help from management
+pert_score --> 6.898395157074805
+sent_score --> 0.1134
+final_score --> 0.782278010812283
+-----------------------------------------
+
+docnum --> 7956
+handle --> Delta
+text --> @JetBlue just called that number and left message. Are you at to pass along message to team too?
+pert_score --> 7.0156977409117856
+sent_score --> 0.0772
+final_score --> 0.5416118655983899
+-----------------------------------------
+
+docnum --> 8492
+handle --> Delta
+text --> @JetBlue I have many allergies and want to know if I can bring an 8oz. bottle of Benadryl on the flight along with my 2 epipens?
+pert_score --> 6.790675525811656
+sent_score --> 0.0772
+final_score --> 0.5242401505926598
+-----------------------------------------
+
+docnum --> 4702
+handle --> Southwest
+text --> @SouthwestAir when can we expect customer service in Dallas to be available
+pert_score --> 10.820165502119504
+sent_score --> 0.0
 final_score --> 0.0
 -----------------------------------------
 
-docnum --> 41
+docnum --> 6721
 handle --> Southwest
-r1 --> 1
-r10 --> 0
-r2 --> 0
-r3 --> 1
-r4 --> 1
-r5 --> 0
-r6 --> 0
-r7 --> 1
-r8 --> 0
-r9 --> 0
-text --> @SouthwestAir Customer service said it was a known problem that they were using same confirmation numbers for domestic and international
-pert_score --> 0.0
+text --> “@SouthwestAir:Southwest mobile boarding passes now available in iOS Passbook! http://t.co/xmRvR4lGEg http://t.co/wJoc9f14SU”@tori_leggieri
+pert_score --> 8.535839105941873
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8515
+handle --> Delta
+text --> @JetBlue I'll pass along the advice. You guys rock!!
+pert_score --> 8.408928600765728
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 7785
+handle --> Delta
+text --> @JetBlue send more service agents so all the stranded passengers can be helped!!!🆘🆘🆘🆘🆘🆘🆘🆘🆘🆘🆘🆘🆘🆘
+pert_score --> 7.258848847596341
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8652
+handle --> Delta
+text --> @JetBlue @Cinnabon the two of you should team up to serve cinnabons on the flights!!!! #BonsInTheSky
+pert_score --> 6.94188807189273
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 11338
+handle --> US Airways
+text --> @USAirways my TSA precheck isn't showing up on my boarding pass for my flight tomorrow...help!? #USAirways #TSAPreCheck
+pert_score --> 6.864814624156131
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 6345
+handle --> Southwest
+text --> @SouthwestAir when will you have flights for October 2015 available?
+pert_score --> 6.846591722818825
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 10762
+handle --> US Airways
+text --> @USAirways It's a debit card, but I am a Dividend member.
+pert_score --> 6.7614539739283925
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8649
+handle --> Delta
+text --> @JetBlue can I get some more leg room tonight B6 304
+pert_score --> 6.670957050775773
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8967
+handle --> US Airways
+text --> @USAirways and when will one of these agents be available to speak?
+pert_score --> 6.563414942132517
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 13671
+handle --> American
+text --> @AmericanAir Can you check on he status of my EXP membership card? Need the physical card to access some international lounges soon.
+pert_score --> 6.545926395412189
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 1142
+handle --> United
+text --> @united only thing confusing me is why I lost priority boarding? I'm a mileage plus card member 😔
+pert_score --> 9.726597242862209
+sent_score --> -0.0258
+final_score --> -0.25094620886584496
+-----------------------------------------
+
+docnum --> 783
+handle --> United
+text --> @united seriously #fail on making strangers share a room
+pert_score --> 7.2008648986411306
+sent_score --> -0.0516
+final_score --> -0.37156462876988233
+-----------------------------------------
+
+docnum --> 14462
+handle --> American
+text --> @AmericanAir HELP NEEDED ! #complaint ticketed passenger with no available seats scheduled to leave Late Flightr today
+pert_score --> 6.813549917320336
+sent_score --> -0.1177
+final_score --> -0.8019548252686035
+-----------------------------------------
+
+docnum --> 5232
+handle --> Southwest
+text --> @SouthwestAir My son's flight was Cancelled Flightled today. I was on hold 2+ hours to no avail. Can you help me rebook?
+pert_score --> 7.625691265305692
+sent_score --> -0.128
+final_score --> -0.9760884819591286
+-----------------------------------------
+
+docnum --> 11514
+handle --> US Airways
+text --> @USAirways so the seat next to me (19B) on flight 1943 to Seattle has a tray table that is falling off... http://t.co/HAJ5lKqjW4
+pert_score --> 6.699304833904382
+sent_score --> -0.1531
+final_score --> -1.025663570070761
+-----------------------------------------
+
+docnum --> 1624
+handle --> United
+text --> “@united: @rikrik__ What made you come to this? Can we help you with anything? ^JP” the service just hasn't been great.
+pert_score --> 6.561408798885075
+sent_score --> -0.2392
+final_score --> -1.5694889846933098
+-----------------------------------------
+
+docnum --> 2982
+handle --> United
+text --> @united: Worse - headed to LaGuardia (delayed).  Why is the tray table the size of a mouse pad and the overhead the size on my pocket?
+pert_score --> 6.895318173756368
+sent_score --> -0.296
+final_score --> -2.041014179431885
+-----------------------------------------
+
+docnum --> 11280
+handle --> US Airways
+text --> @USAirways : its just a very bad customer service experience// can you help
+pert_score --> 7.525545027255452
+sent_score --> -0.2716
+final_score --> -2.043938029402581
+-----------------------------------------
+
+docnum --> 73
+handle --> Virgin America
+text --> @VirginAmerica your airline is awesome but your lax loft needs to step up its game. $40 for dirty tables and floors? http://t.co/hy0VrfhjHt
+pert_score --> 6.514127605529114
+sent_score --> -0.3182
+final_score --> -2.072795404079364
+-----------------------------------------
+
+docnum --> 12344
+handle --> American
+text --> @AmericanAir Customer service provides no wiggle room to change flight without a $200 change fee. @southwest has always been accommodating.
+pert_score --> 7.765431994715179
+sent_score --> -0.296
+final_score --> -2.298567870435693
+-----------------------------------------
+
+docnum --> 448
+handle --> Virgin America
+text --> @VirginAmerica All of group E was told there was no more room in the bins. when I got on the plane, was room for at least 4 bags in my row!
+pert_score --> 6.95166501247017
+sent_score --> -0.3595
+final_score --> -2.499123571983026
+-----------------------------------------
+
+docnum --> 9427
+handle --> US Airways
+text --> @USAirways So you understand why I'm resorting to Twitter: No help available at  gate while this occurred or by phone afterward.
+pert_score --> 8.099002546105766
+sent_score --> -0.3089
+final_score --> -2.501781886492071
+-----------------------------------------
+
+docnum --> 5060
+handle --> Southwest
+text --> @SouthwestAir I'm running out of money to keep paying for hotel rooms &amp; food in NYC. You don't help people with $ spent
+pert_score --> 8.287319645245386
+sent_score --> -0.3089
+final_score --> -2.5599530384162996
+-----------------------------------------
+
+docnum --> 750
+handle --> United
+text --> @united you are offering us 8 rooms for 32 people #FAIL
+pert_score --> 7.498694508278597
+sent_score --> -0.347
+final_score --> -2.602046994372673
+-----------------------------------------
+
+docnum --> 1805
+handle --> United
+text --> @united Boston is all self service. Swipe yr own boarding pass at gate. Most difficult: Tag your own bag. Not easy! #ImproveTheProcess
+pert_score --> 6.515882916910569
+sent_score --> -0.4001
+final_score --> -2.607004755055919
+-----------------------------------------
+
+docnum --> 7784
+handle --> Delta
+text --> @JetBlue we want room and food allowances. Agents are refusing to give us vouchers to use at rooms we book ourselves.
+pert_score --> 8.029186600480728
+sent_score --> -0.34
+final_score --> -2.7299234441634477
+-----------------------------------------
+
+docnum --> 9771
+handle --> US Airways
+text --> @USAirways Really a letter that says you will discuss serving drunks more drinks that doesn't help the current situation
+pert_score --> 9.54254790909049
+sent_score --> -0.3089
+final_score --> -2.947693049118053
+-----------------------------------------
+
+docnum --> 13344
+handle --> American
+text --> @AmericanAir I had to pay extra $$ cos that flight was "no longer available" just because it wouldn't accept my US Card for a 1 way into NYC
+pert_score --> 8.008294306018378
+sent_score --> -0.3786
+final_score --> -3.031940224258558
+-----------------------------------------
+
+docnum --> 5614
+handle --> Southwest
+text --> Includes @KCIAirport “@SouthwestAir: Inclement weather may impact scheduled service in. ReFlight Booking Problems options available: http://t.co/KeyrpFlHil”
+pert_score --> 7.657430610180556
 sent_score --> -0.4019
-final_score --> -0.0
+final_score --> -3.077521362231565
+-----------------------------------------
+
+docnum --> 1117
+handle --> United
+text --> @united How do I formally complain about your customer service handler who misconnected me. I was denied boarding &amp; I now lost my bag. Help!
+pert_score --> 8.621101535143312
+sent_score --> -0.3595
+final_score --> -3.0992860018840207
+-----------------------------------------
+
+docnum --> 5440
+handle --> Southwest
+text --> @SouthwestAir how often are airplane seats/tray tables cleaned and sanitized? rather have air purifier and clean seats than #wifi 😷😱
+pert_score --> 6.895318173756368
+sent_score --> -0.4767
+final_score --> -3.286998173429661
+-----------------------------------------
+
+docnum --> 12738
+handle --> American
+text --> @AmericanAir needs an entire customer service overhaul @Delta would never treat its customers with anything less that A1 service
+pert_score --> 11.406251419900133
+sent_score --> -0.3089
+final_score --> -3.5233910636071513
+-----------------------------------------
+
+docnum --> 8154
+handle --> Delta
+text --> @JetBlue the slowest boarding process I've ever experienced and rude customer service agents.
+pert_score --> 7.809267364178687
+sent_score --> -0.4588
+final_score --> -3.5828918666851814
+-----------------------------------------
+
+docnum --> 2976
+handle --> United
+text --> @united I will be calling customer service. 2 delayed flights today now, luggage misplaced, a disaster across the board.
+pert_score --> 7.55913316750118
+sent_score --> -0.4939
+final_score --> -3.733455871428833
+-----------------------------------------
+
+docnum --> 6865
+handle --> Delta
+text --> @JetBlue I spent an hour on the phone with customer service only to find out that they can't help. Need help with family pooling asap.
+pert_score --> 7.23263973844491
+sent_score --> -0.5448
+final_score --> -3.9403421295047867
+-----------------------------------------
+
+docnum --> 7420
+handle --> Delta
+text --> @JetBlue of my tray table is broken what do i do?
+pert_score --> 9.002544305767508
+sent_score --> -0.4767
+final_score --> -4.291512870559371
+-----------------------------------------
+
+docnum --> 7773
+handle --> Delta
+text --> @JetBlue we tried. They're not at all helpful. Terrible customer service, at this airport, at least.
+pert_score --> 6.778481461900429
+sent_score --> -0.6632
+final_score --> -4.495488905532365
+-----------------------------------------
+
+docnum --> 12930
+handle --> American
+text --> @AmericanAir the worst first class boarding service I ever had.
+pert_score --> 8.355147187949143
+sent_score --> -0.6249
+final_score --> -5.221131477749419
+-----------------------------------------
+
+docnum --> 11405
+handle --> US Airways
+text --> @USAirways the voucher you give us for a hotel is useless you call the number they say no rooms available what do you expect me to do?
+pert_score --> 9.675560362776881
+sent_score --> -0.5719
+final_score --> -5.533452971472098
+-----------------------------------------
+
+docnum --> 6596
+handle --> Southwest
+text --> @SouthwestAir Your onboard wifi is so bad it's taking me 20 minutes to send this tweet.  Working is off the table. #disappointed
+pert_score --> 6.895318173756368
+sent_score --> -0.822
+final_score --> -5.667951538827734
+-----------------------------------------
+
+docnum --> 4704
+handle --> Southwest
+text --> @SouthwestAir My bags are on the way to Chicago, without me! Help! I was confirmed for 2 flights and told there isn't room and I'm screwed.
+pert_score --> 8.287319645245386
+sent_score --> -0.722
+final_score --> -5.983444783867169
+-----------------------------------------
+
+docnum --> 10029
+handle --> US Airways
+text --> @USAirways your mobile app is horrible!  Needs a major overhaul
+pert_score --> 10.43864941146881
+sent_score --> -0.5848
+final_score --> -6.10452217582696
+-----------------------------------------
+
+docnum --> 12421
+handle --> American
+text --> @AmericanAir Horrible service @loganairports. Luggage got destroyed on flight and woman at baggage service was so rude. Didn't help at all.
+pert_score --> 6.884761900129748
+sent_score --> -0.9199
+final_score --> -6.333292471929355
+-----------------------------------------
+
+docnum --> 10116
+handle --> US Airways
+text --> @USAirways this is the worst customer service I have ever had. Rebooked to tues but seat available on mon. Wtf. Contact me.
+pert_score --> 7.657430610180556
+sent_score --> -0.8294
+final_score --> -6.351072948083753
 -----------------------------------------
 
