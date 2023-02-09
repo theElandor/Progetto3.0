@@ -16,7 +16,6 @@ db = dd.Database('./csv/airline.csv')
 db.fillDb()
 # Selezione dei campi da indicizzare.
 db.filterFields('handle','text')
-db.getSample(50, ods=True, csv=True)
 
 
 # Creazione dello schema per l'indice Whoosh.
