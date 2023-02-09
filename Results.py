@@ -17,7 +17,7 @@ class Results:
 
 
     def __init__(self, tool_name, sentiment, results, textual_field = "text",
-                 ranking_fun = "naive"):
+                 ranking_fun = "weighted_avg"):
         """
         Costruttore di classe.
         :param tool_name:       str, nome del tool di sentiment analysis.
@@ -73,7 +73,7 @@ class Results:
     def ordered(self):
         return self._ordered
     
-
+    
     def __select_tool(self, tool_name):
         """
         Seleziona un tool per sentiment analysis e lo imposta come attributo
@@ -136,13 +136,17 @@ class Results:
         elif ranking_fun == "weighted_avg":
             def ranking_calc(a, b, wa = 0.6, wb = 0.4):
                 return a * wa + b * wb
+        elif ranking_fun == "balanced_weighted_avg":
+            def ranking_calc(a, b, wa = 0.6, wb = 0.4):
+                return (a/max_pert) * wa + b * wb            
         else:
             raise ValueError("Funzione di ranking inserita non supportata.")
 
         # Applica la funzione di ranking selezionata per il calcolo del ranking
         # complessivo.
+        max_pert = max([i["pert_score"] for i in self._ordered])
+        print(max_pert)
         for i in self._ordered:
-            # Formula di calcolo predefinita (work-in-progress).
             final_score = ranking_calc(i["pert_score"], i["sent_score"])
             i.update({"final_score" : final_score})
 
