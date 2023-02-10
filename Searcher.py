@@ -139,8 +139,15 @@ class Searcher:
         """
         # Imposta la query come attributo di istanza.
         self._raw_query = raw_query
+        # Forza la non-espansione della query con thesaurus se si tratta di una
+        # ricerca in prossimità.
+        if raw_query[0] == '"' and raw_query[-1] == '"':
+            expand = False
         # Se opportuno, espande la query con sinonimi. Dopodiché esegue parsing.
         if expand:
+            # Per cercare i sinonimi delle forme basi dei vocaboli nella query:
+            # words = [stem(i) for i in raw_query.split()]
+            # Per cercare i sinonimi dei vocaboli nella query:
             words = [i for i in raw_query.split()]
             synonyms = [j for i in words for j in self._thesaurus.synonyms(i)]            
             words.extend(synonyms)
