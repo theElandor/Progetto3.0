@@ -138,14 +138,18 @@ class Results:
                 return a * wa + b * wb
         elif ranking_fun == "balanced_weighted_avg":
             def ranking_calc(a, b, wa = 0.6, wb = 0.4):
-                return (a/max_pert) * wa + b * wb            
+                max_pert = max([i["pert_score"] for i in self._ordered])
+                # Se il valore massimo di pertinenza è 0, lo si setta ad un
+                # valore default = 1000, per abbattere il primo addendo ed
+                # evitare divisione per 0.
+                if max_pert == 0:
+                    max_pert = 1000
+                return (a / max_pert) * wa + b * wb
         else:
             raise ValueError("Funzione di ranking inserita non supportata.")
 
         # Applica la funzione di ranking selezionata per il calcolo del ranking
         # complessivo.
-        max_pert = max([i["pert_score"] for i in self._ordered])
-        print(max_pert)
         for i in self._ordered:
             final_score = ranking_calc(i["pert_score"], i["sent_score"])
             i.update({"final_score" : final_score})

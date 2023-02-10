@@ -87,7 +87,7 @@ for k, v in queries.items():
         # Per variare funzione di ranking aggiungere ranking_fun = "template"
         # come parametro, al costruttore di Results. Supportate: naive
         # (default), "weighted_avg".
-        r = Results("Vader", "compound", res)
+        r = Results("Vader", "compound", res, ranking_fun = "balanced_weighted_avg")
         # Calcolo del ranking ottimale per la NDCG.
         optimal_ranking = sorted(r.ordered, key = lambda d: d[k], reverse = True)
         dcg = count_dcg(r.ordered, k)

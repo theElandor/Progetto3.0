@@ -6,6 +6,7 @@ from whoosh.fields import *
 from Misc import *
 from whoosh.lang.wordnet import Thesaurus
 from whoosh import scoring
+from whoosh.lang.porter import stem
 
 
 class Searcher:
@@ -25,9 +26,9 @@ class Searcher:
         :param scoring_fun: str, "BM25F" di default, nome del sistema di scoring
                             da applicare.
         """
-        self.__open_index(idx_dir)      # Apertura dell'indice.
-        self.__open_thesaurus(thes_dir) # Apertura del thesaurus.
-        self.__make_parser(*fields)     # Creazione del QueryParser.
+        self.__open_index(idx_dir)          # Apertura dell'indice.
+        self.__open_thesaurus(thes_dir)     # Apertura del thesaurus.
+        self.__make_parser(*fields)         # Creazione del QueryParser.
         self.__make_searcher(scoring_fun)   # Creazione dell'index searcher.
 
 
@@ -143,6 +144,7 @@ class Searcher:
             words = [i for i in raw_query.split()]
             synonyms = [j for i in words for j in self._thesaurus.synonyms(i)]            
             words.extend(synonyms)
+            print(words)
             expanded_query = " ".join(words)
             query = self._parser.parse(expanded_query)
         else:
@@ -200,7 +202,7 @@ class Searcher:
                     # Crea i suggerimenti.
                     suggestions = self._searcher.suggest(
                         field,
-                        word,
+                        stem(word),
                         limit = suggestions_limit,
                         maxdist = max_edit_distance
                     )
