@@ -1,4 +1,4 @@
-import Database as dd
+import Main.Database as dd
 from transformers import pipeline
 from tqdm import tqdm
 

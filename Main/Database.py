@@ -1,14 +1,14 @@
 import csv
 import time
-import Tweet as tt
-import IndexGenerator as ig
+import Main.Tweet as tt
+import Main.IndexGenerator as ig
 from whoosh.fields import SchemaClass, TEXT, KEYWORD, ID, STORED
 from whoosh.fields import *
 from whoosh.analysis import StemmingAnalyzer
 import random
 import copy
-from OdsPrinter import OdsPrinter
-from CsvPrinter import CsvPrinter
+from Printers.OdsPrinter import OdsPrinter
+from Printers.CsvPrinter import CsvPrinter
 
 class Database:
     """Classe che processa il file csv fornito come parametro al costruttore."""

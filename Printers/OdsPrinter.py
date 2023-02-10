@@ -2,7 +2,7 @@ from collections import OrderedDict
 from pathlib import Path
 from pyexcel_ods3 import save_data
 from collections import OrderedDict
-from AbstractPrinter import AbstractPrinter
+from Printers.AbstractPrinter import AbstractPrinter
 
 class OdsPrinter(AbstractPrinter):
     """

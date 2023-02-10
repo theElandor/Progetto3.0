@@ -7,12 +7,12 @@ import os
 import re
 import string
 from wordcloud import WordCloud, STOPWORDS
-import Database as dd
-import IndexGenerator as ig
+import Main.Database as dd
+import Main.IndexGenerator as ig
 from whoosh.fields import *
 from whoosh.analysis import StemmingAnalyzer
-from Results import Results
-from Searcher import Searcher
+from Main.Results import Results
+from Main.Searcher import Searcher
 import time
 from PIL import Image
 # -----------------GENERAZIONE INDICE----------------
@@ -52,7 +52,7 @@ q = "customer service"
 s = Searcher("handle", "text")
 res = s.submit_query(q, results_threshold = 500)
 r = Results("Vader", "positive", res, ranking_fun = "balanced_weighted_avg")
-r.printResults(s, "wordcloud/output_positive.ods")
+r.printResults(s, "Wordclouds/output_positive.ods")
 text = ""
 threshold = 0.2 # noise is reduced by a lot, considering only the tweets where sentiment is relevant
 for tweet in r._ordered:
@@ -65,4 +65,4 @@ text = text.replace("united", "")
 text = text.replace("SouthwestAir", "")
 text = text.replace("JetBlue", "")
 text = text.replace("AmericanAir", "")
-create_wordcloud(text, "wordcloud/wcl_positive.png")
+create_wordcloud(text, "Wordclouds/wcl_positive.png")

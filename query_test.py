@@ -6,8 +6,8 @@ sentiment. Viene infine fatta una stampa su file di testo.
 La procedura è ripetuta per una seconda query, differente dalla prima.
 """
 
-from Results import Results
-from Searcher import Searcher
+from Main.Results import Results
+from Main.Searcher import Searcher
 
 q=input("inserire query: ")
 

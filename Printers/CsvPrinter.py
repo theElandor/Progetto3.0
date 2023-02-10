@@ -1,5 +1,5 @@
 from pathlib import Path
-from AbstractPrinter import AbstractPrinter
+from Printers.AbstractPrinter import AbstractPrinter
 import csv
 
 class CsvPrinter(AbstractPrinter):

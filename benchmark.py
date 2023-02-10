@@ -3,8 +3,8 @@ SEPARATOR = "\n-----------------\n"
 
 # Parte 1: costruzione dell'indice da un campione casuale preso dal corpora.
 # Import necessari.
-import Database as dd
-import IndexGenerator as ig
+import Main.Database as dd
+import Main.IndexGenerator as ig
 from whoosh.fields import *
 from whoosh.analysis import StemmingAnalyzer
 
@@ -24,7 +24,7 @@ queries = {
     }
 
 # Costruzione della struttura dati Database.
-db = dd.Database("sample.csv")
+db = dd.Database("./samples/dcg_sample.csv")
 db.fillDb()
 fields = ["handle", "text"]
 fields.extend(list(queries.keys()))
@@ -53,8 +53,8 @@ ix.fillIndex()
 # Parte 2: sottomissione delle query all'indice precedentemente costruito,
 # estrazione dei risultati e valutazione del sistema di IR tramite DCG.
 # Import necessari.
-from Results import Results
-from Searcher import Searcher
+from Main.Results import Results
+from Main.Searcher import Searcher
 import math
 from functools import reduce
 
@@ -110,10 +110,6 @@ for k, v in queries.items():
               "; valore NDCG: 0 \t NESSUN RISULTATO"
               )
     finally:
-        print("----------DEBUG--------------")
-        for element in optimal_ranking:
-            print(element)
-        print("----------DEBUG--------------")
         with open("./sample_results/query" + str(counter) + ".txt", "w") as f:
             for element in r.ordered:
                 f.write(str(element) + "\n" + SEPARATOR)
@@ -153,5 +149,5 @@ def custom_plot(data, parameter, file_name):
 
 
 # Stampa dei grafici.
-custom_plot(dcg_data, "DCG", "dcg.png")
-custom_plot(ndcg_data, "NDCG", "ndcg.png")
+custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg.png")
+custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg.png")

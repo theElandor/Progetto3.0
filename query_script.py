@@ -6,16 +6,11 @@ sentiment. Viene infine fatta una stampa su file di testo.
 La procedura è ripetuta per una seconda query, differente dalla prima.
 """
 
-from Results import Results
-from Searcher import Searcher
+from Main.Results import Results
+from Main.Searcher import Searcher
 
 
 s = Searcher("handle", "text")
-res = s.submit_query("american airline")
+res = s.submit_query("bad weather")
 r = Results("Vader", "compound", res)
-r.printResults(s, "output.txt") 
-
-
-res2 = s.submit_query("service on board")
-r2 = Results("Vader", "compound", res2)
-r2.printResults(s, "output2.ods")
+r.printResults(s, "output.txt")

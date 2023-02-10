@@ -1,0 +1,812 @@
+ __| |_________________| |__
+(__| |_________________| |__)
+   | |  Query Results  | |
+ __| |_________________| |__
+(__|_|_________________|_|__)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Query:  bad weather 
+Numero di risultati:  100 
+Sentiment:  compound
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+docnum --> 4
+handle --> Virgin America
+text --> @VirginAmerica and it's a really big bad thing about it
+pert_score --> 13.563776678488749
+sent_score --> -0.5829
+final_score --> 7.905106007093249
+-----------------------------------------
+
+docnum --> 4260
+handle --> United
+text --> @united is Late Flight again.  Everyone braved the weather and 40 passengers are waiting for a flight crew.  Really!
+pert_score --> 12.63206103180448
+sent_score --> 0.7177
+final_score --> 7.866316619082687
+-----------------------------------------
+
+docnum --> 6441
+handle --> Southwest
+text --> @SouthwestAir there... from my first interaction with your people this morning, after bad weather, sorry but I wont be flying with you again
+pert_score --> 13.026215779675995
+sent_score --> -0.34
+final_score --> 7.679729467805597
+-----------------------------------------
+
+docnum --> 11635
+handle --> US Airways
+text --> @USAirways bad weather shouldn't mean bad service
+pert_score --> 12.39774368006617
+sent_score --> -0.1655
+final_score --> 7.372446208039702
+-----------------------------------------
+
+docnum --> 10303
+handle --> US Airways
+text --> @USAirways Need help with a flight. Weather + funeral = tough combination. On hold for over an hour. Please?
+pert_score --> 11.567372112382275
+sent_score --> 0.25
+final_score --> 7.0404232674293645
+-----------------------------------------
+
+docnum --> 12952
+handle --> American
+text --> @AmericanAir #AATeam thanks for working in very rigorous weather conditions for all
+pert_score --> 11.287263928063359
+sent_score --> 0.1298
+final_score --> 6.824278356838015
+-----------------------------------------
+
+docnum --> 805
+handle --> United
+text --> @united My post was just more of disappointment.  I'm a frequent United flyer, it was a simple ??.  1 bad apple doesn't spoil the bunch.
+pert_score --> 11.445562079992603
+sent_score --> -0.4288
+final_score --> 6.695817247995562
+-----------------------------------------
+
+docnum --> 10180
+handle --> US Airways
+text --> @USAirways Flight Cancelled Flightled due to "weather conditions" in arrival city. Uh...I don't think so.
+pert_score --> 10.901681202304887
+sent_score --> -0.25
+final_score --> 6.441008721382933
+-----------------------------------------
+
+docnum --> 10416
+handle --> US Airways
+text --> @USAirways I should also add the weather conditions are terrible. Expecting 18 inches of snow. Any advice?
+pert_score --> 10.901681202304887
+sent_score --> -0.4767
+final_score --> 6.350328721382932
+-----------------------------------------
+
+docnum --> 2196
+handle --> United
+text --> @united it was eventually explained that weather conditions too extreme to get luggage off planes. Will be sent on. But I won't be for days!
+pert_score --> 10.167194342702334
+sent_score --> 0.2942
+final_score --> 6.2179966056214
+-----------------------------------------
+
+docnum --> 9011
+handle --> US Airways
+text --> @USAirways any travel advisory coming for the Carolinas?  Bad weather!
+pert_score --> 10.74303645988206
+sent_score --> -0.5848
+final_score --> 6.211901875929235
+-----------------------------------------
+
+docnum --> 14551
+handle --> American
+text --> @AmericanAir @CAexhibitions Sorry in, like, a general way? Or sorry that incompetence/understaffing is compounding weather issues?
+pert_score --> 10.039664077317024
+sent_score --> 0.3094
+final_score --> 6.147558446390214
+-----------------------------------------
+
+docnum --> 9199
+handle --> US Airways
+text --> @USAirways cust svc means nothing! So disappointed. Trying since 730a to speak to a human I get bad weather not bad service. #socialtantrum
+pert_score --> 9.584522414351687
+sent_score --> 0.4321
+final_score --> 5.9235534486110115
+-----------------------------------------
+
+docnum --> 2218
+handle --> United
+text --> @united #customerservice at @Dulles_Airport could not be worse. I get the bad weather, but this is awful.
+pert_score --> 10.20352612039004
+sent_score --> -0.5534
+final_score --> 5.900755672234023
+-----------------------------------------
+
+docnum --> 6742
+handle --> Southwest
+text --> @SouthwestAir We have been stuck in SJU for several hours and no one is answering here. Really tough to LUV SW. No response is bad.
+pert_score --> 10.341919629203886
+sent_score --> -0.8655
+final_score --> 5.858951777522332
+-----------------------------------------
+
+docnum --> 12240
+handle --> American
+text --> @AmericanAir if i want to change my flight due to weather conditions in Dallas this weekend, i should be able to cover change fee with miles
+pert_score --> 9.600271420558594
+sent_score --> 0.0772
+final_score --> 5.791042852335155
+-----------------------------------------
+
+docnum --> 10657
+handle --> US Airways
+text --> @USAirways It says to call. Before connecting, get song, dance about weather. Weather bad 3 days? Called for 2 days before. #wasteoftime
+pert_score --> 9.629270144727194
+sent_score --> -0.5423
+final_score --> 5.5606420868363164
+-----------------------------------------
+
+docnum --> 9376
+handle --> US Airways
+text --> @USAirways please fix your reservations phone system.  The weather/backup could not possibly be bad for 10 days!  #goodgriefpeople
+pert_score --> 8.742312364398492
+sent_score --> 0.6643
+final_score --> 5.511107418639095
+-----------------------------------------
+
+docnum --> 5750
+handle --> Southwest
+text --> @SouthwestAir luxury! Only 40 people on this flight. I'm going to get spoiled.
+pert_score --> 9.15009358128442
+sent_score --> 0.0
+final_score --> 5.490056148770652
+-----------------------------------------
+
+docnum --> 10258
+handle --> US Airways
+text --> @USAirways on hold now over 2 hrs on one phone hung on 5 x on another? How do you reach a person? No weather condition makes this excusable!
+pert_score --> 9.396827204349178
+sent_score --> -0.4122
+final_score --> 5.473216322609506
+-----------------------------------------
+
+docnum --> 12680
+handle --> American
+text --> @AmericanAir Cancelled Flight my flight saying it is cause of weather condition when it was the only flight that was Cancelled Flight
+pert_score --> 9.342736948067417
+sent_score --> -0.4588
+final_score --> 5.42212216884045
+-----------------------------------------
+
+docnum --> 12909
+handle --> American
+text --> @AmericanAir bad weather happens but lack of preparation is inexcusable. Depending on good weather is not a good business model.
+pert_score --> 9.369024160034305
+sent_score --> -0.536
+final_score --> 5.407014496020583
+-----------------------------------------
+
+docnum --> 9164
+handle --> US Airways
+text --> @USAirways  I've never been treated this badly
+pert_score --> 9.374534260762301
+sent_score --> -0.561
+final_score --> 5.40032055645738
+-----------------------------------------
+
+docnum --> 9234
+handle --> US Airways
+text --> @USAirways and @FlyKnoxville - bad weather should not be an excuse for not following established luggage procedures. #NoClothesNoInfo
+pert_score --> 9.320823227479556
+sent_score --> -0.575
+final_score --> 5.362493936487734
+-----------------------------------------
+
+docnum --> 12303
+handle --> American
+text --> @AmericanAir Thanks guys got some sleep. Hang in there DFW with bad weather.
+pert_score --> 8.997487370684707
+sent_score --> -0.1531
+final_score --> 5.337252422410825
+-----------------------------------------
+
+docnum --> 12426
+handle --> American
+text --> @AmericanAir If you are sorry, answer my claims (AA Ref#1-2990176298, 1-3001885409 and : 1-3001885409) accordingly, without using "weather"
+pert_score --> 8.908575064465339
+sent_score --> -0.0772
+final_score --> 5.314265038679204
+-----------------------------------------
+
+docnum --> 11155
+handle --> US Airways
+text --> @USAirways I'll sincerely regret Dividend miles! Good things coming to an end :(
+pert_score --> 8.716411405244358
+sent_score --> 0.1511
+final_score --> 5.290286843146615
+-----------------------------------------
+
+docnum --> 6970
+handle --> Delta
+text --> @JetBlue We had 2 great flights into and out of the Bahamas, even during the bad weather in the northeast, thanks for the great service!!!
+pert_score --> 8.231507539018114
+sent_score --> 0.8582
+final_score --> 5.282184523410868
+-----------------------------------------
+
+docnum --> 9985
+handle --> US Airways
+text --> @USAirways I sympathize re:weather issues, but when times get tough, call in more folks. Over two hours on hold for 4-minute fix. #FAIL
+pert_score --> 9.146247311558062
+sent_score --> -0.8224
+final_score --> 5.1587883869348365
+-----------------------------------------
+
+docnum --> 11741
+handle --> US Airways
+text --> @USAirways The airline is embarrassing itself. I get that bad weather isn't your fault, but your response to it couldn't have been worse.
+pert_score --> 8.439637609856538
+sent_score --> 0.2287
+final_score --> 5.155262565913922
+-----------------------------------------
+
+docnum --> 7791
+handle --> Delta
+text --> Cool thx! Only a couple more #PGAShow flights til I'm #Mosaic...can't wait. Will be easier to change flights when weathers bad @JetBlue
+pert_score --> 8.231507539018114
+sent_score --> 0.5255
+final_score --> 5.149104523410869
+-----------------------------------------
+
+docnum --> 4691
+handle --> Southwest
+text --> @SouthwestAir I regret not flying you this morning @VirginAmerica doesn't support business travelers. #neverflyvirginforbusiness
+pert_score --> 8.914511664454457
+sent_score --> -0.6197
+final_score --> 5.100826998672674
+-----------------------------------------
+
+docnum --> 6195
+handle --> Southwest
+text --> @SouthwestAir bad weather and multiple Cancelled Flighted flights has us all scared!  Noted for next time.
+pert_score --> 9.022290187304971
+sent_score --> -0.8268
+final_score --> 5.082654112382983
+-----------------------------------------
+
+docnum --> 10149
+handle --> US Airways
+text --> @USAirways My family, friends and colleagues will NEVER  fly USAir again. Bad weather happens. The good airlines seem to communicate better.
+pert_score --> 7.997886113944217
+sent_score --> 0.6597
+final_score --> 5.0626116683665305
+-----------------------------------------
+
+docnum --> 2110
+handle --> United
+text --> @united yo, you need a new website really badly. This day and age...
+pert_score --> 8.529273119713315
+sent_score --> -0.1513
+final_score --> 5.057043871827989
+-----------------------------------------
+
+docnum --> 144
+handle --> Virgin America
+text --> @VirginAmerica you have amazing staff &amp; super helpful as I just ran the @WaltDisneyWorld #PrincessHalf they have spoiled me with comfort!!!
+pert_score --> 7.8063549212256556
+sent_score --> 0.931
+final_score --> 5.056212952735393
+-----------------------------------------
+
+docnum --> 10526
+handle --> US Airways
+text --> @USAirways Yes, it's February. Bad weather happens every winter. If you guys don't have the business sense to forecast that I'm at a loss.
+pert_score --> 8.742312364398492
+sent_score --> -0.4767
+final_score --> 5.054707418639095
+-----------------------------------------
+
+docnum --> 10477
+handle --> US Airways
+text --> @USAirways Thank you!!! This whole crew has rocked through bad weather and diversion. Pilot keeping us well informed. #customerservice
+pert_score --> 8.231507539018114
+sent_score --> 0.2444
+final_score --> 5.0366645234108685
+-----------------------------------------
+
+docnum --> 11571
+handle --> US Airways
+text --> Thanks. “@USAirways: @fispahani Weather disruptions have caused some of our crew to run Late Flight. We're sorry for the delay to your flight.”
+pert_score --> 8.557450245426324
+sent_score --> -0.2732
+final_score --> 5.0251901472557945
+-----------------------------------------
+
+docnum --> 13096
+handle --> American
+text --> @AmericanAir due to road conditions
+pert_score --> 8.3746365973284
+sent_score --> 0.0
+final_score --> 5.02478195839704
+-----------------------------------------
+
+docnum --> 11170
+handle --> US Airways
+text --> @USAirways 1917. Still sitting here. Feels badly handled.
+pert_score --> 8.658314099780572
+sent_score --> -0.4767
+final_score --> 5.0043084598683425
+-----------------------------------------
+
+docnum --> 3501
+handle --> United
+text --> @united rushed through the -6 degree weather to get to the airport on time. Too bad the pilots didn't do the same. #stillwaiting.
+pert_score --> 8.413805062970223
+sent_score --> -0.1779
+final_score --> 4.977123037782134
+-----------------------------------------
+
+docnum --> 2450
+handle --> United
+text --> @united All flights Cancelled Flighted :( Trip refunded without difficulty, staff extremely helpful, no complaints! Way to handle bad weather!
+pert_score --> 7.949151765201727
+sent_score --> 0.4429
+final_score --> 4.946651059121036
+-----------------------------------------
+
+docnum --> 3882
+handle --> United
+text --> @united in other words... sorry, not sorry.  Plenty of other airlines... and I travel A LOT.
+pert_score --> 7.928463071350258
+sent_score --> 0.4063
+final_score --> 4.9195978428101546
+-----------------------------------------
+
+docnum --> 13878
+handle --> American
+text --> @AmericanAir yea no worries. I'm just going home to Denver. Not your fault, weather sucks bad.
+pert_score --> 8.422194698702095
+sent_score --> -0.3421
+final_score --> 4.9164768192212565
+-----------------------------------------
+
+docnum --> 4994
+handle --> Southwest
+text --> @SouthwestAir    Promotion e-mail today (Vegas and Jamaica) has a defective link for the Vegas sweepstakes...it times out with error.
+pert_score --> 8.60270662876746
+sent_score --> -0.6808
+final_score --> 4.889303977260477
+-----------------------------------------
+
+docnum --> 9089
+handle --> US Airways
+text --> @USAirways - Good to know that your phone customer service is still impaired due to "bad weather" that was over a week ago #jetblueanyone?
+pert_score --> 8.231507539018114
+sent_score --> -0.1531
+final_score --> 4.877664523410869
+-----------------------------------------
+
+docnum --> 9067
+handle --> US Airways
+text --> @USAirways Is there a phone line to call into that isn't being affected by "bad weather"? Trying to book a vacation, here... 👀
+pert_score --> 8.231507539018114
+sent_score --> -0.4689
+final_score --> 4.751344523410868
+-----------------------------------------
+
+docnum --> 6917
+handle --> Delta
+text --> @JetBlue Not trying to make you look bad, on your website it says: "Due to weather in the Charleston, NC" Its actually in SC, not NC
+pert_score --> 8.231507539018114
+sent_score --> -0.5423
+final_score --> 4.721984523410868
+-----------------------------------------
+
+docnum --> 5397
+handle --> Southwest
+text --> @SouthwestAir my wife has now been on hold for 90 minutes....I get weather is bad, but this is insane. #customerservice #customerloyalty
+pert_score --> 8.331649763630741
+sent_score --> -0.7003
+final_score --> 4.7188698581784445
+-----------------------------------------
+
+docnum --> 9140
+handle --> US Airways
+text --> @USAirways it's not like I'm trying to leave earlier just for fun. I don't want to get stuck in DC if we have bad weather in RDU.
+pert_score --> 8.231507539018114
+sent_score --> -0.5764
+final_score --> 4.708344523410869
+-----------------------------------------
+
+docnum --> 4581
+handle --> Southwest
+text --> @SouthwestAir can tweet through the weekend/ bad weather, but closes down customer relations center to process refunds for Cancelled Flighted flights.
+pert_score --> 8.174874060053737
+sent_score --> -0.5789
+final_score --> 4.673364436032242
+-----------------------------------------
+
+docnum --> 1486
+handle --> United
+text --> @united I was sincerely thanking the pilot of flight 4461 of braving the snow and getting me home amongst many other Cancelled Flightlations.
+pert_score --> 7.318016648708475
+sent_score --> 0.5994
+final_score --> 4.630569989225085
+-----------------------------------------
+
+docnum --> 12701
+handle --> American
+text --> @AmericanAir she sent you an email 2 customer service the night it happened ur response was basically 2 bad sorry how should she contact u.
+pert_score --> 8.094982218493511
+sent_score --> -0.5859
+final_score --> 4.622629331096107
+-----------------------------------------
+
+docnum --> 6607
+handle --> Southwest
+text --> @SouthwestAir the woman working the counter in philly at 630 this am needs to be fired. Due to bad weather, I along with other passengers
+pert_score --> 8.231507539018114
+sent_score --> -0.7964
+final_score --> 4.620344523410869
+-----------------------------------------
+
+docnum --> 7283
+handle --> Delta
+text --> @JetBlue THANK YOU! I am your new big fan :)
+pert_score --> 7.141906483806771
+sent_score --> 0.8327
+final_score --> 4.618223890284062
+-----------------------------------------
+
+docnum --> 13581
+handle --> American
+text --> @AmericanAir #worstcustservice you should have contingency plans for extra workers during bad weather. 4+ hours hold #ridiculous
+pert_score --> 8.153514962544968
+sent_score --> -0.7184
+final_score --> 4.604748977526981
+-----------------------------------------
+
+docnum --> 7010
+handle --> Delta
+text --> Sorry for unfollowing, @JetBlue
+pert_score --> 7.716606981914132
+sent_score --> -0.0772
+final_score --> 4.5990841891484795
+-----------------------------------------
+
+docnum --> 7399
+handle --> Delta
+text --> @JetBlue if you want to be helpful, find us a seat. Don't quote terms and conditions. #jetbluefail
+pert_score --> 7.323772477414392
+sent_score --> 0.4767
+final_score --> 4.584943486448636
+-----------------------------------------
+
+docnum --> 12580
+handle --> American
+text --> @AmericanAir attended to and corrected my complaints via Twitter. Whoa. This is the brave, new world we live in. Thank you, American Air :)
+pert_score --> 7.101725143457205
+sent_score --> 0.7351
+final_score --> 4.555075086074323
+-----------------------------------------
+
+docnum --> 14483
+handle --> American
+text --> @AmericanAir The bad weather wasn't a surprise! You should have double/triple staff on hand to handle calls. Way to treat your customers.
+pert_score --> 7.441810579086796
+sent_score --> 0.2211
+final_score --> 4.5535263474520775
+-----------------------------------------
+
+docnum --> 12282
+handle --> American
+text --> @AmericanAir Hi guys.I have 2/25 RNO-DFW tomorrow.Plane coming from DFW with bad weather in AM.should I consider Fê-route as I have connect?
+pert_score --> 7.94707581395403
+sent_score --> -0.5423
+final_score --> 4.551325488372418
+-----------------------------------------
+
+docnum --> 9957
+handle --> US Airways
+text --> @usairways @BarclaycardUS 1 hr wait so far for customer service. yes bad weather but do air traffic controllers answer your phones?!??
+pert_score --> 7.777179870088918
+sent_score --> -0.3031
+final_score --> 4.5450679220533505
+-----------------------------------------
+
+docnum --> 767
+handle --> United
+text --> “@united: @Darquenloveli We regret to hear this. Please let us know if you need assistance. ^KN” I was finally able to secure my seat. Thx
+pert_score --> 7.140620725230235
+sent_score --> 0.5754
+final_score --> 4.514532435138141
+-----------------------------------------
+
+docnum --> 3813
+handle --> United
+text --> @united LE2V9D pnr numbered flight. The first leg is Cancelled Flightled due to bad weather in iatanbul. How can i make a reFlight Booking Problems
+pert_score --> 7.949151765201727
+sent_score --> -0.6597
+final_score --> 4.505611059121036
+-----------------------------------------
+
+docnum --> 10872
+handle --> US Airways
+text --> @USAirways delayed I'm charlotte big surprise
+pert_score --> 7.450042127199441
+sent_score --> 0.0516
+final_score --> 4.490665276319665
+-----------------------------------------
+
+docnum --> 4813
+handle --> Southwest
+text --> @SouthwestAir would really like my baggage from yesterday. Employees at Akron giving me a tough time.
+pert_score --> 7.071304088635927
+sent_score --> 0.5709
+final_score --> 4.471142453181556
+-----------------------------------------
+
+docnum --> 2679
+handle --> United
+text --> @united Stuck in Houston because you can't seem to get a plane to the destination on time in perfect flying conditions.
+pert_score --> 6.993815770856674
+sent_score --> 0.6705
+final_score --> 4.464489462514004
+-----------------------------------------
+
+docnum --> 6523
+handle --> Southwest
+text --> @SouthwestAir had to rebook through Atlanta &amp; now drive to #Nashville. Had to pay ridiculous price difference. Bad weather good for business
+pert_score --> 7.777179870088918
+sent_score --> -0.5423
+final_score --> 4.449387922053351
+-----------------------------------------
+
+docnum --> 5626
+handle --> Southwest
+text --> @SouthwestAir  I can go.  I want to badly!!!!   I don't know how to DM.  Can I e-mail you?   Help!!!  wmn4life@hotmail.com
+pert_score --> 7.604557345522741
+sent_score --> -0.3111
+final_score --> 4.438294407313644
+-----------------------------------------
+
+docnum --> 2242
+handle --> United
+text --> @united Can you help me get a flight out tonight to Houston?Just don't want to be stuck here till Monday with all this bad weather moving in
+pert_score --> 7.533181554579986
+sent_score --> -0.2136
+final_score --> 4.434468932747992
+-----------------------------------------
+
+docnum --> 6179
+handle --> Southwest
+text --> @SouthwestAir oops, Sorry, Done,
+pert_score --> 7.368664138540062
+sent_score --> -0.0772
+final_score --> 4.390318483124037
+-----------------------------------------
+
+docnum --> 14290
+handle --> American
+text --> @AmericanAir why don't you have driver service to get employees to work in bad weather like hospitals etc #badmgmt #AmericanAirlines
+pert_score --> 7.441810579086796
+sent_score --> -0.25
+final_score --> 4.365086347452078
+-----------------------------------------
+
+docnum --> 12901
+handle --> American
+text --> @AmericanAir Bad weather is understandable but your own pilot said that over 160 people called out and that ZERO bags are on the plane.
+pert_score --> 7.441810579086796
+sent_score --> -0.3071
+final_score --> 4.342246347452077
+-----------------------------------------
+
+docnum --> 11123
+handle --> US Airways
+text --> @USAirways your app is bad, and you should feel bad.
+pert_score --> 7.744744137056244
+sent_score --> -0.7906
+final_score --> 4.330606482233747
+-----------------------------------------
+
+docnum --> 3261
+handle --> United
+text --> @united And there is no direct phone number for status match desk? I really regret Flight Booking Problems with @united now.
+pert_score --> 7.349546420010565
+sent_score --> -0.2716
+final_score --> 4.301087852006338
+-----------------------------------------
+
+docnum --> 1905
+handle --> United
+text --> @united how are conditions in BOS today? I'm in UA994. Everything appears to be in time but I wanted to check.
+pert_score --> 6.993815770856674
+sent_score --> 0.2263
+final_score --> 4.286809462514004
+-----------------------------------------
+
+docnum --> 8341
+handle --> Delta
+text --> @JetBlue Ever consider coming to Memphis?  Need some TrueBlue service and fares badly!!
+pert_score --> 7.510673921503941
+sent_score --> -0.5696
+final_score --> 4.278564352902365
+-----------------------------------------
+
+docnum --> 8496
+handle --> Delta
+text --> @JetBlue u suck Big Donkey Balls!
+pert_score --> 7.450042127199441
+sent_score --> -0.4926
+final_score --> 4.272985276319664
+-----------------------------------------
+
+docnum --> 11560
+handle --> US Airways
+text --> @USAirways u guys get too much $$$ and too many customers  to be fucking up as badly as u do
+pert_score --> 7.393319641480442
+sent_score --> -0.5209
+final_score --> 4.227631784888265
+-----------------------------------------
+
+docnum --> 14549
+handle --> American
+text --> @AmericanAir @sweetmel If weather is bad, wouldn't your folks try extra hard to communicate...or load bags onto flight 1320...or...anything?
+pert_score --> 7.441810579086796
+sent_score --> -0.5994
+final_score --> 4.225326347452077
+-----------------------------------------
+
+docnum --> 2378
+handle --> United
+text --> @united correct?  What's correct?  Sorry I'm lost
+pert_score --> 6.91274094597279
+sent_score --> 0.1431
+final_score --> 4.204884567583674
+-----------------------------------------
+
+docnum --> 11149
+handle --> US Airways
+text --> @USAirways @americanair I feel sorry for AA
+pert_score --> 7.050745096835768
+sent_score --> -0.0772
+final_score --> 4.199567058101461
+-----------------------------------------
+
+docnum --> 6302
+handle --> Southwest
+text --> @SouthwestAir Ahhhh! Sorry, just followed.
+pert_score --> 7.050745096835768
+sent_score --> -0.1511
+final_score --> 4.1700070581014606
+-----------------------------------------
+
+docnum --> 3711
+handle --> United
+text --> @united's in-flight promo on their TV's includes Brian Williams. Tough to edit that quickly. Not a complaint, just an observation.
+pert_score --> 6.8515468656887375
+sent_score --> 0.0997
+final_score --> 4.1508081194132425
+-----------------------------------------
+
+docnum --> 4660
+handle --> Southwest
+text --> @SouthwestAir done. Sorry, I thought I was already.
+pert_score --> 6.91274094597279
+sent_score --> -0.0772
+final_score --> 4.116764567583674
+-----------------------------------------
+
+docnum --> 12898
+handle --> American
+text --> @AmericanAir Bad weather happens. But not being able to get through to a reservations rep for over 6 hours is just crazy. #frustrated
+pert_score --> 7.441810579086796
+sent_score --> -0.8735
+final_score --> 4.115686347452077
+-----------------------------------------
+
+docnum --> 14361
+handle --> American
+text --> @AmericanAir No one answers phone, delayed/Cancelled Flightled flights. Rude employees. You only get (I'm sorry, we apologize) blah blah blah. Bad
+pert_score --> 7.381393700170476
+sent_score --> -0.8689
+final_score --> 4.081276220102286
+-----------------------------------------
+
+docnum --> 2796
+handle --> United
+text --> @united you are making me miss big snow in Montana. Not cool.
+pert_score --> 6.746175463131648
+sent_score --> 0.0613
+final_score --> 4.072225277878989
+-----------------------------------------
+
+docnum --> 9375
+handle --> US Airways
+text --> @USAirways sorry I didn't realize I wasn't following you
+pert_score --> 6.759124480506728
+sent_score --> -0.0772
+final_score --> 4.024594688304036
+-----------------------------------------
+
+docnum --> 9819
+handle --> US Airways
+text --> @USAirways sorry, we are in Philly. Should've told you that.
+pert_score --> 6.759124480506728
+sent_score --> -0.0772
+final_score --> 4.024594688304036
+-----------------------------------------
+
+docnum --> 6294
+handle --> Southwest
+text --> @SouthwestAir Sorry! Thought I did. It's done now.
+pert_score --> 6.759124480506728
+sent_score --> -0.1511
+final_score --> 3.9950346883040364
+-----------------------------------------
+
+docnum --> 10081
+handle --> US Airways
+text --> @USAirways flight 1735 sitting fully loaded for over an hour. Air conditioning barely working :-(
+pert_score --> 6.838397642615415
+sent_score --> -0.3008
+final_score --> 3.982718585569249
+-----------------------------------------
+
+docnum --> 10388
+handle --> US Airways
+text --> @USAirways My brother &amp; his family stranded in CLT tonight bc gate E36 agent wouldn't hold plane for two minutes. Now driving in bad weather
+pert_score --> 6.8344437206751465
+sent_score --> -0.5423
+final_score --> 3.8837462324050875
+-----------------------------------------
+
+docnum --> 11312
+handle --> US Airways
+text --> @USAirways being told 'tough break and this is how it is' is unacceptable. You can't even tell me when my bags will be here
+pert_score --> 6.80613018531208
+sent_score --> -0.5423
+final_score --> 3.8667581111872478
+-----------------------------------------
+
+docnum --> 13578
+handle --> American
+text --> @AmericanAir got call saying flight Cancelled Flightled but checked online and it isn't Cancelled Flightled. No where near bad weather. I have job interview
+pert_score --> 6.6668618917033875
+sent_score --> -0.423
+final_score --> 3.830917135022032
+-----------------------------------------
+
+docnum --> 1615
+handle --> United
+text --> @united Unfortunately had a bad experience flying with you on Saturday. Inpolite crew, bad delays.
+pert_score --> 6.844588334147011
+sent_score --> -0.765
+final_score --> 3.800753000488206
+-----------------------------------------
+
+docnum --> 512
+handle --> United
+text --> @united I understand, but it's tough when there is no way to get to the airport w/o serious risk of an accident. It's a steep price.
+pert_score --> 6.8515468656887375
+sent_score --> -0.872
+final_score --> 3.7621281194132425
+-----------------------------------------
+
+docnum --> 13115
+handle --> American
+text --> @AmericanAir 249 EWR - DFW is now stopping BNA to refuel 4 bad weather? Are YOU just trying to get the plane closer 2 DFW then Cancelled Flight on us?
+pert_score --> 6.6668618917033875
+sent_score --> -0.755
+final_score --> 3.698117135022032
+-----------------------------------------
+
+docnum --> 10923
+handle --> US Airways
+text --> @USAirways has completely wasted my work day! Thank you for the bad service and bad Friday!
+pert_score --> 6.692486371165966
+sent_score --> -0.8617
+final_score --> 3.6708118226995796
+-----------------------------------------
+

@@ -1,5 +1,5 @@
 import sys
-from AbstractPrinter import AbstractPrinter
+from Printers.AbstractPrinter import AbstractPrinter
 from functools import partial
 from pathlib import Path
 import sys
@@ -31,11 +31,12 @@ class TxtPrinter(AbstractPrinter):
         :param results: Results
         """
         super().__init__(retrieved, query, sentiment)
-        f = Path(__file__).with_name("./frame.txt")
-        s = Path(__file__).with_name("./separator.txt")
-        t = Path(__file__).with_name("./title.txt")
+        # f = Path(__file__).with_name("./frames/frame.txt")
+        # s = Path(__file__).with_name("./frames/separator.txt")
+        # t = Path(__file__).with_name("./frames/title.txt")
         
-        with open(f.absolute(), "r") as frame, open(s.absolute(), "r") as separator, open(t.absolute(), "r") as title:
+        # with open(f.absolute(), "r") as frame, open(s.absolute(), "r") as separator, open(t.absolute(), "r") as title:
+        with open("./frame/title.txt", "r") as title, open("./frame/separator.txt", "r") as separator, open("./frame/frame.txt", "r") as frame:            
             self.frame = frame.read()
             self.separator = separator.read()
             self.title = title.read()        

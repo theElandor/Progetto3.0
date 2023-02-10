@@ -1,4 +1,4 @@
-from SaTool import SaTool
+from Tools.SaTool import SaTool
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 

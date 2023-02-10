@@ -4,8 +4,8 @@ tutto quanto è inerente alla creazione, usando il pacchetto Whoosh, dell'indice
 a partire da un archivio di dati in formato .csv.
 """
 
-import Database as dd
-import IndexGenerator as ig
+import Main.Database as dd
+import Main.IndexGenerator as ig
 from whoosh.fields import *
 from whoosh.analysis import StemmingAnalyzer
 

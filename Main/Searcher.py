@@ -3,7 +3,7 @@ from functools import partial
 from whoosh.index import open_dir
 from whoosh import qparser as qp
 from whoosh.fields import *
-from Misc import *
+from Main.Misc import *
 from whoosh.lang.wordnet import Thesaurus
 from whoosh import scoring
 from whoosh.lang.porter import stem

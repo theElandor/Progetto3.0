@@ -1,4 +1,4 @@
-import Database as dd
+import Main.Database as dd
 from tqdm import tqdm
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 

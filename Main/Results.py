@@ -1,8 +1,8 @@
-from SaToolFactory import SaToolFactory
-from AbstractPrinter import AbstractPrinter
-from TxtPrinter import TxtPrinter
-from OdsPrinter import OdsPrinter
-from CsvPrinter import CsvPrinter
+from Tools.SaToolFactory import SaToolFactory
+from Printers.AbstractPrinter import AbstractPrinter
+from Printers.TxtPrinter import TxtPrinter
+from Printers.OdsPrinter import OdsPrinter
+from Printers.CsvPrinter import CsvPrinter
 from pathlib import Path
 import sys
 
