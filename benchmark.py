@@ -62,7 +62,7 @@ from functools import reduce
 # Creazione del Searcher.
 # Per variare funzione di scoring aggiungere scoring_fun = "template" come
 # parametro, al costruttore di Searcher. Supportate: BM25F (default), PL2.
-s = Searcher("handle", "text", scoring_fun = "PL2")
+s = Searcher("handle", "text", scoring_fun = "TF_IDF")
 
 
 def count_dcg(ordered, field):
@@ -87,7 +87,7 @@ for k, v in queries.items():
         # Per variare funzione di ranking aggiungere ranking_fun = "template"
         # come parametro, al costruttore di Results. Supportate: naive
         # (default), "weighted_avg".
-        r = Results("Vader", "compound", res, ranking_fun = "balanced_weighted_avg")
+        r = Results("Roberta2", "positive", res, ranking_fun = "balanced_weighted_avg")        
         # Calcolo del ranking ottimale per la NDCG.
         optimal_ranking = sorted(r.ordered, key = lambda d: d[k], reverse = True)
         dcg = count_dcg(r.ordered, k)
@@ -149,5 +149,5 @@ def custom_plot(data, parameter, file_name):
 
 
 # Stampa dei grafici.
-custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg.png")
-custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg.png")
+custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg_vader.png")
+custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg_vader.png")
