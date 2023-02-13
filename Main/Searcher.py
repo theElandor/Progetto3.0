@@ -17,13 +17,13 @@ class Searcher:
     """
 
     def __init__(self, *fields, idx_dir = "./Index", thes_dir = "./wn_s.pl",
-        scoring_fun = "BM25F"):
+        scoring_fun = "TF_IDF"):
         """
         Costruttore di classe.
         :param *fields:     str, specificati dall'utente, campi di ricerca.
         :param idx_dir:     str, "./Index" di default, directory dell'indice.
         :param thes_dir:    str, "./wn_s.pl" di default, directory del thesaurus.
-        :param scoring_fun: str, "BM25F" di default, nome del sistema di scoring
+        :param scoring_fun: str, "TF_IDF" di default, nome del sistema di scoring
                             da applicare.
         """
         self.__open_index(idx_dir)          # Apertura dell'indice.
@@ -146,12 +146,11 @@ class Searcher:
         # Se opportuno, espande la query con sinonimi. Dopodiché esegue parsing.
         if expand:
             # Per cercare i sinonimi delle forme basi dei vocaboli nella query:
-            # words = [stem(i) for i in raw_query.split()]
+            words = [stem(i) for i in raw_query.split()]
             # Per cercare i sinonimi dei vocaboli nella query:
-            words = [i for i in raw_query.split()]
+            # words = [i for i in raw_query.split()]
             synonyms = [j for i in words for j in self._thesaurus.synonyms(i)]            
             words.extend(synonyms)
-            print(words)
             expanded_query = " ".join(words)
             query = self._parser.parse(expanded_query)
         else:
