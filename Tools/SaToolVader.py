@@ -30,14 +30,5 @@ class SaToolVader(SaTool):
             return self._analyzer.polarity_scores(text)["neu"]
         elif sentiment == "compound":
             return self._analyzer.polarity_scores(text)["compound"]
-        
-        # match sentiment:
-        #     case "positive":
-        #         return self._analyzer.polarity_scores(text)["pos"]
-        #     case "negative":
-        #         return self._analyzer.polarity_scores(text)["neg"]
-        #     case "neutral":
-        #         return self._analyzer.polarity_scores(text)["neu"]
-        #     case "compound":
-        #         return self._analyzer.polarity_scores(text)["compound"]
+
 

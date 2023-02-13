@@ -2,7 +2,7 @@ from Tools.SaTool import SaTool
 from transformers import pipeline
 
 
-class SaToolRoberta(SaTool):
+class SaToolRoberta2(SaTool):
     """
     Classe che implementa le funzionalità di sentiment analysis del tool
     Roberta. Eredita dalla classe astratta SaTool.
@@ -12,7 +12,7 @@ class SaToolRoberta(SaTool):
         """
         Costruttore per l'analizzatore di Roberta.
         """
-        self.classifier = pipeline("text-classification", return_all_scores = True)
+        self.classifier = pipeline("sentiment-analysis",top_k = None)
 
 
 
@@ -24,11 +24,9 @@ class SaToolRoberta(SaTool):
         :param sentiment:   str, tipo di sentiment da valutare.
         """
         score = self.classifier(text)
-        # "Spacchetta" la struttura dati restituita da pipeline.
         if sentiment == "positive":
-            return self._analyzer.polarity_scores(text)["pos"]
+            print(score[0][0]["score"])
+            return score[0][0]["score"]
         elif sentiment == "negative":
-            return self._analyzer.polarity_scores(text)["neg"]
-        elif sentiment == "neutral":
-            return self._analyzer.polarity_scores(text)["neu"]       
+            return score[0][1]["score"]
 
