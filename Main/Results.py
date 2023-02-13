@@ -17,7 +17,7 @@ class Results:
 
 
     def __init__(self, tool_name, sentiment, results, textual_field = "text",
-                 ranking_fun = "weighted_avg"):
+                 ranking_fun = "balanced_weighted_avg"):
         """
         Costruttore di classe.
         :param tool_name:       str, nome del tool di sentiment analysis.
