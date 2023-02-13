@@ -1,6 +1,7 @@
 from Tools.SaToolExpertAI import SaToolExpertAI
 from Tools.SaToolVader import SaToolVader
 from Tools.SaToolRoberta import SaToolRoberta
+from Tools.SaToolRoberta2 import SaToolRoberta2
 
 
 class SaToolFactory:
@@ -12,7 +13,8 @@ class SaToolFactory:
     _tool_sentiments = {
         "ExpertAI"  : ("positive", "negative", "overall"),
         "Vader"     : ("positive", "negative", "neutral", "compound"),
-        "Roberta"   : ("surprise", "neutral", "sadness", "joy", "anger", "fear", "disgust")
+        "Roberta"   : ("surprise", "neutral", "sadness", "joy", "anger", "fear", "disgust"),      
+        "Roberta2"     : ("positive", "negative")
         }
 
 
@@ -39,6 +41,10 @@ class SaToolFactory:
     @staticmethod
     def make_Vader():
         return SaToolVader()
+
+    @staticmethod
+    def make_Roberta2():
+        return SaToolRoberta2()        
 
     @staticmethod
     def make_Roberta():

@@ -61,7 +61,8 @@ from functools import reduce
 
 # Creazione del Searcher.
 # Per variare funzione di scoring aggiungere scoring_fun = "template" come
-# parametro, al costruttore di Searcher. Supportate: BM25F (default), PL2.
+# parametro, al costruttore di Searcher. Supportate: TF_IDF (default), PL2
+# BM25F.
 s = Searcher("handle", "text")
 
 
@@ -86,8 +87,8 @@ for k, v in queries.items():
         print(k)
         # Per variare funzione di ranking aggiungere ranking_fun = "template"
         # come parametro, al costruttore di Results. Supportate: naive
-        # (default), "weighted_avg".
-        r = Results("Vader", "compound", res)
+        # (default), "balanced_weighted_avg".
+        r = Results("Vader", "compound", res, ranking_fun = "naive")
         # Calcolo del ranking ottimale per la NDCG.
         optimal_ranking = sorted(r.ordered, key = lambda d: d[k], reverse = True)
         dcg = count_dcg(r.ordered, k)
