@@ -65,7 +65,7 @@ r.printResults(s, "output.ods")
 + The `Results` object gives a global ranking to the retrieved documents based on **pertinence** and **sentiment** scores. Takes the sentiment analysis tool as an argument, in this case Vader is left by default. For now theese 4 tools are supported:
     + **Vader**: lexicon and rule-based tool that gives a score in a [-1,1] range, so that a "binary" classification can be applied (positve/negative or neutral).
     + [ExpertAI](https://pypi.org/project/expertai-nlapi/): API based on AI, supports different sentiment types.
-    + [Roberta](https://huggingface.co/docs/transformers/model_doc/roberta); AI based, supports different sentiment types, check documentation for more informations.
+    + [Roberta](https://huggingface.co/docs/transformers/model_doc/roberta); AI based, supports different sentiment types, check documentation for more information.
     + **Roberta2 (recommended)**: same as Roberta but uses a different pre-trained model that only gives a positive and negative score to the input text. Really usefull during benchmarking if you want to compare an AI-based approach (Roberta2) to a symbolic approach (Vader).
 # Other
 + `benchmark.py` contains a script used for performance evaluation;
