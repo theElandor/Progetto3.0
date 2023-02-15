@@ -48,7 +48,7 @@ class AbstractPrinter:
         """
         val = self.raw_query + "\n"
         if len(self.retrieved) > 100:
-            a = int(input("Attenzione: l'output contiene più di 100 tweet. Premere 1 per ottenere un output ridotto, 2 altrimenti.\n >> "))
+            a = int(input("Warning: output consists of more than 100 tweets. Press 1 for non-verbose output, 2 otherwise.\n >> "))
             if a == 2:
                 return str(self.retrieved)
             elif a == 1:

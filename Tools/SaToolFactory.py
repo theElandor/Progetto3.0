@@ -14,7 +14,7 @@ class SaToolFactory:
         "ExpertAI"  : ("positive", "negative", "overall"),
         "Vader"     : ("positive", "negative", "neutral", "compound"),
         "Roberta"   : ("surprise", "neutral", "sadness", "joy", "anger", "fear", "disgust"),      
-        "Roberta2"     : ("positive", "negative")
+        "Roberta2"  : ("positive", "negative")
         }
 
 
@@ -26,7 +26,7 @@ class SaToolFactory:
         """
         if sentiment not in SaToolFactory._tool_sentiments[tool_name]:
             raise ValueError(
-                "Questo sentiment non può essere valutato dal tool impostato."
+                "This kind of sentiment cannot be evaluated by the selected tool."
                 )
         else:
             return sentiment

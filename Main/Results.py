@@ -85,7 +85,7 @@ class Results:
         try:
             tool = eval("SaToolFactory.make_{}()".format(tool_name))
         except:
-            raise ValueError("Nome del tool non corretto.")
+            raise ValueError("Wrong tool name.")
 
         # Imposta tool e nome del tool come attributi di istanza.
         self._sa_tool = tool
@@ -102,7 +102,7 @@ class Results:
         """
         # Lancia Exception se non sono presenti risultati.
         if not results:
-            raise Exception("Nessun risultato per la query inserita.")
+            raise Exception("No result for this query.")
 
         self._ordered = []
         # Sequenza di costruzione di _ordered.
@@ -146,7 +146,7 @@ class Results:
                     max_pert = 1000
                 return (a / max_pert) * wa + b * wb
         else:
-            raise ValueError("Funzione di ranking inserita non supportata.")
+            raise ValueError("Selected ranking function not supported.")
 
         # Applica la funzione di ranking selezionata per il calcolo del ranking
         # complessivo.
@@ -185,4 +185,4 @@ class Results:
                 printer = globals()[name](*printer_params)
                 printer.formatOutput(filename)
             else:
-                raise Exception("Estensione "+ str(ext) + " non supportata.")
+                raise Exception("Extension "+ str(ext) + " not supported.")

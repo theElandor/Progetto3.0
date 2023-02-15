@@ -98,17 +98,17 @@ for k, v in queries.items():
         ndcg_data.append((queries[k], ndcg))
         print(
             "Query:", queries[k], "\n",
-            "; valore DCG misurato:", dcg, "\n",
-            "; valore DCG ottimale:", optimal_dcg, "\n",
-            "; valore NDCG:", ndcg
+            "; measured DCG value:", dcg, "\n",
+            "; optimal DCG value:", optimal_dcg, "\n",
+            "; NDCG value:", ndcg
             )
         tweets_returned.append(len(r.ordered))
     except:
         ndcg_data.append((queries[k], 0))
         print("Query:", queries[k],
-              "; valore DCG misurato: 0",
-              "; valore DCG ottimale: 0",
-              "; valore NDCG: 0 \t NESSUN RISULTATO"
+              "; measured DCG value: 0",
+              "; optimal DCG value: 0",
+              "; NDCG value: 0 \t NO RESULTS"
               )
     finally:
         with open("./sample_results/query" + str(counter) + ".txt", "w") as f:
