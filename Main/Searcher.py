@@ -75,8 +75,7 @@ class Searcher:
         """
         # L'apertura è interamente gestita da open.
         with open(thes_dir) as f:
-            self._thesaurus = Thesaurus.from_file(f)
-        print(self._thesaurus.synonyms("service"))
+            self._thesaurus = Thesaurus.from_file(f)        
 
 
     @staticmethod
