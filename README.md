@@ -21,7 +21,7 @@ Theese dependencies are **mandatory**:
 + Run `query_script.py` to launch queries;
     + Insert any query;
     + The default sentiment analysis tool is [**Vader**](https://github.com/cjhutto/vaderSentiment), which supports one of **positive**, **neutral** or **negative** as sentiment parameters.
-+ Check `output.txt` or `output.ods` to see results;
++ Check `output.txt` or `output.ods` to see the results;
 
 # Indexing
 
