@@ -14,7 +14,6 @@ Theese dependencies are **mandatory**:
 - tensorflow
 - textblob
 - matplotlib
-- 
 # Quick start
 + Clone the repo;
 + Install the dependencies;
