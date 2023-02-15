@@ -10,7 +10,10 @@ from Main.Results import Results
 from Main.Searcher import Searcher
 
 
+query = input("Insert query > ")
+sentiment = input("Insert sentiment > " )
 s = Searcher("handle", "text")
-res = s.submit_query("bad weather")
-r = Results("Vader", "compound", res)
+res = s.submit_query(query)
+r = Results("Vader", sentiment, res)
 r.printResults(s, "output.txt")
+r.printResults(s, "output.ods")

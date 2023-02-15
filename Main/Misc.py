@@ -19,7 +19,6 @@ def time_function(function):
         start = time.time()
         value = function(*args, **kwargs)
         end = time.time()
-        print ("Function: " + str(function))
         print("Execution time: " + str(end - start))
         return value
 
