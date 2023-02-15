@@ -54,7 +54,7 @@ class SaToolExpertAI(SaTool):
                             di ExpertAI.
         :param language:    str, linguaggio di riferimento per l'analisi.
         """
-        print("Inizializzazione del client ExpertAI. Inserire dati per l'autenticazione.")
+        print("Initializing ExpertAI client. Please, authenticate.")
         os.environ["EAI_USERNAME"] = input("Username: ")
         os.environ["EAI_PASSWORD"] = input("Password: ")
         self._client = client

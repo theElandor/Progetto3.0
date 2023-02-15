@@ -53,7 +53,7 @@ class Database:
 <        """
         for selected_field in args:
             if selected_field not in self._fields:
-                raise Exception(selected_field + " non è presente tra i campi del file.")
+                raise Exception(selected_field + " does not appear as a field.")
         self._tweets.clear()
         for row in self._raw_data:
             filtered = dict(filter(lambda elem : (elem[0] in args), row.items()))

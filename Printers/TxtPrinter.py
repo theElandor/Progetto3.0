@@ -54,7 +54,7 @@ class TxtPrinter(AbstractPrinter):
         pprint(self.frame, end='')
         pprint(
             "Query: ", self.raw_query,
-            "\nNumero di risultati: ", len(self._retrieved),
+            "\nN° of results: ", len(self._retrieved),
             "\nSentiment: ", self.sentiment,
         )
         pprint(self.frame)

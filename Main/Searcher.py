@@ -60,7 +60,7 @@ class Searcher:
             ix = open_dir(idx_dir)
         except:
             raise OSError(
-                "Directory 'Index' non trovata. Specificarne una valida."
+                "Directory not found."
                 )
 
         # Imposta l'indice aperto come attributo d'istanza.
@@ -89,7 +89,7 @@ class Searcher:
         for i in selected_fields:
             if i not in available_fields:
                 raise ValueError(
-                    "Campo selezionato per la ricerca su indice inesistente."
+                    "Selected field does not exist."
                     )
 
 
@@ -163,7 +163,7 @@ class Searcher:
         if results:
             return results
         else:
-            print("Nessun risultato per la query.")
+            print("No result for this query.")
             self.__make_suggestions()
 
 
@@ -200,9 +200,9 @@ class Searcher:
 
                 if not_found:
                     print(
-                        "Il termine\"",
+                        "Term\"",
                         word,
-                        "\"non è presente tra i vocaboli del corpus."
+                        "\"not included in corpus vocabulary."
                         )
                     # Crea i suggerimenti.
                     suggestions = self._searcher.suggest(
@@ -213,7 +213,7 @@ class Searcher:
                     )
                     # Propone i suggerimenti.
                     if suggestions:
-                        print("Quello che volevi scrivere è forse nell'elenco?")
+                        print("Did you mean any of the following?")
                         print(", ".join(suggestions))
                     else:
-                        print("Non sono disponibili correzioni per", word)
+                        print("No corrections available for", word)
