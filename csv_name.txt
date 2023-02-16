@@ -1,1 +1,1 @@
-./samples/dcg_sample.csv
+./csv/airline.csv

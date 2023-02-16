@@ -5,808 +5,616 @@
 (__|_|_________________|_|__)
 
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-Query:  food on board 
-Numero di risultati:  100 
+Query:  is tropical food available? 
+N° of results:  76 
 Sentiment:  positive
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-docnum --> 7784
-handle --> Delta
-text --> @JetBlue we want room and food allowances. Agents are refusing to give us vouchers to use at rooms we book ourselves.
-pert_score --> 16.162237279259323
-sent_score --> 0.057
-final_score --> 0.6228
------------------------------------------
-
-docnum --> 3985
+docnum --> 2426
 handle --> United
-text --> @united when will you offer real food in american clubs like the amazing food you offer in Heathrow?
-pert_score --> 10.434632412048286
-sent_score --> 0.378
-final_score --> 0.5385708409950958
+text --> @United Right now at Tropic Air in San Pedro, #Belize. Line out the door. All due to elected &amp; appointed hacks http://t.co/kKEDjNRTWo”
+pert_score --> 4.949182803477679
+sent_score --> 0.118
+final_score --> 0.6472
 -----------------------------------------
 
-docnum --> 4696
-handle --> Southwest
-text --> @SouthwestAir easy fix, let the business select actually board 1st, then board the pre-boards...
-pert_score --> 11.981050332636944
-sent_score --> 0.182
-final_score --> 0.517579399991064
------------------------------------------
-
-docnum --> 1843
+docnum --> 3530
 handle --> United
-text --> @united doesn't purchasing ticket with a united card give me priority boarding ?
-pert_score --> 9.148553260500394
-sent_score --> 0.337
-final_score --> 0.47442698736915156
+text --> @united KOA-LAX should have fresh food service, right?
+pert_score --> 3.1303897236144858
+sent_score --> 0.459
+final_score --> 0.5631038309857739
 -----------------------------------------
 
-docnum --> 583
+docnum --> 2565
 handle --> United
-text --> @united @getmeontop 7 WEEKS Late FlightR AND I STILL HAVE NOT RECEIVED MY MILES FROM THE MileagePlus Gift Card $150 STARBUCKS CARD I HANDED OVER!!!
-pert_score --> 10.24810255170831
-sent_score --> 0.222
-final_score --> 0.46924618605591795
+text --> @united yes to more food! Add some gluten free options while you're at it
+pert_score --> 3.1303897236144858
+sent_score --> 0.453
+final_score --> 0.5607038309857739
 -----------------------------------------
 
-docnum --> 6176
-handle --> Southwest
-text --> @SouthwestAir How do I stop getting credit card apps? I already have a card!
-pert_score --> 10.24810255170831
-sent_score --> 0.169
-final_score --> 0.44804618605591795
------------------------------------------
-
-docnum --> 4942
-handle --> Southwest
-text --> @SouthwestAir promised 4 rooms until Wednesday, (wentook3) and the hotel charged us $79 per room because we had a pink paper needed white?
-pert_score --> 10.914102532801254
-sent_score --> 0.099
-final_score --> 0.4447704851582808
------------------------------------------
-
-docnum --> 3607
+docnum --> 749
 handle --> United
-text --> @United should find a way to distinguish boarding of premier members and credit card holders. Group 2 is too big!
-pert_score --> 9.148553260500394
-sent_score --> 0.24
-final_score --> 0.4356269873691516
+text --> @united plus what about food? And taxis?
+pert_score --> 3.1303897236144858
+sent_score --> 0.345
+final_score --> 0.5175038309857738
 -----------------------------------------
 
-docnum --> 9179
-handle --> US Airways
-text --> @USAirways charged my card 11 times for one airline ticket, now card is on security hold
-pert_score --> 10.24810255170831
-sent_score --> 0.132
-final_score --> 0.43324618605591797
+docnum --> 2373
+handle --> United
+text --> @united You really should clean the food and coffee stains off of the area around the seats when new passengers come aboard. Gross!
+pert_score --> 3.1303897236144858
+sent_score --> 0.245
+final_score --> 0.47750383098577387
+-----------------------------------------
+
+docnum --> 711
+handle --> United
+text --> @united terminal at MIA should have food open before 5am esp when there are flights at 6am. Two hours early like recommended. Can't eat.
+pert_score --> 3.1303897236144858
+sent_score --> 0.236
+final_score --> 0.4739038309857738
+-----------------------------------------
+
+docnum --> 1388
+handle --> United
+text --> @united after 2 days - 1 flight Cancelled Flightled, another delay for 8 hours- united gave me a $7 food voucher. That's how much they value my time??
+pert_score --> 3.1303897236144858
+sent_score --> 0.234
+final_score --> 0.47310383098577385
+-----------------------------------------
+
+docnum --> 3540
+handle --> United
+text --> @united they had snacks available, just no fresh food...not sure what happened, but I'm sure we will grab a bite before our SFO connection
+pert_score --> 3.1303897236144858
+sent_score --> 0.232
+final_score --> 0.47230383098577383
 -----------------------------------------
 
 docnum --> 2945
 handle --> United
 text --> @united will flight 5559 to YYC be providing free food when we are allowed back on board  after the "broken lightbulb"
-pert_score --> 9.241818190670383
+pert_score --> 3.1303897236144858
 sent_score --> 0.224
-final_score --> 0.43268931483874046
+final_score --> 0.46910383098577385
 -----------------------------------------
 
 docnum --> 2886
 handle --> United
 text --> @united Are the current on board food menus available anywhere online?
-pert_score --> 9.241818190670383
+pert_score --> 3.1303897236144858
 sent_score --> 0.219
-final_score --> 0.43068931483874046
+final_score --> 0.46710383098577385
 -----------------------------------------
 
-docnum --> 614
+docnum --> 3318
 handle --> United
-text --> @united on 768 to Logan - boarding gong show due to lax carry on enforcement. Bins full of coats = no room for bags. U need a better system!
-pert_score --> 9.481553251046867
-sent_score --> 0.175
-final_score --> 0.421989136920333
+text --> @united - I really down think downgrading the booze/food selections at the club is a good way to go.  How about you look @aircanada?
+pert_score --> 3.1303897236144858
+sent_score --> 0.206
+final_score --> 0.4619038309857738
 -----------------------------------------
 
-docnum --> 1030
+docnum --> 754
 handle --> United
-text --> .@united For those playing along at home: http://t.co/2b4bDTldX2
-pert_score --> 6.3725615069573855
-sent_score --> 0.434
-final_score --> 0.4101722540827377
+text --> @united I take back the comment about your team here working hard to help us A so far no solution for a hotel or food or anything #fail
+pert_score --> 3.1303897236144858
+sent_score --> 0.189
+final_score --> 0.45510383098577384
 -----------------------------------------
 
-docnum --> 1142
+docnum --> 2020
 handle --> United
-text --> @united only thing confusing me is why I lost priority boarding? I'm a mileage plus card member 😔
-pert_score --> 9.148553260500394
-sent_score --> 0.176
-final_score --> 0.4100269873691516
+text --> @united 2100$ ticket,12h biz trvl,no wifi.Missed con flt,next one#24h,missed meeting,7$ food voucher,hotel chkout#12,flt#5,no wifi#hotel
+pert_score --> 3.1303897236144858
+sent_score --> 0.177
+final_score --> 0.45030383098577387
 -----------------------------------------
 
-docnum --> 11266
-handle --> US Airways
-text --> @USAirways any plans to support #ApplePay on board? I have the USAirways MC and it would be nice to still use it if I forget the card.
-pert_score --> 9.148553260500394
-sent_score --> 0.175
-final_score --> 0.4096269873691516
+docnum --> 2141
+handle --> United
+text --> @united the drunk guy you threw out of flight UA936 4hrs ago is better off than the rest of us held up for 5hrs in the plane without food.
+pert_score --> 3.1303897236144858
+sent_score --> 0.167
+final_score --> 0.44630383098577386
 -----------------------------------------
 
-docnum --> 448
+docnum --> 2493
+handle --> United
+text --> @united bad idea to let 200 people back on the terminal with food vouchers but allow only 15 minutes to get anything.  Long lines!! #ua1523
+pert_score --> 3.1303897236144858
+sent_score --> 0.14
+final_score --> 0.43550383098577383
+-----------------------------------------
+
+docnum --> 3350
+handle --> United
+text --> @united question - was given food vouchers but can't use on plane..how   come
+pert_score --> 3.1303897236144858
+sent_score --> 0.137
+final_score --> 0.43430383098577385
+-----------------------------------------
+
+docnum --> 2310
+handle --> United
+text --> @united A broken luggage and a mild case of food poisoning from UA5 LHR-IAH. Who can I email about this?
+pert_score --> 3.1303897236144858
+sent_score --> 0.105
+final_score --> 0.4215038309857738
+-----------------------------------------
+
+docnum --> 3423
+handle --> United
+text --> @united Flight delayed 40 minutes in ORD because plane didn’t have all the food. That should be fixed in the future. It’s a dumb delay.
+pert_score --> 3.1303897236144858
+sent_score --> 0.089
+final_score --> 0.41510383098577386
+-----------------------------------------
+
+docnum --> 1183
+handle --> United
+text --> @united received hotel but no food.  Also email for 3750 miles.  Last trip had 3 hr delay and 5000 miles - so less for Cancelled Flightlation?
+pert_score --> 3.1303897236144858
+sent_score --> 0.059
+final_score --> 0.40310383098577385
+-----------------------------------------
+
+docnum --> 26
 handle --> Virgin America
-text --> @VirginAmerica All of group E was told there was no more room in the bins. when I got on the plane, was room for at least 4 bags in my row!
-pert_score --> 10.914102532801254
+text --> @VirginAmerica What happened 2 ur vegan food options?! At least say on ur site so i know I won't be able 2 eat anything for next 6 hrs #fail
+pert_score --> 3.1303897236144858
 sent_score --> 0.0
-final_score --> 0.4051704851582808
+final_score --> 0.37950383098577384
 -----------------------------------------
 
-docnum --> 893
+docnum --> 12593
+handle --> American
+text --> @AmericanAir I love the service and cheap upgrades American Provides! One of the best airlines ever! good food, good seats, amazing thanks!
+pert_score --> 0.0
+sent_score --> 0.576
+final_score --> 0.2304
+-----------------------------------------
+
+docnum --> 6945
+handle --> Delta
+text --> @JetBlue Well, thankfully they've got a nice food court here...When will an update be posted?
+pert_score --> 0.0
+sent_score --> 0.391
+final_score --> 0.1564
+-----------------------------------------
+
+docnum --> 3985
 handle --> United
-text --> @United THANK U! Secured room for the night Thx to VERY helpful customer service rep N. Dorns.. I thanked her.. Can u 2? #goodenoughmother
-pert_score --> 5.457051266400627
-sent_score --> 0.503
-final_score --> 0.4037852425791404
+text --> @united when will you offer real food in american clubs like the amazing food you offer in Heathrow?
+pert_score --> 0.0
+sent_score --> 0.378
+final_score --> 0.1512
 -----------------------------------------
 
-docnum --> 11461
+docnum --> 10132
 handle --> US Airways
-text --> @USAirways yes and our flight attendant (who is wonderful btw) secured the tray table so it's not flailing about. http://t.co/JhXWMuTx4G
-pert_score --> 7.093392704862889
-sent_score --> 0.349
-final_score --> 0.40293208388045504
+text --> @USAirways @AmericanAir my friends are stranded at KPHL and the representatives there won't even give them food vouchers…any help please?
+pert_score --> 0.0
+sent_score --> 0.323
+final_score --> 0.1292
 -----------------------------------------
 
-docnum --> 1084
+docnum --> 10942
+handle --> US Airways
+text --> @USAirways Thks US #1786 2/19 PHL to FLL. Overall 1st class has improved with more food now on PHL to FLL and most crews are super.
+pert_score --> 0.0
+sent_score --> 0.296
+final_score --> 0.1184
+-----------------------------------------
+
+docnum --> 12841
+handle --> American
+text --> @AmericanAir a free check bag a food comp a flying credit something to help out now that I'm an additional 200 dollars in the hole
+pert_score --> 0.0
+sent_score --> 0.281
+final_score --> 0.11240000000000001
+-----------------------------------------
+
+docnum --> 12004
+handle --> American
+text --> @AmericanAir we are off to Kax premium.  Hoping this flight is better food, TV now I know how to work it and service. Tnx
+pert_score --> 0.0
+sent_score --> 0.271
+final_score --> 0.10840000000000001
+-----------------------------------------
+
+docnum --> 12165
+handle --> American
+text --> @AmericanAir we are off to Kax premium.  Hoping this flight is better food, TV now I know how to work it and service. Tnx
+pert_score --> 0.0
+sent_score --> 0.271
+final_score --> 0.10840000000000001
+-----------------------------------------
+
+docnum --> 14036
+handle --> American
+text --> @AmericanAir makes some small improvements and retains their program they win all. They keep the crappy food and change advantage they lose
+pert_score --> 0.0
+sent_score --> 0.258
+final_score --> 0.10320000000000001
+-----------------------------------------
+
+docnum --> 7453
+handle --> Delta
+text --> @JetBlue what a great experience on flight from SFO to JFK; seats, service, food, everything is top quality. I will be back. Very soon!
+pert_score --> 0.0
+sent_score --> 0.22
+final_score --> 0.08800000000000001
+-----------------------------------------
+
+docnum --> 11911
+handle --> American
+text --> @AmericanAir What happens when you combine Top Chef &amp; the beauty of San Miguel de Allende. My Late Flightst food blog.  http://t.co/7t1rDRCRe6
+pert_score --> 0.0
+sent_score --> 0.219
+final_score --> 0.08760000000000001
+-----------------------------------------
+
+docnum --> 12072
+handle --> American
+text --> @AmericanAir What happens when you combine Top Chef &amp; the beauty of San Miguel de Allende. My Late Flightst food blog.  http://t.co/7t1rDRCRe6
+pert_score --> 0.0
+sent_score --> 0.219
+final_score --> 0.08760000000000001
+-----------------------------------------
+
+docnum --> 4281
 handle --> United
-text --> @united Would be helpful if you could refresh boarding time info on boarding passes for delayed flights
-pert_score --> 7.987366888424629
-sent_score --> 0.26
-final_score --> 0.4005195999940425
+text --> @united Step 1: Cancelled Flight flight. Step 2: Don't notify customer. Step 3: Charge them for food while they try to survive their wait. Brilliant.
+pert_score --> 0.0
+sent_score --> 0.216
+final_score --> 0.0864
+-----------------------------------------
+
+docnum --> 7864
+handle --> Delta
+text --> @JetBlue Port-Au-Prince, Haiti for continued food distribution, medical supplies, &amp; orphan care!  #flyingitforward http://t.co/fn2QXybT9K
+pert_score --> 0.0
+sent_score --> 0.212
+final_score --> 0.0848
+-----------------------------------------
+
+docnum --> 9440
+handle --> US Airways
+text --> @USAirways I would happily wait in the terminal near food, restrooms and non irritated passengers.
+pert_score --> 0.0
+sent_score --> 0.184
+final_score --> 0.0736
+-----------------------------------------
+
+docnum --> 12363
+handle --> American
+text --> @AmericanAir @USAirways #Boo! Wack ass terminal 6 @flyLAXairport. No food. No lounge. No Bueno!! Never again!!!
+pert_score --> 0.0
+sent_score --> 0.167
+final_score --> 0.06680000000000001
+-----------------------------------------
+
+docnum --> 4840
+handle --> Southwest
+text --> @SouthwestAir For example, can't pay 4 hotel &amp; food? Or transport to alternate city we are flying from? Or give clear record of alt flight?
+pert_score --> 0.0
+sent_score --> 0.162
+final_score --> 0.06480000000000001
+-----------------------------------------
+
+docnum --> 10195
+handle --> US Airways
+text --> @USAirways #Overbooked SXM-CLT delayed deplaning extra passengers. #missedconnection #forcedovernight #CLT, no lodging/food. Disappointed.
+pert_score --> 0.0
+sent_score --> 0.153
+final_score --> 0.061200000000000004
+-----------------------------------------
+
+docnum --> 3867
+handle --> United
+text --> @united Disappointed,UNITED did NOT feed small CHILDREN on a 5 &amp; half hour flight (Honolulu to Los Angeles), Appalling, ESP food waspaid for
+pert_score --> 0.0
+sent_score --> 0.106
+final_score --> 0.0424
+-----------------------------------------
+
+docnum --> 11897
+handle --> American
+text --> @americanair thanks for no fresh food on my cross country flight and for making my connection so close No time to eat. TPA-DFW-LAX
+pert_score --> 0.0
+sent_score --> 0.106
+final_score --> 0.0424
+-----------------------------------------
+
+docnum --> 12058
+handle --> American
+text --> @americanair thanks for no fresh food on my cross country flight and for making my connection so close No time to eat. TPA-DFW-LAX
+pert_score --> 0.0
+sent_score --> 0.106
+final_score --> 0.0424
+-----------------------------------------
+
+docnum --> 14282
+handle --> American
+text --> @AmericanAir Stuck on a plane at JFK: food was not on the plane now we need to wait crew to push back the plane. Good job, AA!
+pert_score --> 0.0
+sent_score --> 0.106
+final_score --> 0.0424
+-----------------------------------------
+
+docnum --> 14340
+handle --> American
+text --> @AmericanAir served me rubber pasta covered In sauce that tastes like plastic. Do you have any food for human consumption anymore ?
+pert_score --> 0.0
+sent_score --> 0.106
+final_score --> 0.0424
+-----------------------------------------
+
+docnum --> 7972
+handle --> Delta
+text --> @JetBlue I tried a burger which was good but expensive! Were lead to believe that food in the USA is cheap butnot here!
+pert_score --> 0.0
+sent_score --> 0.103
+final_score --> 0.0412
+-----------------------------------------
+
+docnum --> 11495
+handle --> US Airways
+text --> @USAirways thanks for crappy hotel with no food and a taxi bill followed by being on standby for your Cancelled Flightlation. #USAirways
+pert_score --> 0.0
+sent_score --> 0.101
+final_score --> 0.040400000000000005
+-----------------------------------------
+
+docnum --> 14109
+handle --> American
+text --> @AmericanAir Yeah, try harder. No catering truck in sight.  Can we just leave now w/o the food won't eat anyway?
+pert_score --> 0.0
+sent_score --> 0.097
+final_score --> 0.0388
+-----------------------------------------
+
+docnum --> 12686
+handle --> American
+text --> @AmericanAir on flight 1074 that has been delayed for hours over human errors like a food truck hitting the plane, now the lines are frozen.
+pert_score --> 0.0
+sent_score --> 0.087
+final_score --> 0.0348
+-----------------------------------------
+
+docnum --> 9764
+handle --> US Airways
+text --> @USAirways your rude staff said" I don't care that we are out of market place food you're going on vacation and I have to work" nice huh
+pert_score --> 0.0
+sent_score --> 0.086
+final_score --> 0.0344
+-----------------------------------------
+
+docnum --> 14234
+handle --> American
+text --> @AmericanAir I've got a BA flight as your airport couldn't accommodate us. We were left without any info. No vouchers for food,nothing.
+pert_score --> 0.0
+sent_score --> 0.082
+final_score --> 0.0328
+-----------------------------------------
+
+docnum --> 11035
+handle --> US Airways
+text --> @USAirways No hot food on a 5 hour flight? Crazy. Couldn't eat in PHL b/c our original connection was 40 min Late Flight. What gives? #PHLtoLAS
+pert_score --> 0.0
+sent_score --> 0.076
+final_score --> 0.0304
+-----------------------------------------
+
+docnum --> 7784
+handle --> Delta
+text --> @JetBlue we want room and food allowances. Agents are refusing to give us vouchers to use at rooms we book ourselves.
+pert_score --> 0.0
+sent_score --> 0.057
+final_score --> 0.0228
+-----------------------------------------
+
+docnum --> 14359
+handle --> American
+text --> @AmericanAir 3231DTW to LAG at 4:45. Flight Cancelled Flightled with no notice. Given a voucher to a dirty hotel, with no food vouchers or apology.
+pert_score --> 0.0
+sent_score --> 0.037
+final_score --> 0.0148
 -----------------------------------------
 
 docnum --> 5060
 handle --> Southwest
 text --> @SouthwestAir I'm running out of money to keep paying for hotel rooms &amp; food in NYC. You don't help people with $ spent
-pert_score --> 10.705186012858695
+pert_score --> 0.0
 sent_score --> 0.0
-final_score --> 0.3974147574208596
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 7492
+handle --> Delta
+text --> @JetBlue also not have food available even for purchase is quite shocking since this is a 5 hour international flight.
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 7865
+handle --> Delta
+text --> @JetBlue while in Haiti Id do food distribution for hundreds of hungry kids in nearby villages. #flyingitforward http://t.co/lTf2quD3Xc
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8113
+handle --> Delta
+text --> @JetBlue are there any food places open at the JFK T5 24//?
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8920
+handle --> Delta
+text --> @JetBlue as much i have paid in fees. Plus hotel and food because of your changes i could had flown with a more reliable airline #no2jetblue
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 8927
+handle --> Delta
+text --> @JetBlue and they are telling me I got to get another hotel and food...so spend more money because you guys made me miss my connection
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 9749
+handle --> US Airways
+text --> @USAirways  flight missed due to mech issue. No food voucher, transported to different airport, no rental reimbursement 😡
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 9844
+handle --> US Airways
+text --> @USAirways really? 8 hr delay in Virgin Island and not even a food voucher.
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 10339
+handle --> US Airways
+text --> @USAirways You won't give us a hotel or food. Can you at least suggestion options for making it to the metro city I have a ticket to?
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 11132
+handle --> US Airways
+text --> @USAirways 5 hour cross country morning flight and you have no food? #BadService
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
 -----------------------------------------
 
 docnum --> 11440
 handle --> US Airways
 text --> @USAirways I don't mind waiting, I mind waiting on a plane, when I shouldn't have had to.  The airport has more room and you know.. food!
-pert_score --> 10.705186012858695
+pert_score --> 0.0
 sent_score --> 0.0
-final_score --> 0.3974147574208596
+final_score --> 0.0
 -----------------------------------------
 
-docnum --> 3364
-handle --> United
-text --> @united how's my refund coming along??
-pert_score --> 6.3725615069573855
-sent_score --> 0.387
-final_score --> 0.3913722540827377
------------------------------------------
-
-docnum --> 2171
-handle --> United
-text --> @united boarding a #plane would be much faster if you boarded back to front instead of front to back #MakesSense #efficiency #travel #flying
-pert_score --> 7.987366888424629
-sent_score --> 0.202
-final_score --> 0.3773195999940425
------------------------------------------
-
-docnum --> 858
-handle --> United
-text --> @united comically on the return flight from ASE there were two United flights boarding at adjacent gates and not clear which plane to board
-pert_score --> 7.987366888424629
-sent_score --> 0.195
-final_score --> 0.37451959999404255
------------------------------------------
-
-docnum --> 12786
-handle --> American
-text --> @AmericanAir why would it take that long? My credit card company says the card hasn't been charged yet. Should it take 5 days for this?
-pert_score --> 8.198482041366647
-sent_score --> 0.165
-final_score --> 0.37035694884473436
------------------------------------------
-
-docnum --> 2954
-handle --> United
-text --> @united yes to three different checkers along the walk to the plane. Overkill
-pert_score --> 6.3725615069573855
-sent_score --> 0.333
-final_score --> 0.36977225408273773
------------------------------------------
-
-docnum --> 789
-handle --> United
-text --> @united why would they make me share a room?
-pert_score --> 5.457051266400627
-sent_score --> 0.417
-final_score --> 0.3693852425791404
------------------------------------------
-
-docnum --> 3200
-handle --> United
-text --> @united no, didn't notice I was 38A until start of boarding. Assumed I was 8E. By time boarding started, GAs had cleared standbys, full flt
-pert_score --> 7.987366888424629
-sent_score --> 0.154
-final_score --> 0.3581195999940425
------------------------------------------
-
-docnum --> 1291
-handle --> United
-text --> @united WHy is my KTN not showing on my boarding?  Why is TSA pre-check not applying to my boarding pass?
-pert_score --> 7.987366888424629
-sent_score --> 0.143
-final_score --> 0.35371959999404257
------------------------------------------
-
-docnum --> 597
-handle --> United
-text --> @united Mobile boarding pass disappeared from phone while standing in line to board. Second time this week... Hmm.
-pert_score --> 7.987366888424629
-sent_score --> 0.135
-final_score --> 0.35051959999404253
------------------------------------------
-
-docnum --> 3551
-handle --> United
-text --> @united I want a hotel room and a whiskey.
-pert_score --> 5.457051266400627
-sent_score --> 0.369
-final_score --> 0.3501852425791404
------------------------------------------
-
-docnum --> 7012
-handle --> Delta
-text --> @JetBlue loved the service from the staff at Newark today. Good service goes along way. I appreciate your preciation Nj ✈️Tampa 🔵🔵🔵
-pert_score --> 6.3725615069573855
-sent_score --> 0.284
-final_score --> 0.35017225408273767
------------------------------------------
-
-docnum --> 1151
-handle --> United
-text --> @united gate C 24 IAD. U released passengers to board w/others deplaning .50 peopleOn bridge while next flight  board http://t.co/HfoF33iyhi
-pert_score --> 7.987366888424629
-sent_score --> 0.128
-final_score --> 0.34771959999404256
------------------------------------------
-
-docnum --> 2508
-handle --> United
-text --> @united officially has the most inefficient boarding procedure. There is no reason it should take 45 mins to board a plane!
-pert_score --> 7.987366888424629
-sent_score --> 0.127
-final_score --> 0.34731959999404255
------------------------------------------
-
-docnum --> 4922
-handle --> Southwest
-text --> @SouthwestAir thanks connection thru Nashville have A1 boarding pass get to Dallas gate boarding 40 min before flt get end of B group
-pert_score --> 7.987366888424629
-sent_score --> 0.116
-final_score --> 0.34291959999404253
------------------------------------------
-
-docnum --> 1050
-handle --> United
-text --> @united really? 3 hr delay, 4 gate changes, &amp; you boarded us, sent us back up, &amp; boarded us again.  Won't change our flight. Can we go now?
-pert_score --> 7.987366888424629
-sent_score --> 0.1
-final_score --> 0.3365195999940426
------------------------------------------
-
-docnum --> 7654
-handle --> Delta
-text --> @JetBlue no. Not boarding order. Someone boarded with. Service Animal which a member of my party was allergic to and because the flight was
-pert_score --> 7.987366888424629
-sent_score --> 0.1
-final_score --> 0.3365195999940426
------------------------------------------
-
-docnum --> 1165
-handle --> United
-text --> @united today take flight to san francisco. .. refuse to let us board with baby early... time we board wont let us take baby carryon bag
-pert_score --> 7.987366888424629
-sent_score --> 0.097
-final_score --> 0.33531959999404254
------------------------------------------
-
-docnum --> 783
-handle --> United
-text --> @united seriously #fail on making strangers share a room
-pert_score --> 5.457051266400627
-sent_score --> 0.329
-final_score --> 0.3341852425791404
------------------------------------------
-
-docnum --> 4318
-handle --> United
-text --> @united please see a flight attendant for what? Why isn't there enough room for over head bags? I carry on to save time!!!
-pert_score --> 5.457051266400627
-sent_score --> 0.323
-final_score --> 0.33178524257914044
------------------------------------------
-
-docnum --> 2968
-handle --> United
-text --> @united FLT 3444 delayed because of maintenance - that's fixed but can't board because flight crew didn't stay in boarding area #fail
-pert_score --> 7.987366888424629
-sent_score --> 0.07
-final_score --> 0.32451959999404256
------------------------------------------
-
-docnum --> 4849
-handle --> Southwest
-text --> @SouthwestAir no delay. I pay $777.70 for BS A1 ticket. You boarded flight early. I'm last to board. Now have middle seat. Wasted $$$$!
-pert_score --> 7.987366888424629
-sent_score --> 0.07
-final_score --> 0.32451959999404256
------------------------------------------
-
-docnum --> 9929
+docnum --> 11453
 handle --> US Airways
-text --> @USAirways thanks for the worst customer service on the face of the earth. I loved the 5+ hrs on hold along w 2 Cancelled Flightled flights
-pert_score --> 6.3725615069573855
-sent_score --> 0.195
-final_score --> 0.3145722540827377
+text --> @USAirways they said because there was no meal on my flight they would not - what airline serves food anymore? Update in policy?
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
 -----------------------------------------
 
-docnum --> 11339
+docnum --> 11630
 handle --> US Airways
-text --> @USAirways I appreciate that you actually monitor Twitter, so please  pass along my feedback. I've tried calling about 15 times in 4 days :(
-pert_score --> 6.3725615069573855
-sent_score --> 0.192
-final_score --> 0.3133722540827377
+text --> @USAirways car services to and from the hotel, food, hotel cost bc of Cancelled Flightlations fall on the customer with last minute notifications
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
 -----------------------------------------
 
-docnum --> 12385
+docnum --> 11642
+handle --> US Airways
+text --> @USAirways I'm on the flight, finally in the air. Not enough food to feed customers. No movie or entertainment on a 5 hr flight.
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 11957
 handle --> American
-text --> @AmericanAir Your AA3465 staff are refusing to allow a woman to board. She was here at 8 for 8:16 departure. Sign still "Now Boarding"...
-pert_score --> 7.6678722128876435
-sent_score --> 0.071
-final_score --> 0.3130588159942808
+text --> @AmericanAir cost me over 200 dollars because flight was Cancelled Flightled and couldn't even give me a food comp!! Fly @JetBlue @Delta they take
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 12118
+handle --> American
+text --> @AmericanAir cost me over 200 dollars because flight was Cancelled Flightled and couldn't even give me a food comp!! Fly @JetBlue @Delta they take
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 12377
+handle --> American
+text --> @AmericanAir   What is that!? Why even bother catering dog food that no one will eat ? http://t.co/iFESPcBzTm
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 13091
+handle --> American
+text --> @AmericanAir don't they already know ?  Isn't everyone sharing how nasty the food is? It's not even close to decent.
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
 -----------------------------------------
 
 docnum --> 13141
 handle --> American
 text --> @AmericanAir served the nastiest food Ive ever seen yesterday.Rubber chicken in slime. The ENTIRE cabin sent their food back.FAs can confirm
-pert_score --> 8.347705929638629
+pert_score --> 0.0
 sent_score --> 0.0
-final_score --> 0.3098966727960766
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 13888
+handle --> American
+text --> @AmericanAir @USAirways how can you have no food on a 4 hour flight 528 from Columbus to Phoenix? Starving and Pissed off. Can't eat Go Go!
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
+-----------------------------------------
+
+docnum --> 13906
+handle --> American
+text --> @AmericanAir finally made it to chicago - 13 hours Late Flight.  Did get a $12 food voucher for my wait.about $1per/hr. Never again. Good bye.
+pert_score --> 0.0
+sent_score --> 0.0
+final_score --> 0.0
 -----------------------------------------
 
 docnum --> 14026
 handle --> American
 text --> @AmericanAir flight attendants on AA2402 were spectacular.Fed the ENTIRE cabin then food from coach. Why do you keep serving this vile food
-pert_score --> 8.347705929638629
+pert_score --> 0.0
 sent_score --> 0.0
-final_score --> 0.3098966727960766
+final_score --> 0.0
 -----------------------------------------
 
-docnum --> 1130
-handle --> United
-text --> @united Hopefully my baggage fees will be waived tomorrow when I actually get on a flight, as well as compensation for my hotel room
-pert_score --> 5.457051266400627
-sent_score --> 0.266
-final_score --> 0.3089852425791404
------------------------------------------
-
-docnum --> 13671
+docnum --> 14041
 handle --> American
-text --> @AmericanAir Can you check on he status of my EXP membership card? Need the physical card to access some international lounges soon.
-pert_score --> 8.198482041366647
+text --> @AmericanAir the food served on AA2402 was vile and gross.The entire cabin did not eat their meal. Survey the flight crew. Another gross out
+pert_score --> 0.0
 sent_score --> 0.0
-final_score --> 0.30435694884473435
+final_score --> 0.0
 -----------------------------------------
 
-docnum --> 12401
+docnum --> 14354
 handle --> American
-text --> @AmericanAir was hoping for 8A if possible, for some frozen views along the way!
-pert_score --> 6.1176590466790906
-sent_score --> 0.192
-final_score --> 0.3039093639194282
------------------------------------------
-
-docnum --> 4573
-handle --> Southwest
-text --> @SouthwestAir can you tell me if flight 805 from MDW-FLL tomorrow (2/24) is at full capacity?  i'm hoping for a little bit of extra room! 😊
-pert_score --> 5.457051266400627
-sent_score --> 0.252
-final_score --> 0.3033852425791404
------------------------------------------
-
-docnum --> 73
-handle --> Virgin America
-text --> @VirginAmerica your airline is awesome but your lax loft needs to step up its game. $40 for dirty tables and floors? http://t.co/hy0VrfhjHt
-pert_score --> 7.093392704862889
-sent_score --> 0.097
-final_score --> 0.30213208388045504
------------------------------------------
-
-docnum --> 2982
-handle --> United
-text --> @united: Worse - headed to LaGuardia (delayed).  Why is the tray table the size of a mouse pad and the overhead the size on my pocket?
-pert_score --> 7.093392704862889
-sent_score --> 0.091
-final_score --> 0.299732083880455
------------------------------------------
-
-docnum --> 5440
-handle --> Southwest
-text --> @SouthwestAir how often are airplane seats/tray tables cleaned and sanitized? rather have air purifier and clean seats than #wifi 😷😱
-pert_score --> 7.093392704862889
-sent_score --> 0.083
-final_score --> 0.29653208388045504
------------------------------------------
-
-docnum --> 4637
-handle --> Southwest
-text --> @SouthwestAir 10+ people pre boarded Only 1 needed a wheel chair off the plane... Was NOT the case boarding
-pert_score --> 7.987366888424629
+text --> @AmericanAir first my sister had ZERO food in her cross country flight with no type of warning or voucher
+pert_score --> 0.0
 sent_score --> 0.0
-final_score --> 0.29651959999404254
------------------------------------------
-
-docnum --> 4926
-handle --> Southwest
-text --> @SouthwestAir now I can't board thanks. You guys moved me to standby. I've been holding this boarding pass since 7pm yesterday
-pert_score --> 7.987366888424629
-sent_score --> 0.0
-final_score --> 0.29651959999404254
------------------------------------------
-
-docnum --> 5531
-handle --> Southwest
-text --> @SouthwestAir WTF, my flight was delayed and then I go to board and my boarding pass has disappeared from the Southwest app!
-pert_score --> 7.987366888424629
-sent_score --> 0.0
-final_score --> 0.29651959999404254
------------------------------------------
-
-docnum --> 5799
-handle --> Southwest
-text --> @SouthwestAir because your gate attendant let someone board whose boarding pass kept reading invalid. This messed up the passenger log.
-pert_score --> 7.987366888424629
-sent_score --> 0.0
-final_score --> 0.29651959999404254
------------------------------------------
-
-docnum --> 6047
-handle --> Southwest
-text --> @SouthwestAir Learn how to give folks on multiple flights the same day boarding position at least if you can't give them  boarding passes.
-pert_score --> 7.987366888424629
-sent_score --> 0.0
-final_score --> 0.29651959999404254
------------------------------------------
-
-docnum --> 6615
-handle --> Southwest
-text --> @SouthwestAir Hey SWAir- a very tortured boarding on flight 1971 due to one gate agent having to board assisted folks one at a time.
-pert_score --> 7.987366888424629
-sent_score --> 0.0
-final_score --> 0.29651959999404254
------------------------------------------
-
-docnum --> 11245
-handle --> US Airways
-text --> @USAirways checked in last night @ airport by supervisor w boarding pass for 1A - boarding today seat changed to 7F. How does that happen?
-pert_score --> 7.987366888424629
-sent_score --> 0.0
-final_score --> 0.29651959999404254
------------------------------------------
-
-docnum --> 7686
-handle --> Delta
-text --> @JetBlue You can pass that along to my wife, daughter, daughter's friend, my elderly mother-in-law.  They spent several hours waiting.
-pert_score --> 6.3725615069573855
-sent_score --> 0.144
-final_score --> 0.29417225408273767
------------------------------------------
-
-docnum --> 3573
-handle --> United
-text --> @united yes we are in EWR and it was corrected but just the fact the it was beought up for us to share rooms is unexpactable
-pert_score --> 5.457051266400627
-sent_score --> 0.222
-final_score --> 0.2913852425791404
------------------------------------------
-
-docnum --> 834
-handle --> United
-text --> @united not just refunded, but for those of us who are on vacation to get a free room night to make up for making us sleep in DIA
-pert_score --> 5.457051266400627
-sent_score --> 0.196
-final_score --> 0.2809852425791404
------------------------------------------
-
-docnum --> 2091
-handle --> United
-text --> @united more people stranded cause you suck. Better yet, you weasel out of Flight Booking Problems rooms for people claiming weather http://t.co/Flcnnn2USD
-pert_score --> 5.457051266400627
-sent_score --> 0.195
-final_score --> 0.2805852425791404
------------------------------------------
-
-docnum --> 750
-handle --> United
-text --> @united you are offering us 8 rooms for 32 people #FAIL
-pert_score --> 5.457051266400627
-sent_score --> 0.175
-final_score --> 0.2725852425791404
------------------------------------------
-
-docnum --> 4852
-handle --> Southwest
-text --> @SouthwestAir it's ok! Southwest is still the best airline around! Just hate when baggage room runs out.. My now checked bag has headphones!
-pert_score --> 5.457051266400627
-sent_score --> 0.17
-final_score --> 0.2705852425791404
------------------------------------------
-
-docnum --> 724
-handle --> United
-text --> @united nope, they told us it was time for them to go home and to sleep at the airport. Even though they assured us we would get a room...
-pert_score --> 5.457051266400627
-sent_score --> 0.164
-final_score --> 0.2681852425791404
------------------------------------------
-
-docnum --> 4110
-handle --> United
-text --> @united if our already rescheduled flight is Cancelled Flightled is our hotel room paid for?
-pert_score --> 5.457051266400627
-sent_score --> 0.157
-final_score --> 0.2653852425791404
------------------------------------------
-
-docnum --> 7956
-handle --> Delta
-text --> @JetBlue just called that number and left message. Are you at to pass along message to team too?
-pert_score --> 6.3725615069573855
-sent_score --> 0.071
-final_score --> 0.26497225408273767
------------------------------------------
-
-docnum --> 6596
-handle --> Southwest
-text --> @SouthwestAir Your onboard wifi is so bad it's taking me 20 minutes to send this tweet.  Working is off the table. #disappointed
-pert_score --> 7.093392704862889
-sent_score --> 0.0
-final_score --> 0.26333208388045504
------------------------------------------
-
-docnum --> 7420
-handle --> Delta
-text --> @JetBlue of my tray table is broken what do i do?
-pert_score --> 7.093392704862889
-sent_score --> 0.0
-final_score --> 0.26333208388045504
------------------------------------------
-
-docnum --> 11514
-handle --> US Airways
-text --> @USAirways so the seat next to me (19B) on flight 1943 to Seattle has a tray table that is falling off... http://t.co/HAJ5lKqjW4
-pert_score --> 7.093392704862889
-sent_score --> 0.0
-final_score --> 0.26333208388045504
------------------------------------------
-
-docnum --> 3017
-handle --> United
-text --> @united I did and then she made me feel guilty because it was economy plus and I didn't pay for the extra leg room
-pert_score --> 5.457051266400627
-sent_score --> 0.147
-final_score --> 0.2613852425791404
------------------------------------------
-
-docnum --> 1532
-handle --> United
-text --> @united Why do I have to give up my leg room so these 4 people (not in my row) can fill the bin?  Pls start charging. http://t.co/2nY5TuXFqf
-pert_score --> 5.457051266400627
-sent_score --> 0.141
-final_score --> 0.2589852425791404
------------------------------------------
-
-docnum --> 2181
-handle --> United
-text --> @united Tell me that you're at least going to cover a room and get me out of here.
-pert_score --> 5.457051266400627
-sent_score --> 0.141
-final_score --> 0.2589852425791404
------------------------------------------
-
-docnum --> 8492
-handle --> Delta
-text --> @JetBlue I have many allergies and want to know if I can bring an 8oz. bottle of Benadryl on the flight along with my 2 epipens?
-pert_score --> 6.3725615069573855
-sent_score --> 0.049
-final_score --> 0.2561722540827377
------------------------------------------
-
-docnum --> 6105
-handle --> Southwest
-text --> @SouthwestAir Yes - with extra $77. I wonder what are you going yo loose, if there is room.
-pert_score --> 5.457051266400627
-sent_score --> 0.129
-final_score --> 0.25418524257914044
------------------------------------------
-
-docnum --> 1546
-handle --> United
-text --> @united, any options to cos tonight? Doesn't look like #UA5525 will make it in time for #UA6259. Should I reserve a hotel room?
-pert_score --> 5.457051266400627
-sent_score --> 0.12
-final_score --> 0.2505852425791404
------------------------------------------
-
-docnum --> 2247
-handle --> United
-text --> @united having to pay for a hotel room in Cleveland because of last minute Cancelled Flightled connecting flight. Booked through united..Unimpressed!
-pert_score --> 5.457051266400627
-sent_score --> 0.114
-final_score --> 0.2481852425791404
------------------------------------------
-
-docnum --> 1733
-handle --> United
-text --> @United - In case you're reading this, UA230, right now, 7D. So many oversized carryons taking up too much room. Enforce your rules.
-pert_score --> 5.457051266400627
-sent_score --> 0.113
-final_score --> 0.24778524257914042
------------------------------------------
-
-docnum --> 2627
-handle --> United
-text --> @united @airlines. Agents arguing about check bag announcement. Looked for room until seat 20, gave up and walked back to seat 7.Unnecessary
-pert_score --> 5.457051266400627
-sent_score --> 0.109
-final_score --> 0.2461852425791404
------------------------------------------
-
-docnum --> 2336
-handle --> United
-text --> @united Why was I forced to check my rollaboard on UA 715? Plenty of room in the overhead next to my seat. http://t.co/5xvNnmLTiW
-pert_score --> 5.457051266400627
-sent_score --> 0.104
-final_score --> 0.2441852425791404
------------------------------------------
-
-docnum --> 2097
-handle --> United
-text --> @united look at the people tryn to sleep in the airport due to your shitty company not comping rooms after cxl flight http://t.co/o1u96Xc3bo
-pert_score --> 5.457051266400627
-sent_score --> 0.102
-final_score --> 0.2433852425791404
------------------------------------------
-
-docnum --> 1303
-handle --> United
-text --> @united you need to retrain your flight attendants. Saying there is no more room for carry ons when there actually is, is not cool.
-pert_score --> 5.457051266400627
-sent_score --> 0.1
-final_score --> 0.2425852425791404
------------------------------------------
-
-docnum --> 2027
-handle --> United
-text --> @united it is too Late Flight for reFlight Booking Problems now - it is morning already and I no longer need a hotel room
-pert_score --> 5.457051266400627
-sent_score --> 0.098
-final_score --> 0.2417852425791404
------------------------------------------
-
-docnum --> 1777
-handle --> United
-text --> @united Waiting for 3494 EWR-ORD, delayed 47 mins. Might miss 5491 ORD-YWG at 6pm CT. Any room on 5644 ORD-YWG in case I miss connex?
-pert_score --> 5.457051266400627
-sent_score --> 0.097
-final_score --> 0.2413852425791404
------------------------------------------
-
-docnum --> 4265
-handle --> United
-text --> @united I somehow think I'm going to be stuck paying for a hotel room in Denver without winter clothes on my dime.  I guess we'll see.
-pert_score --> 5.457051266400627
-sent_score --> 0.097
-final_score --> 0.2413852425791404
------------------------------------------
-
-docnum --> 221
-handle --> Virgin America
-text --> @VirginAmerica I was so looking forward to my first flight with you today but it was Cancelled Flightled along with the subsequent one ...
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 6327
-handle --> Southwest
-text --> @SouthwestAir I, along with other passengers repeatedly asked Southwest personnel what was taking so long, where was our luggage.
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 6607
-handle --> Southwest
-text --> @SouthwestAir the woman working the counter in philly at 630 this am needs to be fired. Due to bad weather, I along with other passengers
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 7512
-handle --> Delta
-text --> @JetBlue I know, but I wanted to pass it along. Not good for the "T5 experience" esp for someone who flies 2-3 times a month.
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 8515
-handle --> Delta
-text --> @JetBlue I'll pass along the advice. You guys rock!!
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 8566
-handle --> Delta
-text --> @JetBlue my mom wanted me to change her seat along with my sister, but their two different reservations and idk
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 8864
-handle --> Delta
-text --> @JetBlue continue button generated a trip to "plan your trip page" regardless of how far along I was in Flight Booking Problems process hint: the end of it
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 10663
-handle --> US Airways
-text --> @USAirways but wait! They are booked, along with all other hotels nearby. I was sent anyway, to the hotel managers disbelief.
-pert_score --> 6.3725615069573855
-sent_score --> 0.0
-final_score --> 0.2365722540827377
------------------------------------------
-
-docnum --> 761
-handle --> United
-text --> @united at its worse. Can't figure how to pack plane, screws up connectns then claims no hotl rooms in San Fran for stranded pax. Way to go!
-pert_score --> 5.457051266400627
-sent_score --> 0.084
-final_score --> 0.23618524257914042
------------------------------------------
-
-docnum --> 4704
-handle --> Southwest
-text --> @SouthwestAir My bags are on the way to Chicago, without me! Help! I was confirmed for 2 flights and told there isn't room and I'm screwed.
-pert_score --> 5.457051266400627
-sent_score --> 0.0
-final_score --> 0.2025852425791404
------------------------------------------
-
-docnum --> 5405
-handle --> Southwest
-text --> @SouthwestAir been on hold so long to rebook my Cancelled Flightled flight I had enough time to rebook with @USAirways instead! Lots of room there!
-pert_score --> 5.457051266400627
-sent_score --> 0.0
-final_score --> 0.2025852425791404
------------------------------------------
-
-docnum --> 5458
-handle --> Southwest
-text --> @SouthwestAir sucks. Passengers leaving the plane to make room luggage, checking luggage and getting back on. Delayed flights to same city.
-pert_score --> 5.457051266400627
-sent_score --> 0.0
-final_score --> 0.2025852425791404
+final_score --> 0.0
 -----------------------------------------
 

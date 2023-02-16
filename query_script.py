@@ -13,7 +13,7 @@ from Main.Searcher import Searcher
 query = input("Insert query > ")
 sentiment = input("Insert sentiment > " )
 s = Searcher("handle", "text")
-res = s.submit_query(query)
+res = s.submit_query(query, results_threshold = 100, expand=True)
 r = Results("Vader", sentiment, res)
 r.printResults(s, "output.txt")
 r.printResults(s, "output.ods")

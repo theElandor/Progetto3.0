@@ -53,14 +53,15 @@ from Main.Results import Results
 from Main.Searcher import Searcher
 
 query = input("Insert query > ")
-sentiment = input("Insert sentiment >" )
+sentiment = input("Insert sentiment > " )
 s = Searcher("handle", "text")
-res = s.submit_query(query)
+res = s.submit_query(query, results_threshold = 100, expand=False)
 r = Results("Vader", sentiment, res)
 r.printResults(s, "output.txt")
 r.printResults(s, "output.ods")
 ```
 + The `Searcher` object retrieves documents based on pertinence. Takes the fields that need to be scanned as arguments.
++ If you want to turn on query expansion, set `expansion=True`. It's also possible to increment the maximum number of results by changing the `results_threshold` parameter;
 + The `Results` object gives a global ranking to the retrieved documents based on **pertinence** and **sentiment** scores. Takes the sentiment analysis tool as an argument, in this case Vader is left by default. For now theese 4 tools are supported:
     + **Vader**: lexicon and rule-based tool that gives a score in a [-1,1] range, so that a "binary" classification can be applied (positve/negative or neutral).
     + [ExpertAI](https://pypi.org/project/expertai-nlapi/): API based on AI, supports different sentiment types.
