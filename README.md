@@ -111,7 +111,7 @@ Some more specific queries, that you can find in the `query_examples.py` script:
 + `./samples` contains a random sample of 100 tweet that has been manually annotated to calculate the **DCG** score during the benchmark.
 + `wn_s.pl` is the **Wordnet Thesaurus** that has been used for query expansion;
 + You can use the `wcl.py` script to visualize the most used words in certain types of tweets by creating a wordcloud. The default sentiment analysis tool used is Vader. The output will be stored in the `./Wordcloud` folder.
-+ `ExampleOutput` contains the output of the  `./query_examples.py` script.
++ `ExampleOutput` contains the output of `./query_examples.py`.
 
 
 
