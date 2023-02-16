@@ -63,7 +63,7 @@ from functools import reduce
 # Per variare funzione di scoring aggiungere scoring_fun = "template" come
 # parametro, al costruttore di Searcher. Supportate: TF_IDF (default), PL2
 # BM25F.
-s = Searcher("handle", "text")
+s = Searcher("handle", "text", scoring_fun = "PL2")
 
 
 def count_dcg(ordered, field):
@@ -88,7 +88,7 @@ for k, v in queries.items():
         # Per variare funzione di ranking aggiungere ranking_fun = "template"
         # come parametro, al costruttore di Results. Supportate: naive
         # (default), "balanced_weighted_avg".
-        r = Results("Vader", "compound", res, ranking_fun = "naive")
+        r = Results("Vader", "compound", res, ranking_fun = "balanced_weighted_avg")
         # Calcolo del ranking ottimale per la NDCG.
         optimal_ranking = sorted(r.ordered, key = lambda d: d[k], reverse = True)
         dcg = count_dcg(r.ordered, k)
@@ -135,20 +135,20 @@ def custom_plot(data, parameter, file_name):
     width = 0.35
     fig, ax = plt.subplots()
     rec1 = ax.bar(x - width / 2, vls, width, label = parameter)
-    rec2 = ax.bar(
-        x + width / 2, tweets_returned, width, label = 'num. of retrieved tweets'
-        )
+    # rec2 = ax.bar(
+    #     x + width / 2, tweets_returned, width, label = 'num. of retrieved tweets'
+    #     )
     ax.set_ylabel('Val')
-    ax.set_title(parameter + ' and number of retrieved tweets')
+    ax.set_title(parameter + " PL2")
     ax.set_xticks(x, qrs)
     ax.legend()
     ax.bar_label(rec1, padding = 5)
-    ax.bar_label(rec2, padding = 5)
+    # ax.bar_label(rec2, padding = 5)
     fig.tight_layout()
     plt.savefig(file_name)
     # plt.show()    # Abilita stampa grafico a run-time, su apposita finestra.
 
 
 # Stampa dei grafici.
-custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg.png")
-custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg.png")
+custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg_PL2.png")
+custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg_PL2.png")
