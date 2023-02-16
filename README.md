@@ -78,7 +78,7 @@ r.printResults(s, "output.ods")
 	    + surprise;
     + **Roberta2**: same as Roberta but uses a different pre-trained model that only gives a positive and negative score to the input text. Really usefull during benchmarking if you want to compare an AI-based approach (Roberta2) to a symbolic approach (Vader).
 # Benchmarks
- We extracted a random sample of 100 tweets using the `Database.getSample(self, n, ods=False, csv=False)`function, then we manually annotated a level of "satisfaction" in a [0-3] range to each tweet for each query, based on the user original need (pertinence and sentiment are both considered!). We tried to stay simple and think of common queries that users might actually submit, like the ones listed below. In this particular benchmark, the user is always looking for "positive" tweets.
+ We extracted a random sample of 100 tweets using the `Database.getSample(self, n, ods=False, csv=False)`method, then we manually annotated a level of "satisfaction" in a [0-3] range to each tweet for each query, based on the user original need (pertinence and sentiment are both considered!). We tried to stay simple and think of common queries that users might actually submit, like the ones listed below. In this particular benchmark, the user is always looking for "positive" tweets.
  + *reviews on customer service*,
 + *sauvignon wine*,
 + *technical problems with flight*,
