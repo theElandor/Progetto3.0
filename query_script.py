@@ -12,8 +12,8 @@ from Main.Searcher import Searcher
 
 query = input("Insert query > ")
 sentiment = input("Insert sentiment > " )
-s = Searcher("handle", "text")
+s = Searcher("handle", "text", scoring_fun = "TF_IDF")
 res = s.submit_query(query, results_threshold = 100, expand=True)
-r = Results("Vader", sentiment, res)
+r = Results("Vader", sentiment, res, ranking_fun = "balanced_weighted_avg")
 r.printResults(s, "output.txt")
 r.printResults(s, "output.ods")

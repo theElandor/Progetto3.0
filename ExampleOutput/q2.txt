@@ -1,0 +1,172 @@
+ __| |_________________| |__
+(__| |_________________| |__)
+   | |  Query Results  | |
+ __| |_________________| |__
+(__|_|_________________|_|__)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Query:  internet OR connection OR wifi 
+N° of results:  20 
+Sentiment:  positive
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+docnum --> 4530
+handle --> Southwest
+text --> @SouthwestAir in flight wifi + @TMobile wifi calling makes for the best combination. Who doesn't love texting 40,000 feet in the air :D
+pert_score --> 7.807085785494409
+sent_score --> 0.261
+final_score --> 0.618862457249962
+-----------------------------------------
+
+docnum --> 4570
+handle --> Southwest
+text --> @SouthwestAir wifi is so slow! What is the point having one if can't get on the Internet?! Ugh...
+pert_score --> 9.105137615553367
+sent_score --> 0.0
+final_score --> 0.6
+-----------------------------------------
+
+docnum --> 4978
+handle --> Southwest
+text --> &lt;3 &lt;3 RT @SouthwestAir! @danihampton Sorry to hear about the WiFi connection, Dani. Please DM us your conf # so we can help you. Thanks!
+pert_score --> 7.267244038705606
+sent_score --> 0.282
+final_score --> 0.59168857997874
+-----------------------------------------
+
+docnum --> 2000
+handle --> United
+text --> @united wifi wasn't working onboard.Alerted attendant re socket.You sent me to a hotel for 24 hours with 7$ Vouchers??no wifi at hotel
+pert_score --> 7.807085785494409
+sent_score --> 0.131
+final_score --> 0.566862457249962
+-----------------------------------------
+
+docnum --> 1120
+handle --> United
+text --> @united - SERIOUSLY it's 2015?!?!  NO WiFi on a 5hr flight from CLE-SFO #1589.  You're the ONLY airline w/out WiFi...and pls no 'unwind' BS.
+pert_score --> 7.807085785494409
+sent_score --> 0.13
+final_score --> 0.566462457249962
+-----------------------------------------
+
+docnum --> 3361
+handle --> United
+text --> @united anyone awake? Paying for wifi on iPhone when need to be using it on laptop. Logout option for wifi in flight? Time is wasting!
+pert_score --> 7.807085785494409
+sent_score --> 0.118
+final_score --> 0.561662457249962
+-----------------------------------------
+
+docnum --> 1723
+handle --> United
+text --> @united, maybe don't play the video about how your flights are outfitted w wifi on the flights where wifi isn't working...✈️
+pert_score --> 7.807085785494409
+sent_score --> 0.113
+final_score --> 0.559662457249962
+-----------------------------------------
+
+docnum --> 5810
+handle --> Southwest
+text --> @SouthwestAir please do something about the speed of your WiFi connections on your planes.  It might as well be non-existent.
+pert_score --> 7.267244038705606
+sent_score --> 0.196
+final_score --> 0.55728857997874
+-----------------------------------------
+
+docnum --> 1126
+handle --> United
+text --> @united - SERIOUSLY it's 2015?!?!  NO WiFi on a 5hr flight from CLE-SFO #1589.  You're the ONLY airline without WiFi...
+pert_score --> 7.807085785494409
+sent_score --> 0.107
+final_score --> 0.557262457249962
+-----------------------------------------
+
+docnum --> 3357
+handle --> United
+text --> @united tried that already &amp; tried forgetting the wifi network connection. Still forces log in with incorrect email. Other suggestions?
+pert_score --> 7.267244038705606
+sent_score --> 0.128
+final_score --> 0.53008857997874
+-----------------------------------------
+
+docnum --> 9311
+handle --> US Airways
+text --> @USAirways can you help chairman? I am on flight 686 PHX connect 599 SJC will miss connection can you reroute please.
+pert_score --> 6.451920198252893
+sent_score --> 0.203
+final_score --> 0.5063612971053887
+-----------------------------------------
+
+docnum --> 3656
+handle --> United
+text --> @united, UA1641 EWR-MCO 17 Feb wifi never connected but allowed me to purchase access twice &amp; charged me. Who do I need to file claim with?
+pert_score --> 7.267244038705606
+sent_score --> 0.068
+final_score --> 0.50608857997874
+-----------------------------------------
+
+docnum --> 4515
+handle --> Southwest
+text --> @SouthwestAir wifi stays connected about the lifetime of a higgs boson
+pert_score --> 7.267244038705606
+sent_score --> 0.0
+final_score --> 0.47888857997874
+-----------------------------------------
+
+docnum --> 5738
+handle --> Southwest
+text --> @SouthwestAir having trouble with Wifi. No matter what I get redirected back to getconnected page even though it says I'm connected.
+pert_score --> 7.267244038705606
+sent_score --> 0.0
+final_score --> 0.47888857997874
+-----------------------------------------
+
+docnum --> 1927
+handle --> United
+text --> @united I have been given a connection with 2 overnight layovers. No vouchers. Last connection not even confirmed.
+pert_score --> 6.451920198252893
+sent_score --> 0.133
+final_score --> 0.4783612971053887
+-----------------------------------------
+
+docnum --> 10107
+handle --> US Airways
+text --> @USAirways first flight Cancelled Flightled, connecting flight delayed so will completely miss next connection no response on hold 2 hrs HELP me
+pert_score --> 6.451920198252893
+sent_score --> 0.12
+final_score --> 0.4731612971053887
+-----------------------------------------
+
+docnum --> 3825
+handle --> United
+text --> @united Learn to hold connections. They texted me there is another flight Late Flightr - my connection hasn't left and were pulling into the gate
+pert_score --> 6.451920198252893
+sent_score --> 0.104
+final_score --> 0.4667612971053887
+-----------------------------------------
+
+docnum --> 2469
+handle --> United
+text --> @united Total BS.have 1st class seats for connecting flight. Your crew Late Flight. We miss connection. Had next plane. Yet u don't honor it??
+pert_score --> 6.451920198252893
+sent_score --> 0.099
+final_score --> 0.4647612971053887
+-----------------------------------------
+
+docnum --> 8375
+handle --> Delta
+text --> @JetBlue My Flight 1318 is delayed and I am connecting from Boston. Is it possible to switch me to Flight 118 so I can make my connection?
+pert_score --> 6.451920198252893
+sent_score --> 0.0
+final_score --> 0.4251612971053887
+-----------------------------------------
+
+docnum --> 13901
+handle --> American
+text --> @AmericanAir Need to go frm TPA to MCI tmrw &amp; my connection thru DFW is Cancelled Flightled. Can u connect me thru a diff city? Been on hold for 2 hrs
+pert_score --> 6.451920198252893
+sent_score --> 0.0
+final_score --> 0.4251612971053887
+-----------------------------------------
+

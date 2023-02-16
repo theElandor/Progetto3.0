@@ -25,6 +25,8 @@ queries = {
 
 # Costruzione della struttura dati Database.
 db = dd.Database("./samples/dcg_sample.csv")
+# il file dcg_sample è stato generato casualmente, ma i valori di soddisfazione per
+# la DCG sono stati manualmente annotati per tutte e 10 le query.
 db.fillDb()
 fields = ["handle", "text"]
 fields.extend(list(queries.keys()))
@@ -63,7 +65,7 @@ from functools import reduce
 # Per variare funzione di scoring aggiungere scoring_fun = "template" come
 # parametro, al costruttore di Searcher. Supportate: TF_IDF (default), PL2
 # BM25F.
-s = Searcher("handle", "text", scoring_fun = "PL2")
+s = Searcher("handle", "text", scoring_fun = "TF_IDF")
 
 
 def count_dcg(ordered, field):
@@ -82,7 +84,7 @@ counter = 1
 
 # Sottomissione, una ad una, delle query pre-impostate.
 for k, v in queries.items():
-    res = s.submit_query(v)
+    res = s.submit_query(v, expand=True)
     try:
         print(k)
         # Per variare funzione di ranking aggiungere ranking_fun = "template"
@@ -135,20 +137,20 @@ def custom_plot(data, parameter, file_name):
     width = 0.35
     fig, ax = plt.subplots()
     rec1 = ax.bar(x - width / 2, vls, width, label = parameter)
-    # rec2 = ax.bar(
-    #     x + width / 2, tweets_returned, width, label = 'num. of retrieved tweets'
-    #     )
+    rec2 = ax.bar(
+        x + width / 2, tweets_returned, width, label = 'num. of retrieved tweets'
+        )
     ax.set_ylabel('Val')
-    ax.set_title(parameter + " PL2")
+    ax.set_title(parameter + " TF-IDF")
     ax.set_xticks(x, qrs)
     ax.legend()
     ax.bar_label(rec1, padding = 5)
-    # ax.bar_label(rec2, padding = 5)
+    ax.bar_label(rec2, padding = 5)
     fig.tight_layout()
     plt.savefig(file_name)
-    # plt.show()    # Abilita stampa grafico a run-time, su apposita finestra.
+    plt.show()    # Abilita stampa grafico a run-time, su apposita finestra.
 
 
 # Stampa dei grafici.
-custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg_PL2.png")
-custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg_PL2.png")
+custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg_TF-IDF.png")
+custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg_TF-IDF.png")

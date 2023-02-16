@@ -131,7 +131,7 @@ class Searcher:
         self._searcher = self._ix.searcher(weighting = scoring_system)
 
 
-    def submit_query(self, raw_query, results_threshold = 100, expand = True):
+    def submit_query(self, raw_query, results_threshold = 100, expand = False):
         """
         Sottopone una query all'indice Whoosh.
         :param raw_query:   str, una query a discrezione dell'utente.

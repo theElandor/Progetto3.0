@@ -1,0 +1,20 @@
+ __| |_________________| |__
+(__| |_________________| |__)
+   | |  Query Results  | |
+ __| |_________________| |__
+(__|_|_________________|_|__)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Query:  "good food" 
+N° of results:  1 
+Sentiment:  positive
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+docnum --> 12593
+handle --> American
+text --> @AmericanAir I love the service and cheap upgrades American Provides! One of the best airlines ever! good food, good seats, amazing thanks!
+pert_score --> 8.362014468603135
+sent_score --> 0.576
+final_score --> 0.8304
+-----------------------------------------
+
