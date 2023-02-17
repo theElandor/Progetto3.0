@@ -10,8 +10,8 @@ Theese dependencies are **mandatory**:
 - expertai-nlapi
 - vaderSentiment
 - transformers
-# Optional dependencies
 - tensorflow
+# Optional dependencies
 - textblob
 - matplotlib
 # Quick start
