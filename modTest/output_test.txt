@@ -5,24 +5,476 @@
 (__|_|_________________|_|__)
 
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-Query:  "red wine" 
-Numero di risultati:  2 
+Query:  "I have a party of 4 booked" 
+Numero di risultati:  26 
 Sentiment:  compound
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-docnum --> 12782
-handle --> American
-text --> @AmericanAir upgraded to 1st class. Inquired about red wine.  "Sauvignon blanc &amp; I can't pronounce the other one."  Couldn't describe...
-pert_score --> 7.669462959818801
+docnum --> 34
+handle --> US Airways
+r1 --> 2
+r10 --> 1
+r2 --> 0
+r3 --> 1
+r4 --> 2
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @USAirways how do I get a hold of customer service? I've called multiple times &amp; have been on hold for 30+ mins only to have to hang up
+pert_score --> 9.185252200115546
 sent_score --> 0.0
-final_score --> 0.0
+final_score --> 5.511151320069327
 -----------------------------------------
 
-docnum --> 162
+docnum --> 29
+handle --> American
+r1 --> 2
+r10 --> 1
+r2 --> 0
+r3 --> 2
+r4 --> 2
+r5 --> 1
+r6 --> 0
+r7 --> 1
+r8 --> 0
+r9 --> 2
+text --> @AmericanAir My flt AA375 for 02/23 got cncled and i cant get hold of a CSR so i can get alternate arrangement. Plz help
+pert_score --> 6.766920510960169
+sent_score --> 0.4588
+final_score --> 4.243672306576101
+-----------------------------------------
+
+docnum --> 39
+handle --> US Airways
+r1 --> 0
+r10 --> 1
+r2 --> 0
+r3 --> 0
+r4 --> 1
+r5 --> 1
+r6 --> 0
+r7 --> 2
+r8 --> 0
+r9 --> 2
+text --> @USAirways  I have a party of 4 booked for a flight in Aug. At 10:05am, how can I find out how much it would cost to change to an earlier fl
+pert_score --> 6.439244186213168
+sent_score --> 0.4019
+final_score --> 4.0243065117279
+-----------------------------------------
+
+docnum --> 65
+handle --> Delta
+r1 --> 1
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 0
+r5 --> 1
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @jetblue is giving me false hope of ever getting home
+pert_score --> 4.446450632632824
+sent_score --> 0.6486
+final_score --> 2.927310379579694
+-----------------------------------------
+
+docnum --> 28
+handle --> Delta
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 2
+r5 --> 0
+r6 --> 0
+r7 --> 1
+r8 --> 0
+r9 --> 0
+text --> @JetBlue you wanna help out? How about you reimburse the money you cause my band to lose.
+pert_score --> 4.387301424056379
+sent_score --> 0.0
+final_score --> 2.6323808544338276
+-----------------------------------------
+
+docnum --> 79
+handle --> United
+r1 --> 2
+r10 --> 1
+r2 --> 0
+r3 --> 1
+r4 --> 2
+r5 --> 2
+r6 --> 0
+r7 --> 0
+r8 --> 2
+r9 --> 0
+text --> @united Lost bag process is broken. Agent promised they'd call &amp; hold my bag when found. Now they're waking me at 3am w/ delivery. #fail
+pert_score --> 4.452232813814614
+sent_score --> -0.5574
+final_score --> 2.4483796882887683
+-----------------------------------------
+
+docnum --> 70
+handle --> US Airways
+r1 --> 0
+r10 --> 0
+r2 --> 0
+r3 --> 0
+r4 --> 0
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @USAirways 603 &amp; 2705 DFW to PSP thank you!
+pert_score --> 3.760791938445315
+sent_score --> 0.4199
+final_score --> 2.424435163067189
+-----------------------------------------
+
+docnum --> 23
+handle --> United
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 2
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @united yr team have me on hold for over an hour unhelpful Pls can you answer my question.
+pert_score --> 3.5688924653933793
+sent_score --> 0.4767
+final_score --> 2.3320154792360275
+-----------------------------------------
+
+docnum --> 0
+handle --> Southwest
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 2
+r5 --> 1
+r6 --> 1
+r7 --> 0
+r8 --> 0
+r9 --> 2
+text --> @SouthwestAir you guys held our flight #330!  Thank you!!!  About to take off from MDW now to Oakland.  Thanks
+pert_score --> 3.3387568188465537
+sent_score --> 0.7627
+final_score --> 2.308334091307932
+-----------------------------------------
+
+docnum --> 59
+handle --> United
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 2
+r4 --> 1
+r5 --> 2
+r6 --> 1
+r7 --> 2
+r8 --> 0
+r9 --> 2
+text --> @united I'm counting on you, please don't let me down! #delayed #again #needtocatchmynextflight #alreadyrebookedonce
+pert_score --> 3.3989452051365516
+sent_score --> 0.5411
+final_score --> 2.2558071230819308
+-----------------------------------------
+
+docnum --> 50
+handle --> United
+r1 --> 1
+r10 --> 2
+r2 --> 0
+r3 --> 1
+r4 --> 0
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @united on final. Pls don't let my connection leave!!! Conf# NPBHD0 http://t.co/eWXwXiDTfX
+pert_score --> 3.2857057483873513
+sent_score --> 0.5826
+final_score --> 2.204463449032411
+-----------------------------------------
+
+docnum --> 78
+handle --> United
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 1
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 3
+r9 --> 1
+text --> @united - after having to now TAG MY OWN bags at the airport I was hoping they would actually arrive WITH me - here's hoping they arrive
+pert_score --> 3.0569727612097224
+sent_score --> 0.8126
+final_score --> 2.1592236567258336
+-----------------------------------------
+
+docnum --> 20
+handle --> American
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 2
+r4 --> 2
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 1
+text --> @AmericanAir I let a crew member know every time this happens.  Which is most of the time.
+pert_score --> 3.5688924653933793
+sent_score --> 0.0
+final_score --> 2.1413354792360275
+-----------------------------------------
+
+docnum --> 60
+handle --> Southwest
+r1 --> 3
+r10 --> 0
+r2 --> 0
+r3 --> 2
+r4 --> 0
+r5 --> 2
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 2
+text --> @SouthwestAir No worries at all!!! I would rather be safe on the ground than take any chances. Yes! Tomorrow AM if BNA reopens ☺️
+pert_score --> 2.8993289046493733
+sent_score --> 0.9169
+final_score --> 2.106357342789624
+-----------------------------------------
+
+docnum --> 47
+handle --> American
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 2
+r4 --> 2
+r5 --> 1
+r6 --> 0
+r7 --> 1
+r8 --> 0
+r9 --> 1
+text --> @AmericanAir why don't you take care of @Cowboycerrone flight screw ups
+pert_score --> 3.7908966894565608
+sent_score --> -0.4639
+final_score --> 2.088978013673936
+-----------------------------------------
+
+docnum --> 36
 handle --> Virgin America
-text --> @virginamerica why don't any of the pairings include red wine?! Only white is offered :( #redwineisbetter
-pert_score --> 8.64000960072811
-sent_score --> -0.4926
-final_score --> -4.256068729318667
+r1 --> 1
+r10 --> 0
+r2 --> 0
+r3 --> 0
+r4 --> 1
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @VirginAmerica Beats EPS Views, Takes On #SouthwestAir VA LUV - Investor's Business Daily http://t.co/FLwmGDAHxu
+pert_score --> 3.3387568188465537
+sent_score --> 0.0
+final_score --> 2.003254091307932
+-----------------------------------------
+
+docnum --> 2
+handle --> American
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 2
+r4 --> 1
+r5 --> 1
+r6 --> 0
+r7 --> 1
+r8 --> 0
+r9 --> 1
+text --> @AmericanAir @RobertDwyer AA doesnt charge any fees to change award tickets as long as the origin, destination &amp; award type remains the same
+pert_score --> 2.7083215334592525
+sent_score --> 0.7906
+final_score --> 1.9412329200755516
+-----------------------------------------
+
+docnum --> 66
+handle --> Southwest
+r1 --> 1
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 0
+r5 --> 1
+r6 --> 0
+r7 --> 1
+r8 --> 0
+r9 --> 0
+text --> @SouthwestAir flight was Cancelled Flightled and it won't let me rebook online. Wait time on phone is too long. Please help
+pert_score --> 2.8993289046493733
+sent_score --> 0.4588
+final_score --> 1.9231173427896238
+-----------------------------------------
+
+docnum --> 73
+handle --> United
+r1 --> 1
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 1
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 2
+r9 --> 0
+text --> @united WHERE IS MY FUCKING BAG?!?! Where the fuck is my fucking bag??? TELL ME NOW OR GIVE ME A NUMBER TO CALL A HUMAN. SAN68059M
+pert_score --> 2.804633594691593
+sent_score --> 0.4361
+final_score --> 1.8572201568149556
+-----------------------------------------
+
+docnum --> 63
+handle --> United
+r1 --> 1
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 0
+r5 --> 0
+r6 --> 0
+r7 --> 1
+r8 --> 0
+r9 --> 0
+text --> @united They couldn't get me first class on any of their flights so I just rebooked myself.
+pert_score --> 2.805743668181642
+sent_score --> 0.4215
+final_score --> 1.8520462009089853
+-----------------------------------------
+
+docnum --> 41
+handle --> Southwest
+r1 --> 2
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 2
+r5 --> 0
+r6 --> 0
+r7 --> 1
+r8 --> 1
+r9 --> 1
+text --> @SouthwestAir So I guess you can get to the airport too early!  Need to wait 10mins to checkin. Really?
+pert_score --> 2.9991394942797873
+sent_score --> 0.0
+final_score --> 1.7994836965678724
+-----------------------------------------
+
+docnum --> 5
+handle --> US Airways
+r1 --> 1
+r10 --> 2
+r2 --> 0
+r3 --> 1
+r4 --> 1
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @USAirways That's not the question. Question is: how do I get past the computer fastest if we both know that the computer can't help me?
+pert_score --> 2.946030851590724
+sent_score --> -0.3089
+final_score --> 1.6440585109544346
+-----------------------------------------
+
+docnum --> 83
+handle --> Delta
+r1 --> 0
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 0
+r5 --> 2
+r6 --> 3
+r7 --> 0
+r8 --> 3
+r9 --> 2
+text --> @JetBlue - Yes. Best case scenario I get my gear Late Flight Friday, early Saturday. Camp starts at 6AM tomorrow #toolittletooLate Flight
+pert_score --> 2.1942194523838086
+sent_score --> 0.7845
+final_score --> 1.6303316714302851
+-----------------------------------------
+
+docnum --> 75
+handle --> American
+r1 --> 2
+r10 --> 0
+r2 --> 3
+r3 --> 0
+r4 --> 2
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @AmericanAir upgraded to 1st class. Inquired about red wine.  "Sauvignon blanc &amp; I can't pronounce the other one."  Couldn't describe...
+pert_score --> 2.553231018836909
+sent_score --> 0.0
+final_score --> 1.5319386113021454
+-----------------------------------------
+
+docnum --> 57
+handle --> American
+r1 --> 1
+r10 --> 0
+r2 --> 0
+r3 --> 1
+r4 --> 0
+r5 --> 1
+r6 --> 0
+r7 --> 1
+r8 --> 0
+r9 --> 1
+text --> @AmericanAir if my flight gets Cancelled Flightled i should be able to reschedule to any date i want, not the next day or 2 days after
+pert_score --> 2.6357787155422483
+sent_score --> -0.1779
+final_score --> 1.510307229325349
+-----------------------------------------
+
+docnum --> 71
+handle --> American
+r1 --> 0
+r10 --> 0
+r2 --> 0
+r3 --> 0
+r4 --> 0
+r5 --> 0
+r6 --> 0
+r7 --> 0
+r8 --> 0
+r9 --> 0
+text --> @AmericanAir See photo of 787 model &amp; our PN 320008A wheel deflator specified in Chapter 32 of B787 AMM. http://t.co/oilnCfWEyg
+pert_score --> 2.2773220415957227
+sent_score --> 0.0
+final_score --> 1.3663932249574335
 -----------------------------------------
 

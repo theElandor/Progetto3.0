@@ -18,7 +18,7 @@ queries = {
     "r5"    : "rerouting or rescheduling",          # !
     "r6"    : "late arrival",                       # !
     "r7"    : "tickets and bookings",
-    "r8"    : "luggage and bags",
+    "r8"    : "luggagero and bugs",
     "r9"    : "departures and arrivals",
     "r10"   : "internet connection",
     }
@@ -62,7 +62,7 @@ from functools import reduce
 # Creazione del Searcher.
 # Per variare funzione di scoring aggiungere scoring_fun = "template" come
 # parametro, al costruttore di Searcher. Supportate: BM25F (default), PL2.
-s = Searcher("handle", "text", scoring_fun = "PL2")
+s = Searcher("handle", "text")
 
 
 def count_dcg(ordered, field):

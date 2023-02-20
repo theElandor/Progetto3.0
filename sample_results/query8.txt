@@ -1,24 +1,27 @@
-{'docnum': 76, 'handle': 'US Airways', 'r1': '3', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '0', 'text': '@USAirways  thanks! Now I just need to locate where my luggage is!', 'pert_score': 1.0075015640700002, 'sent_score': 0.5399, 'final_score': 0.5439500944413932}
+{'docnum': 2, 'handle': 'American', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '1', 'text': '@AmericanAir @RobertDwyer AA doesnt charge any fees to change award tickets as long as the origin, destination &amp; award type remains the same', 'pert_score': 1.8530169839903639, 'sent_score': 0.7906, 'final_score': 1.4280501903942184}
 
 -----------------
-{'docnum': 78, 'handle': 'United', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '3', 'r9': '1', 'text': "@united - after having to now TAG MY OWN bags at the airport I was hoping they would actually arrive WITH me - here's hoping they arrive", 'pert_score': 0.38362462280297566, 'sent_score': 0.8126, 'final_score': 0.311733368489698}
+{'docnum': 22, 'handle': 'US Airways', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '2', 'r6': '2', 'r7': '2', 'r8': '0', 'r9': '2', 'text': '@USAirways thank you for putting me on a flight that will be leaving Late Flightr than the original flight I was booked on.', 'pert_score': 1.6912116596189521, 'sent_score': 0.5859, 'final_score': 1.2490869957713713}
 
 -----------------
-{'docnum': 73, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@united WHERE IS MY FUCKING BAG?!?! Where the fuck is my fucking bag??? TELL ME NOW OR GIVE ME A NUMBER TO CALL A HUMAN. SAN68059M', 'pert_score': 0.7051485815550703, 'sent_score': 0.4361, 'final_score': 0.30751529641616615}
+{'docnum': 17, 'handle': 'US Airways', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '1', 'r6': '2', 'r7': '1', 'r8': '0', 'r9': '1', 'text': '@USAirways right, can you use a shuttle ticket from LGA to BOS for any shuttle flight? Probably gonna miss the 4pm.', 'pert_score': 2.091996031864739, 'sent_score': -0.1531, 'final_score': 1.1939576191188432}
 
 -----------------
-{'docnum': 35, 'handle': 'Southwest', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@SouthwestAir thanks for losing my luggage', 'pert_score': 1.2860476151218863, 'sent_score': 0.0772, 'final_score': 0.09928287588740962}
+{'docnum': 86, 'handle': 'United', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '1', 'r6': '1', 'r7': '2', 'r8': '0', 'r9': '1', 'text': "@united My flight was Cancelled Flighted and I'm needing some help reFlight Booking Problems.", 'pert_score': 1.749498038329876, 'sent_score': 0.2023, 'final_score': 1.1306188229979257}
 
 -----------------
-{'docnum': 69, 'handle': 'Virgin America', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '2', 'r9': '1', 'text': '@VirginAmerica hi I just booked a flight but need to add baggage, how can I do this?', 'pert_score': 1.047758001592452, 'sent_score': 0.0, 'final_score': 0.0}
+{'docnum': 92, 'handle': 'Southwest', 'r1': '1', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '0', 'text': "@SouthwestAir I did but it only shows one flight one way. When I try to go to the home page and book roundtrip there's nothing available :(", 'pert_score': 1.4497173247745883, 'sent_score': 0.4782, 'final_score': 1.061110394864753}
 
 -----------------
-{'docnum': 74, 'handle': 'American', 'r1': '1', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '0', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '1', 'text': '@AmericanAir delta rerouted 6 of my bags onto aa977 MIA-CUR. How can I see if they made it onto the flight?', 'pert_score': 0.45784514403774246, 'sent_score': 0.0, 'final_score': 0.0}
+{'docnum': 39, 'handle': 'US Airways', 'r1': '0', 'r10': '1', 'r2': '0', 'r3': '0', 'r4': '1', 'r5': '1', 'r6': '0', 'r7': '2', 'r8': '0', 'r9': '2', 'text': '@USAirways  I have a party of 4 booked for a flight in Aug. At 10:05am, how can I find out how much it would cost to change to an earlier fl', 'pert_score': 1.492336570619533, 'sent_score': 0.4019, 'final_score': 1.0561619423717197}
 
 -----------------
-{'docnum': 7, 'handle': 'Delta', 'r1': '2', 'r10': '0', 'r2': '0', 'r3': '2', 'r4': '1', 'r5': '0', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': '@JetBlue so you guys lost my bag that had all my ski gear in it. I flew here from NYC to ski. Should I buy new stuff tomorrow? ...', 'pert_score': 0.38362462280297566, 'sent_score': -0.3744, 'final_score': -0.1436290587774341}
+{'docnum': 69, 'handle': 'Virgin America', 'r1': '0', 'r10': '0', 'r2': '0', 'r3': '1', 'r4': '0', 'r5': '0', 'r6': '0', 'r7': '2', 'r8': '2', 'r9': '1', 'text': '@VirginAmerica hi I just booked a flight but need to add baggage, how can I do this?', 'pert_score': 1.749498038329876, 'sent_score': 0.0, 'final_score': 1.0496988229979256}
 
 -----------------
-{'docnum': 79, 'handle': 'United', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '1', 'r4': '2', 'r5': '2', 'r6': '0', 'r7': '0', 'r8': '2', 'r9': '0', 'text': "@united Lost bag process is broken. Agent promised they'd call &amp; hold my bag when found. Now they're waking me at 3am w/ delivery. #fail", 'pert_score': 0.6473717797887524, 'sent_score': -0.5574, 'final_score': -0.36084503005425056}
+{'docnum': 95, 'handle': 'US Airways', 'r1': '0', 'r10': '1', 'r2': '0', 'r3': '0', 'r4': '0', 'r5': '1', 'r6': '0', 'r7': '1', 'r8': '0', 'r9': '0', 'text': '@USAirways so what is the  difference between Cancelled Flighting and reFlight Booking Problems - will that help me avoid a change fee?', 'pert_score': 1.5375375840663117, 'sent_score': -0.4939, 'final_score': 0.724962550439787}
+
+-----------------
+{'docnum': 48, 'handle': 'American', 'r1': '2', 'r10': '1', 'r2': '0', 'r3': '2', 'r4': '2', 'r5': '1', 'r6': '1', 'r7': '3', 'r8': '0', 'r9': '3', 'text': '@AmericanAir your team rebooked my Cancelled Flightled AA flight on a different airline. New airline has no such Flight Booking Problems. Flight is this evening.', 'pert_score': 1.3713871577398804, 'sent_score': -0.7096, 'final_score': 0.5389922946439283}
 
 -----------------

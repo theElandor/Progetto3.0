@@ -6,6 +6,7 @@ from whoosh.fields import *
 from Misc import *
 from whoosh.lang.wordnet import Thesaurus
 from whoosh import scoring
+from whoosh.lang.porter import stem
 
 
 class Searcher:
@@ -75,7 +76,6 @@ class Searcher:
         # L'apertura è interamente gestita da open.
         with open(thes_dir) as f:
             self._thesaurus = Thesaurus.from_file(f)
-        print(self._thesaurus.synonyms("service"))
 
 
     @staticmethod
@@ -195,12 +195,12 @@ class Searcher:
                     print(
                         "Il termine\"",
                         word,
-                        "\"non è presente tra i vocaboli del corpus."
+                        "\"non è presente tra i vocaboli del corpus.", stem(word)
                         )
                     # Crea i suggerimenti.
                     suggestions = self._searcher.suggest(
                         field,
-                        word,
+                        stem(word),
                         limit = suggestions_limit,
                         maxdist = max_edit_distance
                     )
