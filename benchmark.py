@@ -3,8 +3,8 @@ SEPARATOR = "\n-----------------\n"
 
 # Parte 1: costruzione dell'indice da un campione casuale preso dal corpora.
 # Import necessari.
-import Database as dd
-import IndexGenerator as ig
+import Main.Database as dd
+import Main.IndexGenerator as ig
 from whoosh.fields import *
 from whoosh.analysis import StemmingAnalyzer
 
@@ -20,11 +20,13 @@ queries = {
     "r7"    : "tickets and bookings",
     "r8"    : "luggagero and bugs",
     "r9"    : "departures and arrivals",
-    "r10"   : "internet connection",
+    "r10"   : "internet connections",
     }
 
 # Costruzione della struttura dati Database.
-db = dd.Database("sample.csv")
+db = dd.Database("./samples/dcg_sample.csv")
+# il file dcg_sample è stato generato casualmente, ma i valori di soddisfazione per
+# la DCG sono stati manualmente annotati per tutte e 10 le query.
 db.fillDb()
 fields = ["handle", "text"]
 fields.extend(list(queries.keys()))
@@ -53,16 +55,22 @@ ix.fillIndex()
 # Parte 2: sottomissione delle query all'indice precedentemente costruito,
 # estrazione dei risultati e valutazione del sistema di IR tramite DCG.
 # Import necessari.
-from Results import Results
-from Searcher import Searcher
+from Main.Results import Results
+from Main.Searcher import Searcher
 import math
 from functools import reduce
 
 
 # Creazione del Searcher.
 # Per variare funzione di scoring aggiungere scoring_fun = "template" come
+<<<<<<< HEAD
 # parametro, al costruttore di Searcher. Supportate: BM25F (default), PL2.
 s = Searcher("handle", "text")
+=======
+# parametro, al costruttore di Searcher. Supportate: TF_IDF (default), PL2
+# BM25F.
+s = Searcher("handle", "text", scoring_fun = "TF_IDF")
+>>>>>>> 1f64defb2d19529a0663488b7a32a93447aa52ba
 
 
 def count_dcg(ordered, field):
@@ -81,13 +89,13 @@ counter = 1
 
 # Sottomissione, una ad una, delle query pre-impostate.
 for k, v in queries.items():
-    res = s.submit_query(v)
+    res = s.submit_query(v, expand=True)
     try:
         print(k)
         # Per variare funzione di ranking aggiungere ranking_fun = "template"
         # come parametro, al costruttore di Results. Supportate: naive
-        # (default), "weighted_avg".
-        r = Results("Vader", "compound", res)
+        # (default), "balanced_weighted_avg".
+        r = Results("Vader", "compound", res, ranking_fun = "balanced_weighted_avg")
         # Calcolo del ranking ottimale per la NDCG.
         optimal_ranking = sorted(r.ordered, key = lambda d: d[k], reverse = True)
         dcg = count_dcg(r.ordered, k)
@@ -97,23 +105,19 @@ for k, v in queries.items():
         ndcg_data.append((queries[k], ndcg))
         print(
             "Query:", queries[k], "\n",
-            "; valore DCG misurato:", dcg, "\n",
-            "; valore DCG ottimale:", optimal_dcg, "\n",
-            "; valore NDCG:", ndcg
+            "; measured DCG value:", dcg, "\n",
+            "; optimal DCG value:", optimal_dcg, "\n",
+            "; NDCG value:", ndcg
             )
         tweets_returned.append(len(r.ordered))
     except:
         ndcg_data.append((queries[k], 0))
         print("Query:", queries[k],
-              "; valore DCG misurato: 0",
-              "; valore DCG ottimale: 0",
-              "; valore NDCG: 0 \t NESSUN RISULTATO"
+              "; measured DCG value: 0",
+              "; optimal DCG value: 0",
+              "; NDCG value: 0 \t NO RESULTS"
               )
     finally:
-        print("----------DEBUG--------------")
-        for element in optimal_ranking:
-            print(element)
-        print("----------DEBUG--------------")
         with open("./sample_results/query" + str(counter) + ".txt", "w") as f:
             for element in r.ordered:
                 f.write(str(element) + "\n" + SEPARATOR)
@@ -142,16 +146,16 @@ def custom_plot(data, parameter, file_name):
         x + width / 2, tweets_returned, width, label = 'num. of retrieved tweets'
         )
     ax.set_ylabel('Val')
-    ax.set_title(parameter + ' and number of retrieved tweets')
+    ax.set_title(parameter + " TF-IDF")
     ax.set_xticks(x, qrs)
     ax.legend()
     ax.bar_label(rec1, padding = 5)
     ax.bar_label(rec2, padding = 5)
     fig.tight_layout()
     plt.savefig(file_name)
-    # plt.show()    # Abilita stampa grafico a run-time, su apposita finestra.
+    plt.show()    # Abilita stampa grafico a run-time, su apposita finestra.
 
 
 # Stampa dei grafici.
-custom_plot(dcg_data, "DCG", "dcg.png")
-custom_plot(ndcg_data, "NDCG", "ndcg.png")
+custom_plot(dcg_data, "DCG", "./BenchGraphs/dcg_TF-IDF.png")
+custom_plot(ndcg_data, "NDCG", "./BenchGraphs/ndcg_TF-IDF.png")

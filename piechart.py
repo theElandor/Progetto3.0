@@ -1,10 +1,10 @@
-import Database as dd
-import IndexGenerator as ig
+import Main.Database as dd
+import Main.IndexGenerator as ig
 from whoosh.fields import *
 from whoosh.analysis import StemmingAnalyzer
 
-from Results import Results
-from Searcher import Searcher
+from Main.Results import Results
+from Main.Searcher import Searcher
 import math
 from functools import reduce
 
@@ -14,7 +14,7 @@ import numpy as np
 
 #crea un'indice sul file originale.
 
-query = "food"
+query = input("Insert query > ")
 
 db = dd.Database("./csv/airline.csv")
 db.fillDb()
@@ -32,7 +32,7 @@ ix.fillIndex()
 
 s = Searcher("handle", "text", scoring_fun = "BM25F")
 res = s.submit_query(query)
-r = Results("Vader", "compound", res, ranking_fun = "weighted_avg")
+r = Results("Vader", "compound", res, ranking_fun = "balanced_weighted_avg")
 r.printResults(s, "./piechart/output.txt")
 r.printResults(s, "./piechart/output.ods")
 
